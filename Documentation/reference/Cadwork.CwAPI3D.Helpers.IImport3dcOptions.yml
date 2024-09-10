@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  id: IImport3dcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+  - Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+  - Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+  - Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers
+  langs:
+  - csharp
+  - vb
+  name: IImport3dcOptions
+  nameWithType: IImport3dcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  type: Interface
+  source:
+    id: IImport3dcOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IImport3dcOptions.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IImport3dcOptions
+    content.vb: Public Interface IImport3dcOptions
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+  id: ImportSaved2dPlanes
+  parent: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  langs:
+  - csharp
+  - vb
+  name: ImportSaved2dPlanes
+  nameWithType: IImport3dcOptions.ImportSaved2dPlanes
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+  type: Property
+  source:
+    id: ImportSaved2dPlanes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IImport3dcOptions.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ImportSaved2dPlanes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImportSaved2dPlanes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes*
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+  id: ImportSavedScenes
+  parent: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  langs:
+  - csharp
+  - vb
+  name: ImportSavedScenes
+  nameWithType: IImport3dcOptions.ImportSavedScenes
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+  type: Property
+  source:
+    id: ImportSavedScenes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IImport3dcOptions.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ImportSavedScenes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImportSavedScenes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes*
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+  commentId: P:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+  id: ImportExportSolids
+  parent: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  langs:
+  - csharp
+  - vb
+  name: ImportExportSolids
+  nameWithType: IImport3dcOptions.ImportExportSolids
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+  type: Property
+  source:
+    id: ImportExportSolids
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IImport3dcOptions.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ImportExportSolids { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ImportExportSolids As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids*
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers
+  commentId: P:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers
+  id: ResetPositionNumbers
+  parent: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  langs:
+  - csharp
+  - vb
+  name: ResetPositionNumbers
+  nameWithType: IImport3dcOptions.ResetPositionNumbers
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers
+  type: Property
+  source:
+    id: ResetPositionNumbers
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IImport3dcOptions.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ResetPositionNumbers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ResetPositionNumbers As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html#Cadwork_CwAPI3D_Helpers_IImport3dcOptions_ImportSaved2dPlanes
+  name: ImportSaved2dPlanes
+  nameWithType: IImport3dcOptions.ImportSaved2dPlanes
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSaved2dPlanes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html#Cadwork_CwAPI3D_Helpers_IImport3dcOptions_ImportSavedScenes
+  name: ImportSavedScenes
+  nameWithType: IImport3dcOptions.ImportSavedScenes
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportSavedScenes
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html#Cadwork_CwAPI3D_Helpers_IImport3dcOptions_ImportExportSolids
+  name: ImportExportSolids
+  nameWithType: IImport3dcOptions.ImportExportSolids
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ImportExportSolids
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html#Cadwork_CwAPI3D_Helpers_IImport3dcOptions_ResetPositionNumbers
+  name: ResetPositionNumbers
+  nameWithType: IImport3dcOptions.ResetPositionNumbers
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.ResetPositionNumbers

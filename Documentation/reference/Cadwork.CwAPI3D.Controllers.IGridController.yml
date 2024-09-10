@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IGridController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IGridController
+  id: IGridController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IGridController.GetLastError
+  langs:
+  - csharp
+  - vb
+  name: IGridController
+  nameWithType: IGridController
+  fullName: Cadwork.CwAPI3D.Controllers.IGridController
+  type: Interface
+  source:
+    id: IGridController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IGridController.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IGridController
+    content.vb: Public Interface IGridController
+- uid: Cadwork.CwAPI3D.Controllers.IGridController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IGridController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IGridController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IGridController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IGridController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IGridController.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IGridController.GetLastError*
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IGridController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IGridController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IGridController.html#Cadwork_CwAPI3D_Controllers_IGridController_GetLastError
+  name: GetLastError
+  nameWithType: IGridController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IGridController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html

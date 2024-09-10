@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ProcessType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProcessType
+  id: ProcessType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ProcessType.HipValley
+  - Cadwork.CwAPI3D.Enums.ProcessType.JackRafter
+  - Cadwork.CwAPI3D.Enums.ProcessType.Log
+  - Cadwork.CwAPI3D.Enums.ProcessType.None
+  - Cadwork.CwAPI3D.Enums.ProcessType.Panel1
+  - Cadwork.CwAPI3D.Enums.ProcessType.Panel2
+  - Cadwork.CwAPI3D.Enums.ProcessType.Panel3
+  - Cadwork.CwAPI3D.Enums.ProcessType.Panel4
+  - Cadwork.CwAPI3D.Enums.ProcessType.Panel5
+  - Cadwork.CwAPI3D.Enums.ProcessType.Purlin
+  - Cadwork.CwAPI3D.Enums.ProcessType.Rafter
+  - Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeFramedWall
+  - Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeLogHome
+  - Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeSolidWoodWall
+  - Cadwork.CwAPI3D.Enums.ProcessType.Stud
+  - Cadwork.CwAPI3D.Enums.ProcessType.Tread
+  - Cadwork.CwAPI3D.Enums.ProcessType.Truss
+  - Cadwork.CwAPI3D.Enums.ProcessType.User1
+  - Cadwork.CwAPI3D.Enums.ProcessType.User2
+  - Cadwork.CwAPI3D.Enums.ProcessType.User3
+  - Cadwork.CwAPI3D.Enums.ProcessType.User4
+  - Cadwork.CwAPI3D.Enums.ProcessType.User5
+  langs:
+  - csharp
+  - vb
+  name: ProcessType
+  nameWithType: ProcessType
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType
+  type: Enum
+  source:
+    id: ProcessType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ProcessType
+    content.vb: Public Enum ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.None
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.None
+  id: None
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ProcessType.None
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.None
+  type: Field
+  source:
+    id: None
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: None = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Purlin
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Purlin
+  id: Purlin
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Purlin
+  nameWithType: ProcessType.Purlin
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Purlin
+  type: Field
+  source:
+    id: Purlin
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Purlin = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Stud
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Stud
+  id: Stud
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Stud
+  nameWithType: ProcessType.Stud
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Stud
+  type: Field
+  source:
+    id: Stud
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Stud = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Rafter
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Rafter
+  id: Rafter
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Rafter
+  nameWithType: ProcessType.Rafter
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Rafter
+  type: Field
+  source:
+    id: Rafter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Rafter = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.JackRafter
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.JackRafter
+  id: JackRafter
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: JackRafter
+  nameWithType: ProcessType.JackRafter
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.JackRafter
+  type: Field
+  source:
+    id: JackRafter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: JackRafter = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.HipValley
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.HipValley
+  id: HipValley
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: HipValley
+  nameWithType: ProcessType.HipValley
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.HipValley
+  type: Field
+  source:
+    id: HipValley
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: HipValley = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Log
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Log
+  id: Log
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Log
+  nameWithType: ProcessType.Log
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Log
+  type: Field
+  source:
+    id: Log
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Log = 6
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Truss
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Truss
+  id: Truss
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Truss
+  nameWithType: ProcessType.Truss
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Truss
+  type: Field
+  source:
+    id: Truss
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Truss = 7
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Tread
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Tread
+  id: Tread
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Tread
+  nameWithType: ProcessType.Tread
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Tread
+  type: Field
+  source:
+    id: Tread
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Tread = 8
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.User1
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.User1
+  id: User1
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: User1
+  nameWithType: ProcessType.User1
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.User1
+  type: Field
+  source:
+    id: User1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User1 = 9
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.User2
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.User2
+  id: User2
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: User2
+  nameWithType: ProcessType.User2
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.User2
+  type: Field
+  source:
+    id: User2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User2 = 10
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.User3
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.User3
+  id: User3
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: User3
+  nameWithType: ProcessType.User3
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.User3
+  type: Field
+  source:
+    id: User3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User3 = 11
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.User4
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.User4
+  id: User4
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: User4
+  nameWithType: ProcessType.User4
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.User4
+  type: Field
+  source:
+    id: User4
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User4 = 12
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.User5
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.User5
+  id: User5
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: User5
+  nameWithType: ProcessType.User5
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.User5
+  type: Field
+  source:
+    id: User5
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User5 = 13
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Panel1
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Panel1
+  id: Panel1
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Panel1
+  nameWithType: ProcessType.Panel1
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Panel1
+  type: Field
+  source:
+    id: Panel1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel1 = 14
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Panel2
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Panel2
+  id: Panel2
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Panel2
+  nameWithType: ProcessType.Panel2
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Panel2
+  type: Field
+  source:
+    id: Panel2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel2 = 15
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Panel3
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Panel3
+  id: Panel3
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Panel3
+  nameWithType: ProcessType.Panel3
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Panel3
+  type: Field
+  source:
+    id: Panel3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel3 = 16
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Panel4
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Panel4
+  id: Panel4
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Panel4
+  nameWithType: ProcessType.Panel4
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Panel4
+  type: Field
+  source:
+    id: Panel4
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel4 = 17
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.Panel5
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.Panel5
+  id: Panel5
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: Panel5
+  nameWithType: ProcessType.Panel5
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.Panel5
+  type: Field
+  source:
+    id: Panel5
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel5 = 18
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeFramedWall
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeFramedWall
+  id: RoughVolumeFramedWall
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: RoughVolumeFramedWall
+  nameWithType: ProcessType.RoughVolumeFramedWall
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeFramedWall
+  type: Field
+  source:
+    id: RoughVolumeFramedWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoughVolumeFramedWall = 19
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeSolidWoodWall
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeSolidWoodWall
+  id: RoughVolumeSolidWoodWall
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: RoughVolumeSolidWoodWall
+  nameWithType: ProcessType.RoughVolumeSolidWoodWall
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeSolidWoodWall
+  type: Field
+  source:
+    id: RoughVolumeSolidWoodWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoughVolumeSolidWoodWall = 20
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeLogHome
+  commentId: F:Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeLogHome
+  id: RoughVolumeLogHome
+  parent: Cadwork.CwAPI3D.Enums.ProcessType
+  langs:
+  - csharp
+  - vb
+  name: RoughVolumeLogHome
+  nameWithType: ProcessType.RoughVolumeLogHome
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType.RoughVolumeLogHome
+  type: Field
+  source:
+    id: RoughVolumeLogHome
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProcessType.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoughVolumeLogHome = 21
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProcessType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ProcessType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProcessType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ProcessType.html
+  name: ProcessType
+  nameWithType: ProcessType
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType

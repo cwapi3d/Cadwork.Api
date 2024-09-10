@@ -1,0 +1,1085 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMachineController
+  id: IMachineController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl(System.UInt32,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset(System.UInt32,System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath(System.UInt32,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset(System.UInt32,System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(System.UInt32,System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent(System.UInt32,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet(System.UInt32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMachineController
+  nameWithType: IMachineController
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController
+  type: Interface
+  source:
+    id: IMachineController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IMachineController
+    content.vb: Public Interface IMachineController
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IMachineController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl(System.UInt32,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl(System.UInt32,System.String)
+  id: ExportBtl(System.UInt32,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportBtl(uint, string)
+  nameWithType: IMachineController.ExportBtl(uint, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl(uint, string)
+  type: Method
+  source:
+    id: ExportBtl
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportBtl(uint version, string fileName)
+    parameters:
+    - id: version
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportBtl(version As UInteger, fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl*
+  nameWithType.vb: IMachineController.ExportBtl(UInteger, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl(UInteger, String)
+  name.vb: ExportBtl(UInteger, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb(System.UInt32)
+  id: ExportWeinmannMfb(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportWeinmannMfb(uint)
+  nameWithType: IMachineController.ExportWeinmannMfb(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb(uint)
+  type: Method
+  source:
+    id: ExportWeinmannMfb
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportWeinmannMfb(uint version)
+    parameters:
+    - id: version
+      type: System.UInt32
+      description: ''
+    content.vb: Sub ExportWeinmannMfb(version As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb*
+  nameWithType.vb: IMachineController.ExportWeinmannMfb(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb(UInteger)
+  name.vb: ExportWeinmannMfb(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger(System.UInt32)
+  id: ExportHundegger(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportHundegger(uint)
+  nameWithType: IMachineController.ExportHundegger(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger(uint)
+  type: Method
+  source:
+    id: ExportHundegger
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportHundegger(uint type)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    content.vb: Sub ExportHundegger(type As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger*
+  nameWithType.vb: IMachineController.ExportHundegger(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger(UInteger)
+  name.vb: ExportHundegger(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IMachineController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath(System.UInt32,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath(System.UInt32,System.String)
+  id: ExportHundeggerWithFilePath(System.UInt32,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportHundeggerWithFilePath(uint, string)
+  nameWithType: IMachineController.ExportHundeggerWithFilePath(uint, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath(uint, string)
+  type: Method
+  source:
+    id: ExportHundeggerWithFilePath
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportHundeggerWithFilePath(uint type, string fileName)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportHundeggerWithFilePath(type As UInteger, fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath*
+  nameWithType.vb: IMachineController.ExportHundeggerWithFilePath(UInteger, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath(UInteger, String)
+  name.vb: ExportHundeggerWithFilePath(UInteger, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset(System.UInt32,System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset(System.UInt32,System.String,System.String)
+  id: ExportHundeggerWithFilePathAndPreset(System.UInt32,System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportHundeggerWithFilePathAndPreset(uint, string, string)
+  nameWithType: IMachineController.ExportHundeggerWithFilePathAndPreset(uint, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset(uint, string, string)
+  type: Method
+  source:
+    id: ExportHundeggerWithFilePathAndPreset
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportHundeggerWithFilePathAndPreset(uint type, string fileName, string preset)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: preset
+      type: System.String
+      description: ''
+    content.vb: Sub ExportHundeggerWithFilePathAndPreset(type As UInteger, fileName As String, preset As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset*
+  nameWithType.vb: IMachineController.ExportHundeggerWithFilePathAndPreset(UInteger, String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset(UInteger, String, String)
+  name.vb: ExportHundeggerWithFilePathAndPreset(UInteger, String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset(System.UInt32,System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset(System.UInt32,System.String,System.String)
+  id: ExportBtlWithPreset(System.UInt32,System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportBtlWithPreset(uint, string, string)
+  nameWithType: IMachineController.ExportBtlWithPreset(uint, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset(uint, string, string)
+  type: Method
+  source:
+    id: ExportBtlWithPreset
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 63
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportBtlWithPreset(uint version, string fileName, string preset)
+    parameters:
+    - id: version
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: preset
+      type: System.String
+      description: ''
+    content.vb: Sub ExportBtlWithPreset(version As UInteger, fileName As String, preset As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset*
+  nameWithType.vb: IMachineController.ExportBtlWithPreset(UInteger, String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset(UInteger, String, String)
+  name.vb: ExportBtlWithPreset(UInteger, String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: CalculateBtlMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: CalculateBtlMachineData(ICollection<ulong>, uint)
+  nameWithType: IMachineController.CalculateBtlMachineData(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: CalculateBtlMachineData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 70
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void CalculateBtlMachineData(ICollection<ulong> elementIds, uint version)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: version
+      type: System.UInt32
+      description: ''
+    content.vb: Sub CalculateBtlMachineData(elementIds As ICollection(Of ULong), version As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData*
+  nameWithType.vb: IMachineController.CalculateBtlMachineData(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: CalculateBtlMachineData(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: CalculateHundeggerMachineData(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: CalculateHundeggerMachineData(ICollection<ulong>, uint)
+  nameWithType: IMachineController.CalculateHundeggerMachineData(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: CalculateHundeggerMachineData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 77
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void CalculateHundeggerMachineData(ICollection<ulong> aElements, uint type)
+    parameters:
+    - id: aElements
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: type
+      type: System.UInt32
+      description: ''
+    content.vb: Sub CalculateHundeggerMachineData(aElements As ICollection(Of ULong), type As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData*
+  nameWithType.vb: IMachineController.CalculateHundeggerMachineData(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: CalculateHundeggerMachineData(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet(System.UInt32,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet(System.UInt32,System.String)
+  id: LoadHundeggerCalculationSet(System.UInt32,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: LoadHundeggerCalculationSet(uint, string)
+  nameWithType: IMachineController.LoadHundeggerCalculationSet(uint, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet(uint, string)
+  type: Method
+  source:
+    id: LoadHundeggerCalculationSet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 84
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void LoadHundeggerCalculationSet(uint type, string fileName)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub LoadHundeggerCalculationSet(type As UInteger, fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet*
+  nameWithType.vb: IMachineController.LoadHundeggerCalculationSet(UInteger, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet(UInteger, String)
+  name.vb: LoadHundeggerCalculationSet(UInteger, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses(System.UInt64,System.UInt32)
+  id: GetElementHundeggerProcesses(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetElementHundeggerProcesses(ulong, uint)
+  nameWithType: IMachineController.GetElementHundeggerProcesses(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses(ulong, uint)
+  type: Method
+  source:
+    id: GetElementHundeggerProcesses
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 92
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetElementHundeggerProcesses(ulong elementId, uint type)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: type
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetElementHundeggerProcesses(elementId As ULong, type As UInteger) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses*
+  nameWithType.vb: IMachineController.GetElementHundeggerProcesses(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses(ULong, UInteger)
+  name.vb: GetElementHundeggerProcesses(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses(System.UInt64,System.UInt32)
+  id: GetElementBtlProcesses(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetElementBtlProcesses(ulong, uint)
+  nameWithType: IMachineController.GetElementBtlProcesses(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses(ulong, uint)
+  type: Method
+  source:
+    id: GetElementBtlProcesses
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 100
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetElementBtlProcesses(ulong elementId, uint version)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: version
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetElementBtlProcesses(elementId As ULong, version As UInteger) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses*
+  nameWithType.vb: IMachineController.GetElementBtlProcesses(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses(ULong, UInteger)
+  name.vb: GetElementBtlProcesses(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName(System.UInt64,System.UInt64)
+  id: GetProcessName(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetProcessName(ulong, ulong)
+  nameWithType: IMachineController.GetProcessName(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName(ulong, ulong)
+  type: Method
+  source:
+    id: GetProcessName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 108
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetProcessName(ulong referenceElementId, ulong elementId)
+    parameters:
+    - id: referenceElementId
+      type: System.UInt64
+      description: ''
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetProcessName(referenceElementId As ULong, elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName*
+  nameWithType.vb: IMachineController.GetProcessName(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName(ULong, ULong)
+  name.vb: GetProcessName(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode(System.UInt64,System.UInt64)
+  id: GetProcessCode(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetProcessCode(ulong, ulong)
+  nameWithType: IMachineController.GetProcessCode(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode(ulong, ulong)
+  type: Method
+  source:
+    id: GetProcessCode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 116
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetProcessCode(ulong referenceElementId, ulong elementId)
+    parameters:
+    - id: referenceElementId
+      type: System.UInt64
+      description: ''
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetProcessCode(referenceElementId As ULong, elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode*
+  nameWithType.vb: IMachineController.GetProcessCode(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode(ULong, ULong)
+  name.vb: GetProcessCode(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints(System.UInt64,System.UInt64)
+  id: GetProcessPoints(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetProcessPoints(ulong, ulong)
+  nameWithType: IMachineController.GetProcessPoints(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints(ulong, ulong)
+  type: Method
+  source:
+    id: GetProcessPoints
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 124
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<Vec3> GetProcessPoints(ulong referenceElementId, ulong elementId)
+    parameters:
+    - id: referenceElementId
+      type: System.UInt64
+      description: ''
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+      description: ''
+    content.vb: Function GetProcessPoints(referenceElementId As ULong, elementId As ULong) As ICollection(Of Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints*
+  nameWithType.vb: IMachineController.GetProcessPoints(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints(ULong, ULong)
+  name.vb: GetProcessPoints(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet(System.UInt64,System.UInt64)
+  id: GetProcessingBtlParameterSet(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: GetProcessingBtlParameterSet(ulong, ulong)
+  nameWithType: IMachineController.GetProcessingBtlParameterSet(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet(ulong, ulong)
+  type: Method
+  source:
+    id: GetProcessingBtlParameterSet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 132
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetProcessingBtlParameterSet(ulong referenceElementId, ulong elementId)
+    parameters:
+    - id: referenceElementId
+      type: System.UInt64
+      description: ''
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetProcessingBtlParameterSet(referenceElementId As ULong, elementId As ULong) As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet*
+  nameWithType.vb: IMachineController.GetProcessingBtlParameterSet(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet(ULong, ULong)
+  name.vb: GetProcessingBtlParameterSet(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent(System.UInt32,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent(System.UInt32,System.String)
+  id: ExportHundeggerWithFilePathSilent(System.UInt32,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportHundeggerWithFilePathSilent(uint, string)
+  nameWithType: IMachineController.ExportHundeggerWithFilePathSilent(uint, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent(uint, string)
+  type: Method
+  source:
+    id: ExportHundeggerWithFilePathSilent
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 139
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportHundeggerWithFilePathSilent(uint type, string fileName)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportHundeggerWithFilePathSilent(type As UInteger, fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent*
+  nameWithType.vb: IMachineController.ExportHundeggerWithFilePathSilent(UInteger, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent(UInteger, String)
+  name.vb: ExportHundeggerWithFilePathSilent(UInteger, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(System.UInt32,System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(System.UInt32,System.String,System.String)
+  id: ExportHundeggerWithFilePathAndPresettingSilent(System.UInt32,System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMachineController
+  langs:
+  - csharp
+  - vb
+  name: ExportHundeggerWithFilePathAndPresettingSilent(uint, string, string)
+  nameWithType: IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(uint, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(uint, string, string)
+  type: Method
+  source:
+    id: ExportHundeggerWithFilePathAndPresettingSilent
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMachineController.cs
+    startLine: 147
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportHundeggerWithFilePathAndPresettingSilent(uint type, string fileName, string presetting)
+    parameters:
+    - id: type
+      type: System.UInt32
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: presetting
+      type: System.String
+      description: ''
+    content.vb: Sub ExportHundeggerWithFilePathAndPresettingSilent(type As UInteger, fileName As String, presetting As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent*
+  nameWithType.vb: IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(UInteger, String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent(UInteger, String, String)
+  name.vb: ExportHundeggerWithFilePathAndPresettingSilent(UInteger, String, String)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetLastError
+  name: GetLastError
+  nameWithType: IMachineController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportBtl_System_UInt32_System_String_
+  name: ExportBtl
+  nameWithType: IMachineController.ExportBtl
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtl
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportWeinmannMfb_System_UInt32_
+  name: ExportWeinmannMfb
+  nameWithType: IMachineController.ExportWeinmannMfb
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportWeinmannMfb
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportHundegger_System_UInt32_
+  name: ExportHundegger
+  nameWithType: IMachineController.ExportHundegger
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundegger
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ClearErrors
+  name: ClearErrors
+  nameWithType: IMachineController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportHundeggerWithFilePath_System_UInt32_System_String_
+  name: ExportHundeggerWithFilePath
+  nameWithType: IMachineController.ExportHundeggerWithFilePath
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePath
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportHundeggerWithFilePathAndPreset_System_UInt32_System_String_System_String_
+  name: ExportHundeggerWithFilePathAndPreset
+  nameWithType: IMachineController.ExportHundeggerWithFilePathAndPreset
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPreset
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportBtlWithPreset_System_UInt32_System_String_System_String_
+  name: ExportBtlWithPreset
+  nameWithType: IMachineController.ExportBtlWithPreset
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportBtlWithPreset
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_CalculateBtlMachineData_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: CalculateBtlMachineData
+  nameWithType: IMachineController.CalculateBtlMachineData
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateBtlMachineData
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_CalculateHundeggerMachineData_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: CalculateHundeggerMachineData
+  nameWithType: IMachineController.CalculateHundeggerMachineData
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.CalculateHundeggerMachineData
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_LoadHundeggerCalculationSet_System_UInt32_System_String_
+  name: LoadHundeggerCalculationSet
+  nameWithType: IMachineController.LoadHundeggerCalculationSet
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.LoadHundeggerCalculationSet
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetElementHundeggerProcesses_System_UInt64_System_UInt32_
+  name: GetElementHundeggerProcesses
+  nameWithType: IMachineController.GetElementHundeggerProcesses
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementHundeggerProcesses
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetElementBtlProcesses_System_UInt64_System_UInt32_
+  name: GetElementBtlProcesses
+  nameWithType: IMachineController.GetElementBtlProcesses
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetElementBtlProcesses
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetProcessName_System_UInt64_System_UInt64_
+  name: GetProcessName
+  nameWithType: IMachineController.GetProcessName
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessName
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetProcessCode_System_UInt64_System_UInt64_
+  name: GetProcessCode
+  nameWithType: IMachineController.GetProcessCode
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessCode
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetProcessPoints_System_UInt64_System_UInt64_
+  name: GetProcessPoints
+  nameWithType: IMachineController.GetProcessPoints
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessPoints
+- uid: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  commentId: T:System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Vec3>
+  nameWithType: ICollection<Vec3>
+  fullName: System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Structs.Vec3>
+  nameWithType.vb: ICollection(Of Vec3)
+  fullName.vb: System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ICollection(Of Vec3)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_GetProcessingBtlParameterSet_System_UInt64_System_UInt64_
+  name: GetProcessingBtlParameterSet
+  nameWithType: IMachineController.GetProcessingBtlParameterSet
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.GetProcessingBtlParameterSet
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportHundeggerWithFilePathSilent_System_UInt32_System_String_
+  name: ExportHundeggerWithFilePathSilent
+  nameWithType: IMachineController.ExportHundeggerWithFilePathSilent
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathSilent
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html#Cadwork_CwAPI3D_Controllers_IMachineController_ExportHundeggerWithFilePathAndPresettingSilent_System_UInt32_System_String_System_String_
+  name: ExportHundeggerWithFilePathAndPresettingSilent
+  nameWithType: IMachineController.ExportHundeggerWithFilePathAndPresettingSilent
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController.ExportHundeggerWithFilePathAndPresettingSilent

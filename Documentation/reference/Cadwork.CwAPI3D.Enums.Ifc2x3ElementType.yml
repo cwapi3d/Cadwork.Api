@@ -1,0 +1,754 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  id: Ifc2x3ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBeam
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementPart
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementProxy
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcChimney
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcColumn
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCovering
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCurtainWall
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDiscreteAccessory
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDoor
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcElementAssembly
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFastener
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFlowSegment
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFooting
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFurnishingElement
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMechanicalFastener
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMember
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcOpeningElement
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcPlate
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRailing
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRamp
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRampFlight
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRoof
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSlab
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSpace
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStair
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStairFlight
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWall
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWallStandardCase
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWindow
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.None
+  langs:
+  - csharp
+  - vb
+  name: Ifc2x3ElementType
+  nameWithType: Ifc2x3ElementType
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  type: Enum
+  source:
+    id: Ifc2x3ElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum Ifc2x3ElementType
+    content.vb: Public Enum Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.None
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.None
+  id: None
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Ifc2x3ElementType.None
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.None
+  type: Field
+  source:
+    id: None
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: None = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBeam
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBeam
+  id: IfcBeam
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcBeam
+  nameWithType: Ifc2x3ElementType.IfcBeam
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBeam
+  type: Field
+  source:
+    id: IfcBeam
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcBeam = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcColumn
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcColumn
+  id: IfcColumn
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcColumn
+  nameWithType: Ifc2x3ElementType.IfcColumn
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcColumn
+  type: Field
+  source:
+    id: IfcColumn
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcColumn = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCurtainWall
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCurtainWall
+  id: IfcCurtainWall
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcCurtainWall
+  nameWithType: Ifc2x3ElementType.IfcCurtainWall
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCurtainWall
+  type: Field
+  source:
+    id: IfcCurtainWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcCurtainWall = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDoor
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDoor
+  id: IfcDoor
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcDoor
+  nameWithType: Ifc2x3ElementType.IfcDoor
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDoor
+  type: Field
+  source:
+    id: IfcDoor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcDoor = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMember
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMember
+  id: IfcMember
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcMember
+  nameWithType: Ifc2x3ElementType.IfcMember
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMember
+  type: Field
+  source:
+    id: IfcMember
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcMember = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcPlate
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcPlate
+  id: IfcPlate
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcPlate
+  nameWithType: Ifc2x3ElementType.IfcPlate
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcPlate
+  type: Field
+  source:
+    id: IfcPlate
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcPlate = 6
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRailing
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRailing
+  id: IfcRailing
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcRailing
+  nameWithType: Ifc2x3ElementType.IfcRailing
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRailing
+  type: Field
+  source:
+    id: IfcRailing
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcRailing = 7
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRamp
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRamp
+  id: IfcRamp
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcRamp
+  nameWithType: Ifc2x3ElementType.IfcRamp
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRamp
+  type: Field
+  source:
+    id: IfcRamp
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcRamp = 8
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRampFlight
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRampFlight
+  id: IfcRampFlight
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcRampFlight
+  nameWithType: Ifc2x3ElementType.IfcRampFlight
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRampFlight
+  type: Field
+  source:
+    id: IfcRampFlight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcRampFlight = 9
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRoof
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRoof
+  id: IfcRoof
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcRoof
+  nameWithType: Ifc2x3ElementType.IfcRoof
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcRoof
+  type: Field
+  source:
+    id: IfcRoof
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcRoof = 10
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSlab
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSlab
+  id: IfcSlab
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcSlab
+  nameWithType: Ifc2x3ElementType.IfcSlab
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSlab
+  type: Field
+  source:
+    id: IfcSlab
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcSlab = 11
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStair
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStair
+  id: IfcStair
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcStair
+  nameWithType: Ifc2x3ElementType.IfcStair
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStair
+  type: Field
+  source:
+    id: IfcStair
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcStair = 12
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStairFlight
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStairFlight
+  id: IfcStairFlight
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcStairFlight
+  nameWithType: Ifc2x3ElementType.IfcStairFlight
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcStairFlight
+  type: Field
+  source:
+    id: IfcStairFlight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcStairFlight = 13
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWall
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWall
+  id: IfcWall
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcWall
+  nameWithType: Ifc2x3ElementType.IfcWall
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWall
+  type: Field
+  source:
+    id: IfcWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcWall = 14
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWallStandardCase
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWallStandardCase
+  id: IfcWallStandardCase
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcWallStandardCase
+  nameWithType: Ifc2x3ElementType.IfcWallStandardCase
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWallStandardCase
+  type: Field
+  source:
+    id: IfcWallStandardCase
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcWallStandardCase = 15
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWindow
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWindow
+  id: IfcWindow
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcWindow
+  nameWithType: Ifc2x3ElementType.IfcWindow
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcWindow
+  type: Field
+  source:
+    id: IfcWindow
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcWindow = 16
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementProxy
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementProxy
+  id: IfcBuildingElementProxy
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcBuildingElementProxy
+  nameWithType: Ifc2x3ElementType.IfcBuildingElementProxy
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementProxy
+  type: Field
+  source:
+    id: IfcBuildingElementProxy
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcBuildingElementProxy = 17
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcChimney
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcChimney
+  id: IfcChimney
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcChimney
+  nameWithType: Ifc2x3ElementType.IfcChimney
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcChimney
+  type: Field
+  source:
+    id: IfcChimney
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcChimney = 18
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCovering
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCovering
+  id: IfcCovering
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcCovering
+  nameWithType: Ifc2x3ElementType.IfcCovering
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcCovering
+  type: Field
+  source:
+    id: IfcCovering
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcCovering = 19
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFooting
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFooting
+  id: IfcFooting
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcFooting
+  nameWithType: Ifc2x3ElementType.IfcFooting
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFooting
+  type: Field
+  source:
+    id: IfcFooting
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcFooting = 20
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFurnishingElement
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFurnishingElement
+  id: IfcFurnishingElement
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcFurnishingElement
+  nameWithType: Ifc2x3ElementType.IfcFurnishingElement
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFurnishingElement
+  type: Field
+  source:
+    id: IfcFurnishingElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcFurnishingElement = 21
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcOpeningElement
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcOpeningElement
+  id: IfcOpeningElement
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcOpeningElement
+  nameWithType: Ifc2x3ElementType.IfcOpeningElement
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcOpeningElement
+  type: Field
+  source:
+    id: IfcOpeningElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcOpeningElement = 22
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSpace
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSpace
+  id: IfcSpace
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcSpace
+  nameWithType: Ifc2x3ElementType.IfcSpace
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcSpace
+  type: Field
+  source:
+    id: IfcSpace
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcSpace = 23
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFlowSegment
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFlowSegment
+  id: IfcFlowSegment
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcFlowSegment
+  nameWithType: Ifc2x3ElementType.IfcFlowSegment
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFlowSegment
+  type: Field
+  source:
+    id: IfcFlowSegment
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 31
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcFlowSegment = 24
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementPart
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementPart
+  id: IfcBuildingElementPart
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcBuildingElementPart
+  nameWithType: Ifc2x3ElementType.IfcBuildingElementPart
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcBuildingElementPart
+  type: Field
+  source:
+    id: IfcBuildingElementPart
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcBuildingElementPart = 25
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDiscreteAccessory
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDiscreteAccessory
+  id: IfcDiscreteAccessory
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcDiscreteAccessory
+  nameWithType: Ifc2x3ElementType.IfcDiscreteAccessory
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcDiscreteAccessory
+  type: Field
+  source:
+    id: IfcDiscreteAccessory
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 33
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcDiscreteAccessory = 26
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFastener
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFastener
+  id: IfcFastener
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcFastener
+  nameWithType: Ifc2x3ElementType.IfcFastener
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcFastener
+  type: Field
+  source:
+    id: IfcFastener
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 34
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcFastener = 27
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMechanicalFastener
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMechanicalFastener
+  id: IfcMechanicalFastener
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcMechanicalFastener
+  nameWithType: Ifc2x3ElementType.IfcMechanicalFastener
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcMechanicalFastener
+  type: Field
+  source:
+    id: IfcMechanicalFastener
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcMechanicalFastener = 28
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcElementAssembly
+  commentId: F:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcElementAssembly
+  id: IfcElementAssembly
+  parent: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  langs:
+  - csharp
+  - vb
+  name: IfcElementAssembly
+  nameWithType: Ifc2x3ElementType.IfcElementAssembly
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.IfcElementAssembly
+  type: Field
+  source:
+    id: IfcElementAssembly
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\Ifc2x3ElementType.cs
+    startLine: 36
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcElementAssembly = 29
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.html
+  name: Ifc2x3ElementType
+  nameWithType: Ifc2x3ElementType
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType

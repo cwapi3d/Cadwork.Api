@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  id: ITextObjectOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+  langs:
+  - csharp
+  - vb
+  name: ITextObjectOptions
+  nameWithType: ITextObjectOptions
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  type: Interface
+  source:
+    id: ITextObjectOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ITextObjectOptions
+    content.vb: Public Interface ITextObjectOptions
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+  id: FontName
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: FontName
+  nameWithType: ITextObjectOptions.FontName
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+  type: Property
+  source:
+    id: FontName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: string FontName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property FontName As String
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+  id: Text
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ITextObjectOptions.Text
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+  type: Property
+  source:
+    id: Text
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Text As String
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+  id: Bold
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Bold
+  nameWithType: ITextObjectOptions.Bold
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+  type: Property
+  source:
+    id: Bold
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool Bold { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Bold As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+  id: Italic
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Italic
+  nameWithType: ITextObjectOptions.Italic
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+  type: Property
+  source:
+    id: Italic
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool Italic { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Italic As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+  id: Height
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: ITextObjectOptions.Height
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+  type: Property
+  source:
+    id: Height
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: double Height { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Height As Double
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+  id: ElementType
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: ElementType
+  nameWithType: ITextObjectOptions.ElementType
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+  type: Property
+  source:
+    id: ElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 37
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: TextElementType ElementType { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Enums.TextElementType
+    content.vb: Property ElementType As TextElementType
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+  id: Thickness
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Thickness
+  nameWithType: ITextObjectOptions.Thickness
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+  type: Property
+  source:
+    id: Thickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 42
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: double Thickness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property Thickness As Double
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+  id: Color
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ITextObjectOptions.Color
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+  type: Property
+  source:
+    id: Color
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: int Color { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Color As Integer
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color*
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative
+  commentId: P:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative
+  id: HeightRelative
+  parent: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: HeightRelative
+  nameWithType: ITextObjectOptions.HeightRelative
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative
+  type: Property
+  source:
+    id: HeightRelative
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ITextObjectOptions.cs
+    startLine: 52
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool HeightRelative { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property HeightRelative As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_FontName
+  name: FontName
+  nameWithType: ITextObjectOptions.FontName
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.FontName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Text
+  name: Text
+  nameWithType: ITextObjectOptions.Text
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Text
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Bold
+  name: Bold
+  nameWithType: ITextObjectOptions.Bold
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Bold
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Italic
+  name: Italic
+  nameWithType: ITextObjectOptions.Italic
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Italic
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Height
+  name: Height
+  nameWithType: ITextObjectOptions.Height
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Height
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_ElementType
+  name: ElementType
+  nameWithType: ITextObjectOptions.ElementType
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.ElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.TextElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.TextElementType.html
+  name: TextElementType
+  nameWithType: TextElementType
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Thickness
+  name: Thickness
+  nameWithType: ITextObjectOptions.Thickness
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Thickness
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_Color
+  name: Color
+  nameWithType: ITextObjectOptions.Color
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.Color
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html#Cadwork_CwAPI3D_Helpers_ITextObjectOptions_HeightRelative
+  name: HeightRelative
+  nameWithType: ITextObjectOptions.HeightRelative
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.HeightRelative

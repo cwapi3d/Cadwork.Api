@@ -1,0 +1,1682 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  id: IConnectorAxisController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector(System.Double,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector(System.String,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField(System.String,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName(System.String,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile(System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic(System.UInt64,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter(System.UInt64,System.UInt32,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog
+  - Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility(System.Collections.Generic.ICollection{System.UInt64})
+  langs:
+  - csharp
+  - vb
+  name: IConnectorAxisController
+  nameWithType: IConnectorAxisController
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  type: Interface
+  source:
+    id: IConnectorAxisController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IConnectorAxisController
+    content.vb: Public Interface IConnectorAxisController
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IConnectorAxisController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector(System.String,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector(System.String,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  id: CreateStandardConnector(System.String,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: CreateStandardConnector(string, Vec3, Vec3)
+  nameWithType: IConnectorAxisController.CreateStandardConnector(string, Vec3, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector(string, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: CreateStandardConnector
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong CreateStandardConnector(string name, Vec3 startPoint, Vec3 endPoint)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: startPoint
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: endPoint
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function CreateStandardConnector(name As String, startPoint As Vec3, endPoint As Vec3) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector*
+  nameWithType.vb: IConnectorAxisController.CreateStandardConnector(String, Vec3, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector(String, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: CreateStandardConnector(String, Vec3, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName(System.String,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName(System.String,System.UInt64)
+  id: GetItemGuidByName(System.String,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetItemGuidByName(string, ulong)
+  nameWithType: IConnectorAxisController.GetItemGuidByName(string, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName(string, ulong)
+  type: Method
+  source:
+    id: GetItemGuidByName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 33
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetItemGuidByName(string name, ulong type)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: type
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetItemGuidByName(name As String, type As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName*
+  nameWithType.vb: IConnectorAxisController.GetItemGuidByName(String, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName(String, ULong)
+  name.vb: GetItemGuidByName(String, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength(System.UInt64)
+  id: GetBoltLength(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltLength(ulong)
+  nameWithType: IConnectorAxisController.GetBoltLength(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength(ulong)
+  type: Method
+  source:
+    id: GetBoltLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetBoltLength(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetBoltLength(elementId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength*
+  nameWithType.vb: IConnectorAxisController.GetBoltLength(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength(ULong)
+  name.vb: GetBoltLength(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength(System.UInt64,System.Double)
+  id: SetBoltLength(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetBoltLength(ulong, double)
+  nameWithType: IConnectorAxisController.SetBoltLength(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength(ulong, double)
+  type: Method
+  source:
+    id: SetBoltLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBoltLength(ulong elementId, double length)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: length
+      type: System.Double
+      description: ''
+    content.vb: Sub SetBoltLength(elementId As ULong, length As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength*
+  nameWithType.vb: IConnectorAxisController.SetBoltLength(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength(ULong, Double)
+  name.vb: SetBoltLength(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength(System.UInt64)
+  id: GetBoltOverLength(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltOverLength(ulong)
+  nameWithType: IConnectorAxisController.GetBoltOverLength(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength(ulong)
+  type: Method
+  source:
+    id: GetBoltOverLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 54
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetBoltOverLength(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetBoltOverLength(elementId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength*
+  nameWithType.vb: IConnectorAxisController.GetBoltOverLength(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength(ULong)
+  name.vb: GetBoltOverLength(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength(System.UInt64,System.Double)
+  id: SetBoltOverLength(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetBoltOverLength(ulong, double)
+  nameWithType: IConnectorAxisController.SetBoltOverLength(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength(ulong, double)
+  type: Method
+  source:
+    id: SetBoltOverLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 61
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBoltOverLength(ulong elementId, double overLength)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: overLength
+      type: System.Double
+      description: ''
+    content.vb: Sub SetBoltOverLength(elementId As ULong, overLength As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength*
+  nameWithType.vb: IConnectorAxisController.SetBoltOverLength(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength(ULong, Double)
+  name.vb: SetBoltOverLength(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic(System.UInt64)
+  id: GetBoltLengthAutomatic(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltLengthAutomatic(ulong)
+  nameWithType: IConnectorAxisController.GetBoltLengthAutomatic(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic(ulong)
+  type: Method
+  source:
+    id: GetBoltLengthAutomatic
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 68
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool GetBoltLengthAutomatic(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function GetBoltLengthAutomatic(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic*
+  nameWithType.vb: IConnectorAxisController.GetBoltLengthAutomatic(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic(ULong)
+  name.vb: GetBoltLengthAutomatic(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic(System.UInt64,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic(System.UInt64,System.Boolean)
+  id: SetBoltLengthAutomatic(System.UInt64,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetBoltLengthAutomatic(ulong, bool)
+  nameWithType: IConnectorAxisController.SetBoltLengthAutomatic(ulong, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic(ulong, bool)
+  type: Method
+  source:
+    id: SetBoltLengthAutomatic
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 75
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBoltLengthAutomatic(ulong elementId, bool useAutomaticLength)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: useAutomaticLength
+      type: System.Boolean
+      description: ''
+    content.vb: Sub SetBoltLengthAutomatic(elementId As ULong, useAutomaticLength As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic*
+  nameWithType.vb: IConnectorAxisController.SetBoltLengthAutomatic(ULong, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic(ULong, Boolean)
+  name.vb: SetBoltLengthAutomatic(ULong, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid(System.UInt64)
+  id: GetBoltItemGuid(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltItemGuid(ulong)
+  nameWithType: IConnectorAxisController.GetBoltItemGuid(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid(ulong)
+  type: Method
+  source:
+    id: GetBoltItemGuid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 82
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetBoltItemGuid(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetBoltItemGuid(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid*
+  nameWithType.vb: IConnectorAxisController.GetBoltItemGuid(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid(ULong)
+  name.vb: GetBoltItemGuid(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem(System.UInt64,System.String)
+  id: SetBoltItem(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetBoltItem(ulong, string)
+  nameWithType: IConnectorAxisController.SetBoltItem(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem(ulong, string)
+  type: Method
+  source:
+    id: SetBoltItem
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 89
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBoltItem(ulong elementId, string guid)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: guid
+      type: System.String
+      description: ''
+    content.vb: Sub SetBoltItem(elementId As ULong, guid As String)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem*
+  nameWithType.vb: IConnectorAxisController.SetBoltItem(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem(ULong, String)
+  name.vb: SetBoltItem(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter(System.UInt64,System.Double)
+  id: SetDiameter(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetDiameter(ulong, double)
+  nameWithType: IConnectorAxisController.SetDiameter(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter(ulong, double)
+  type: Method
+  source:
+    id: SetDiameter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 96
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetDiameter(ulong elementId, double diameter)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: diameter
+      type: System.Double
+      description: ''
+    content.vb: Sub SetDiameter(elementId As ULong, diameter As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter*
+  nameWithType.vb: IConnectorAxisController.SetDiameter(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter(ULong, Double)
+  name.vb: SetDiameter(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter(System.UInt64,System.UInt32,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter(System.UInt64,System.UInt32,System.Double)
+  id: SetSectionDiameter(System.UInt64,System.UInt32,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: SetSectionDiameter(ulong, uint, double)
+  nameWithType: IConnectorAxisController.SetSectionDiameter(ulong, uint, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter(ulong, uint, double)
+  type: Method
+  source:
+    id: SetSectionDiameter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetSectionDiameter(ulong elementId, uint sectionIndex, double diameter)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: sectionIndex
+      type: System.UInt32
+      description: ''
+    - id: diameter
+      type: System.Double
+      description: ''
+    content.vb: Sub SetSectionDiameter(elementId As ULong, sectionIndex As UInteger, diameter As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter*
+  nameWithType.vb: IConnectorAxisController.SetSectionDiameter(ULong, UInteger, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter(ULong, UInteger, Double)
+  name.vb: SetSectionDiameter(ULong, UInteger, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter(System.UInt64,System.UInt32)
+  id: GetSectionDiameter(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetSectionDiameter(ulong, uint)
+  nameWithType: IConnectorAxisController.GetSectionDiameter(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter(ulong, uint)
+  type: Method
+  source:
+    id: GetSectionDiameter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 112
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetSectionDiameter(ulong elementId, uint sectionIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: sectionIndex
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetSectionDiameter(elementId As ULong, sectionIndex As UInteger) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter*
+  nameWithType.vb: IConnectorAxisController.GetSectionDiameter(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter(ULong, UInteger)
+  name.vb: GetSectionDiameter(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids(System.UInt64)
+  id: GetAxisItemsGuids(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemsGuids(ulong)
+  nameWithType: IConnectorAxisController.GetAxisItemsGuids(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids(ulong)
+  type: Method
+  source:
+    id: GetAxisItemsGuids
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 119
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetAxisItemsGuids(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetAxisItemsGuids(elementId As ULong) As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemsGuids(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids(ULong)
+  name.vb: GetAxisItemsGuids(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName(System.String)
+  id: GetAxisItemName(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemName(string)
+  nameWithType: IConnectorAxisController.GetAxisItemName(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName(string)
+  type: Method
+  source:
+    id: GetAxisItemName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 126
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemName(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemName(guid As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemName(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName(String)
+  name.vb: GetAxisItemName(String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial(System.String)
+  id: GetAxisItemMaterial(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemMaterial(string)
+  nameWithType: IConnectorAxisController.GetAxisItemMaterial(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial(string)
+  type: Method
+  source:
+    id: GetAxisItemMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 133
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemMaterial(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemMaterial(guid As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemMaterial(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial(String)
+  name.vb: GetAxisItemMaterial(String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm(System.String)
+  id: GetAxisItemNorm(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemNorm(string)
+  nameWithType: IConnectorAxisController.GetAxisItemNorm(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm(string)
+  type: Method
+  source:
+    id: GetAxisItemNorm
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 140
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemNorm(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemNorm(guid As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemNorm(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm(String)
+  name.vb: GetAxisItemNorm(String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory(System.String)
+  id: GetAxisItemStrengthCategory(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemStrengthCategory(string)
+  nameWithType: IConnectorAxisController.GetAxisItemStrengthCategory(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory(string)
+  type: Method
+  source:
+    id: GetAxisItemStrengthCategory
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 147
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemStrengthCategory(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemStrengthCategory(guid As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemStrengthCategory(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory(String)
+  name.vb: GetAxisItemStrengthCategory(String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField(System.String,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField(System.String,System.Int32)
+  id: GetAxisItemUserField(System.String,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemUserField(string, int)
+  nameWithType: IConnectorAxisController.GetAxisItemUserField(string, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField(string, int)
+  type: Method
+  source:
+    id: GetAxisItemUserField
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 155
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemUserField(string guid, int userItemIndex)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    - id: userItemIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemUserField(guid As String, userItemIndex As Integer) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemUserField(String, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField(String, Integer)
+  name.vb: GetAxisItemUserField(String, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber(System.String)
+  id: GetAxisItemOrderNumber(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetAxisItemOrderNumber(string)
+  nameWithType: IConnectorAxisController.GetAxisItemOrderNumber(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber(string)
+  type: Method
+  source:
+    id: GetAxisItemOrderNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 162
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetAxisItemOrderNumber(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetAxisItemOrderNumber(guid As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber*
+  nameWithType.vb: IConnectorAxisController.GetAxisItemOrderNumber(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber(String)
+  name.vb: GetAxisItemOrderNumber(String)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber(System.UInt64)
+  id: GetBoltOrderNumber(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltOrderNumber(ulong)
+  nameWithType: IConnectorAxisController.GetBoltOrderNumber(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber(ulong)
+  type: Method
+  source:
+    id: GetBoltOrderNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 169
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetBoltOrderNumber(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetBoltOrderNumber(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber*
+  nameWithType.vb: IConnectorAxisController.GetBoltOrderNumber(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber(ULong)
+  name.vb: GetBoltOrderNumber(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis(System.UInt64)
+  id: CheckAxis(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: CheckAxis(ulong)
+  nameWithType: IConnectorAxisController.CheckAxis(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis(ulong)
+  type: Method
+  source:
+    id: CheckAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 176
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CheckAxis(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function CheckAxis(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis*
+  nameWithType.vb: IConnectorAxisController.CheckAxis(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis(ULong)
+  name.vb: CheckAxis(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IConnectorAxisController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 181
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility(System.Collections.Generic.ICollection{System.UInt64})
+  id: UpdateAxisCuttingAbility(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: UpdateAxisCuttingAbility(ICollection<ulong>)
+  nameWithType: IConnectorAxisController.UpdateAxisCuttingAbility(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: UpdateAxisCuttingAbility
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 187
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void UpdateAxisCuttingAbility(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub UpdateAxisCuttingAbility(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility*
+  nameWithType.vb: IConnectorAxisController.UpdateAxisCuttingAbility(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: UpdateAxisCuttingAbility(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount(System.UInt64)
+  id: GetSectionCount(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetSectionCount(ulong)
+  nameWithType: IConnectorAxisController.GetSectionCount(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount(ulong)
+  type: Method
+  source:
+    id: GetSectionCount
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 194
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: int GetSectionCount(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Function GetSectionCount(elementId As ULong) As Integer
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount*
+  nameWithType.vb: IConnectorAxisController.GetSectionCount(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount(ULong)
+  name.vb: GetSectionCount(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName(System.UInt64,System.UInt32)
+  id: GetSectionMaterialName(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetSectionMaterialName(ulong, uint)
+  nameWithType: IConnectorAxisController.GetSectionMaterialName(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName(ulong, uint)
+  type: Method
+  source:
+    id: GetSectionMaterialName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 202
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetSectionMaterialName(ulong elementId, uint sectionIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: sectionIndex
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetSectionMaterialName(elementId As ULong, sectionIndex As UInteger) As String
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName*
+  nameWithType.vb: IConnectorAxisController.GetSectionMaterialName(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName(ULong, UInteger)
+  name.vb: GetSectionMaterialName(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList
+  id: GetStandardConnectorList
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetStandardConnectorList()
+  nameWithType: IConnectorAxisController.GetStandardConnectorList()
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList()
+  type: Method
+  source:
+    id: GetStandardConnectorList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 208
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetStandardConnectorList()
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetStandardConnectorList() As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList*
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog
+  id: StartConfigurationDialog
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: StartConfigurationDialog()
+  nameWithType: IConnectorAxisController.StartConfigurationDialog()
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog()
+  type: Method
+  source:
+    id: StartConfigurationDialog
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 213
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void StartConfigurationDialog()
+    content.vb: Sub StartConfigurationDialog()
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog*
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector(System.Double,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector(System.Double,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  id: CreateBlankConnector(System.Double,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: CreateBlankConnector(double, Vec3, Vec3)
+  nameWithType: IConnectorAxisController.CreateBlankConnector(double, Vec3, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector(double, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: CreateBlankConnector
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 222
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong CreateBlankConnector(double diameter, Vec3 startPoint, Vec3 endPoint)
+    parameters:
+    - id: diameter
+      type: System.Double
+      description: ''
+    - id: startPoint
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: endPoint
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function CreateBlankConnector(diameter As Double, startPoint As Vec3, endPoint As Vec3) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector*
+  nameWithType.vb: IConnectorAxisController.CreateBlankConnector(Double, Vec3, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector(Double, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: CreateBlankConnector(Double, Vec3, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement(System.UInt64,System.UInt32)
+  id: GetSectionContactElement(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetSectionContactElement(ulong, uint)
+  nameWithType: IConnectorAxisController.GetSectionContactElement(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement(ulong, uint)
+  type: Method
+  source:
+    id: GetSectionContactElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 230
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetSectionContactElement(ulong elementId, uint sectionIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: sectionIndex
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetSectionContactElement(elementId As ULong, sectionIndex As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement*
+  nameWithType.vb: IConnectorAxisController.GetSectionContactElement(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement(ULong, UInteger)
+  name.vb: GetSectionContactElement(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter(System.UInt64)
+  id: GetBoltDiameter(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: GetBoltDiameter(ulong)
+  nameWithType: IConnectorAxisController.GetBoltDiameter(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter(ulong)
+  type: Method
+  source:
+    id: GetBoltDiameter
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 237
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetBoltDiameter(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetBoltDiameter(elementId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter*
+  nameWithType.vb: IConnectorAxisController.GetBoltDiameter(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter(ULong)
+  name.vb: GetBoltDiameter(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile(System.String)
+  id: ImportFromFile(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  langs:
+  - csharp
+  - vb
+  name: ImportFromFile(string)
+  nameWithType: IConnectorAxisController.ImportFromFile(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile(string)
+  type: Method
+  source:
+    id: ImportFromFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IConnectorAxisController.cs
+    startLine: 243
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ImportFromFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ImportFromFile(fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile*
+  nameWithType.vb: IConnectorAxisController.ImportFromFile(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile(String)
+  name.vb: ImportFromFile(String)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetLastError
+  name: GetLastError
+  nameWithType: IConnectorAxisController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_CreateStandardConnector_System_String_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_
+  name: CreateStandardConnector
+  nameWithType: IConnectorAxisController.CreateStandardConnector
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateStandardConnector
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetItemGuidByName_System_String_System_UInt64_
+  name: GetItemGuidByName
+  nameWithType: IConnectorAxisController.GetItemGuidByName
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetItemGuidByName
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltLength_System_UInt64_
+  name: GetBoltLength
+  nameWithType: IConnectorAxisController.GetBoltLength
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLength
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetBoltLength_System_UInt64_System_Double_
+  name: SetBoltLength
+  nameWithType: IConnectorAxisController.SetBoltLength
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLength
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltOverLength_System_UInt64_
+  name: GetBoltOverLength
+  nameWithType: IConnectorAxisController.GetBoltOverLength
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOverLength
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetBoltOverLength_System_UInt64_System_Double_
+  name: SetBoltOverLength
+  nameWithType: IConnectorAxisController.SetBoltOverLength
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltOverLength
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltLengthAutomatic_System_UInt64_
+  name: GetBoltLengthAutomatic
+  nameWithType: IConnectorAxisController.GetBoltLengthAutomatic
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltLengthAutomatic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetBoltLengthAutomatic_System_UInt64_System_Boolean_
+  name: SetBoltLengthAutomatic
+  nameWithType: IConnectorAxisController.SetBoltLengthAutomatic
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltLengthAutomatic
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltItemGuid_System_UInt64_
+  name: GetBoltItemGuid
+  nameWithType: IConnectorAxisController.GetBoltItemGuid
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltItemGuid
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetBoltItem_System_UInt64_System_String_
+  name: SetBoltItem
+  nameWithType: IConnectorAxisController.SetBoltItem
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetBoltItem
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetDiameter_System_UInt64_System_Double_
+  name: SetDiameter
+  nameWithType: IConnectorAxisController.SetDiameter
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetDiameter
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_SetSectionDiameter_System_UInt64_System_UInt32_System_Double_
+  name: SetSectionDiameter
+  nameWithType: IConnectorAxisController.SetSectionDiameter
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.SetSectionDiameter
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetSectionDiameter_System_UInt64_System_UInt32_
+  name: GetSectionDiameter
+  nameWithType: IConnectorAxisController.GetSectionDiameter
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionDiameter
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemsGuids_System_UInt64_
+  name: GetAxisItemsGuids
+  nameWithType: IConnectorAxisController.GetAxisItemsGuids
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemsGuids
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemName_System_String_
+  name: GetAxisItemName
+  nameWithType: IConnectorAxisController.GetAxisItemName
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemName
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemMaterial_System_String_
+  name: GetAxisItemMaterial
+  nameWithType: IConnectorAxisController.GetAxisItemMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemNorm_System_String_
+  name: GetAxisItemNorm
+  nameWithType: IConnectorAxisController.GetAxisItemNorm
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemNorm
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemStrengthCategory_System_String_
+  name: GetAxisItemStrengthCategory
+  nameWithType: IConnectorAxisController.GetAxisItemStrengthCategory
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemStrengthCategory
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemUserField_System_String_System_Int32_
+  name: GetAxisItemUserField
+  nameWithType: IConnectorAxisController.GetAxisItemUserField
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemUserField
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetAxisItemOrderNumber_System_String_
+  name: GetAxisItemOrderNumber
+  nameWithType: IConnectorAxisController.GetAxisItemOrderNumber
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetAxisItemOrderNumber
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltOrderNumber_System_UInt64_
+  name: GetBoltOrderNumber
+  nameWithType: IConnectorAxisController.GetBoltOrderNumber
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltOrderNumber
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_CheckAxis_System_UInt64_
+  name: CheckAxis
+  nameWithType: IConnectorAxisController.CheckAxis
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CheckAxis
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_ClearErrors
+  name: ClearErrors
+  nameWithType: IConnectorAxisController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_UpdateAxisCuttingAbility_System_Collections_Generic_ICollection_System_UInt64__
+  name: UpdateAxisCuttingAbility
+  nameWithType: IConnectorAxisController.UpdateAxisCuttingAbility
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.UpdateAxisCuttingAbility
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetSectionCount_System_UInt64_
+  name: GetSectionCount
+  nameWithType: IConnectorAxisController.GetSectionCount
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionCount
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetSectionMaterialName_System_UInt64_System_UInt32_
+  name: GetSectionMaterialName
+  nameWithType: IConnectorAxisController.GetSectionMaterialName
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionMaterialName
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetStandardConnectorList
+  name: GetStandardConnectorList
+  nameWithType: IConnectorAxisController.GetStandardConnectorList
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetStandardConnectorList
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_StartConfigurationDialog
+  name: StartConfigurationDialog
+  nameWithType: IConnectorAxisController.StartConfigurationDialog
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.StartConfigurationDialog
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_CreateBlankConnector_System_Double_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_
+  name: CreateBlankConnector
+  nameWithType: IConnectorAxisController.CreateBlankConnector
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.CreateBlankConnector
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetSectionContactElement_System_UInt64_System_UInt32_
+  name: GetSectionContactElement
+  nameWithType: IConnectorAxisController.GetSectionContactElement
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetSectionContactElement
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_GetBoltDiameter_System_UInt64_
+  name: GetBoltDiameter
+  nameWithType: IConnectorAxisController.GetBoltDiameter
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.GetBoltDiameter
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html#Cadwork_CwAPI3D_Controllers_IConnectorAxisController_ImportFromFile_System_String_
+  name: ImportFromFile
+  nameWithType: IConnectorAxisController.ImportFromFile
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.ImportFromFile

@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKey
+  id: ShortcutKey
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F1
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F10
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F11
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F12
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F2
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F3
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F4
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F5
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F6
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F7
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F8
+  - Cadwork.CwAPI3D.Enums.ShortcutKey.F9
+  langs:
+  - csharp
+  - vb
+  name: ShortcutKey
+  nameWithType: ShortcutKey
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey
+  type: Enum
+  source:
+    id: ShortcutKey
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ShortcutKey
+    content.vb: Public Enum ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F1
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F1
+  id: F1
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F1
+  nameWithType: ShortcutKey.F1
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F1
+  type: Field
+  source:
+    id: F1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F1 = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F2
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F2
+  id: F2
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F2
+  nameWithType: ShortcutKey.F2
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F2
+  type: Field
+  source:
+    id: F2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F2 = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F3
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F3
+  id: F3
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F3
+  nameWithType: ShortcutKey.F3
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F3
+  type: Field
+  source:
+    id: F3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F3 = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F4
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F4
+  id: F4
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F4
+  nameWithType: ShortcutKey.F4
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F4
+  type: Field
+  source:
+    id: F4
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F4 = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F5
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F5
+  id: F5
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F5
+  nameWithType: ShortcutKey.F5
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F5
+  type: Field
+  source:
+    id: F5
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F5 = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F6
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F6
+  id: F6
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F6
+  nameWithType: ShortcutKey.F6
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F6
+  type: Field
+  source:
+    id: F6
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F6 = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F7
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F7
+  id: F7
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F7
+  nameWithType: ShortcutKey.F7
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F7
+  type: Field
+  source:
+    id: F7
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F7 = 6
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F8
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F8
+  id: F8
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F8
+  nameWithType: ShortcutKey.F8
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F8
+  type: Field
+  source:
+    id: F8
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F8 = 7
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F9
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F9
+  id: F9
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F9
+  nameWithType: ShortcutKey.F9
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F9
+  type: Field
+  source:
+    id: F9
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F9 = 8
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F10
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F10
+  id: F10
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F10
+  nameWithType: ShortcutKey.F10
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F10
+  type: Field
+  source:
+    id: F10
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F10 = 9
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F11
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F11
+  id: F11
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F11
+  nameWithType: ShortcutKey.F11
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F11
+  type: Field
+  source:
+    id: F11
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F11 = 10
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey.F12
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKey.F12
+  id: F12
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKey
+  langs:
+  - csharp
+  - vb
+  name: F12
+  nameWithType: ShortcutKey.F12
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey.F12
+  type: Field
+  source:
+    id: F12
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKey.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: F12 = 11
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKey
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKey
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ShortcutKey.html
+  name: ShortcutKey
+  nameWithType: ShortcutKey
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey

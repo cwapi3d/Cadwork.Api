@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType
+  commentId: T:Cadwork.CwAPI3D.Enums.MultiLayerType
+  id: MultiLayerType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Air
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Covering
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Lathing
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Panel
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Structure
+  - Cadwork.CwAPI3D.Enums.MultiLayerType.Undefined
+  langs:
+  - csharp
+  - vb
+  name: MultiLayerType
+  nameWithType: MultiLayerType
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType
+  type: Enum
+  source:
+    id: MultiLayerType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum MultiLayerType
+    content.vb: Public Enum MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Air
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Air
+  id: Air
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Air
+  nameWithType: MultiLayerType.Air
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Air
+  type: Field
+  source:
+    id: Air
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Air = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Covering
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Covering
+  id: Covering
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Covering
+  nameWithType: MultiLayerType.Covering
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Covering
+  type: Field
+  source:
+    id: Covering
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Covering = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Lathing
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Lathing
+  id: Lathing
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Lathing
+  nameWithType: MultiLayerType.Lathing
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Lathing
+  type: Field
+  source:
+    id: Lathing
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Lathing = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Panel
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Panel
+  id: Panel
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: MultiLayerType.Panel
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Panel
+  type: Field
+  source:
+    id: Panel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Structure
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Structure
+  id: Structure
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Structure
+  nameWithType: MultiLayerType.Structure
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Structure
+  type: Field
+  source:
+    id: Structure
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Structure = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType.Undefined
+  commentId: F:Cadwork.CwAPI3D.Enums.MultiLayerType.Undefined
+  id: Undefined
+  parent: Cadwork.CwAPI3D.Enums.MultiLayerType
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: MultiLayerType.Undefined
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType.Undefined
+  type: Field
+  source:
+    id: Undefined
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\MultiLayerType.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Undefined = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType
+  commentId: T:Cadwork.CwAPI3D.Enums.MultiLayerType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.MultiLayerType.html
+  name: MultiLayerType
+  nameWithType: MultiLayerType
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType

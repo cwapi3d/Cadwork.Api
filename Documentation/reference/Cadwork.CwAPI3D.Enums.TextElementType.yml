@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.TextElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.TextElementType
+  id: TextElementType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.TextElementType.Line
+  - Cadwork.CwAPI3D.Enums.TextElementType.Raster
+  - Cadwork.CwAPI3D.Enums.TextElementType.Surface
+  - Cadwork.CwAPI3D.Enums.TextElementType.Volume
+  langs:
+  - csharp
+  - vb
+  name: TextElementType
+  nameWithType: TextElementType
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType
+  type: Enum
+  source:
+    id: TextElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\TextElementType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum TextElementType
+    content.vb: Public Enum TextElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType.Line
+  commentId: F:Cadwork.CwAPI3D.Enums.TextElementType.Line
+  id: Line
+  parent: Cadwork.CwAPI3D.Enums.TextElementType
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: TextElementType.Line
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType.Line
+  type: Field
+  source:
+    id: Line
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\TextElementType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Line = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.TextElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType.Raster
+  commentId: F:Cadwork.CwAPI3D.Enums.TextElementType.Raster
+  id: Raster
+  parent: Cadwork.CwAPI3D.Enums.TextElementType
+  langs:
+  - csharp
+  - vb
+  name: Raster
+  nameWithType: TextElementType.Raster
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType.Raster
+  type: Field
+  source:
+    id: Raster
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\TextElementType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Raster = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.TextElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType.Surface
+  commentId: F:Cadwork.CwAPI3D.Enums.TextElementType.Surface
+  id: Surface
+  parent: Cadwork.CwAPI3D.Enums.TextElementType
+  langs:
+  - csharp
+  - vb
+  name: Surface
+  nameWithType: TextElementType.Surface
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType.Surface
+  type: Field
+  source:
+    id: Surface
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\TextElementType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Surface = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.TextElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType.Volume
+  commentId: F:Cadwork.CwAPI3D.Enums.TextElementType.Volume
+  id: Volume
+  parent: Cadwork.CwAPI3D.Enums.TextElementType
+  langs:
+  - csharp
+  - vb
+  name: Volume
+  nameWithType: TextElementType.Volume
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType.Volume
+  type: Field
+  source:
+    id: Volume
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\TextElementType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Volume = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.TextElementType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.TextElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.TextElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.TextElementType.html
+  name: TextElementType
+  nameWithType: TextElementType
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType

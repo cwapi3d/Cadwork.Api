@@ -1,0 +1,1812 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IFileController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IFileController
+  id: IFileController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean,Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath
+  - Cadwork.CwAPI3D.Controllers.IFileController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions(System.String,Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  - Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile(System.String,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile(System.String,System.Double,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently(System.String,System.Double,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile(System.String,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption(System.String,System.Double,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath(System.String)
+  - Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy(System.UInt32,Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  langs:
+  - csharp
+  - vb
+  name: IFileController
+  nameWithType: IFileController
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController
+  type: Interface
+  source:
+    id: IFileController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IFileController
+    content.vb: Public Interface IFileController
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IFileController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportStlFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportStlFile(ICollection<ulong>, string)
+  nameWithType: IFileController.ExportStlFile(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportStlFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportStlFile(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportStlFile(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile*
+  nameWithType.vb: IFileController.ExportStlFile(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportStlFile(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile(System.String,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile(System.String,System.Double)
+  id: ImportStepFile(System.String,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportStepFile(string, double)
+  nameWithType: IFileController.ImportStepFile(string, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile(string, double)
+  type: Method
+  source:
+    id: ImportStepFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportStepFile(string fileName, double scalingFactor)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportStepFile(fileName As String, scalingFactor As Double) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile*
+  nameWithType.vb: IFileController.ImportStepFile(String, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile(String, Double)
+  name.vb: ImportStepFile(String, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption(System.String,System.Double,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption(System.String,System.Double,System.Boolean)
+  id: ImportStepFileWithMessageOption(System.String,System.Double,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportStepFileWithMessageOption(string, double, bool)
+  nameWithType: IFileController.ImportStepFileWithMessageOption(string, double, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption(string, double, bool)
+  type: Method
+  source:
+    id: ImportStepFileWithMessageOption
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 41
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportStepFileWithMessageOption(string fileName, double scalingFactor, bool hideMessages)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: hideMessages
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportStepFileWithMessageOption(fileName As String, scalingFactor As Double, hideMessages As Boolean) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption*
+  nameWithType.vb: IFileController.ImportStepFileWithMessageOption(String, Double, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption(String, Double, Boolean)
+  name.vb: ImportStepFileWithMessageOption(String, Double, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportWebGl(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportWebGl(ICollection<ulong>, string)
+  nameWithType: IFileController.ExportWebGl(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportWebGl
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 49
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportWebGl(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportWebGl(elementIds As ICollection(Of ULong), fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl*
+  nameWithType.vb: IFileController.ExportWebGl(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportWebGl(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: Export3dFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Export3dFile(ICollection<ulong>, string)
+  nameWithType: IFileController.Export3dFile(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: Export3dFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 57
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool Export3dFile(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function Export3dFile(elementIds As ICollection(Of ULong), fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile*
+  nameWithType.vb: IFileController.Export3dFile(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: Export3dFile(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile(System.String,System.Double,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile(System.String,System.Double,System.Boolean)
+  id: ImportSatFile(System.String,System.Double,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportSatFile(string, double, bool)
+  nameWithType: IFileController.ImportSatFile(string, double, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile(string, double, bool)
+  type: Method
+  source:
+    id: ImportSatFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 66
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportSatFile(string fileName, double scalingFactor, bool useBinary)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: useBinary
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportSatFile(fileName As String, scalingFactor As Double, useBinary As Boolean) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile*
+  nameWithType.vb: IFileController.ImportSatFile(String, Double, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile(String, Double, Boolean)
+  name.vb: ImportSatFile(String, Double, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile(System.String)
+  id: Import3dcFile(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Import3dcFile(string)
+  nameWithType: IFileController.Import3dcFile(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile(string)
+  type: Method
+  source:
+    id: Import3dcFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 73
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> Import3dcFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function Import3dcFile(fileName As String) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile*
+  nameWithType.vb: IFileController.Import3dcFile(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile(String)
+  name.vb: Import3dcFile(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile(System.String,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile(System.String,System.Boolean)
+  id: ImportRhinoFile(System.String,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportRhinoFile(string, bool)
+  nameWithType: IFileController.ImportRhinoFile(string, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile(string, bool)
+  type: Method
+  source:
+    id: ImportRhinoFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 81
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportRhinoFile(string fileName, bool withoutDialog)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: withoutDialog
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportRhinoFile(fileName As String, withoutDialog As Boolean) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile*
+  nameWithType.vb: IFileController.ImportRhinoFile(String, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile(String, Boolean)
+  name.vb: ImportRhinoFile(String, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean)
+  id: ExportStepFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportStepFile(ICollection<ulong>, string, double, int, bool)
+  nameWithType: IFileController.ExportStepFile(ICollection<ulong>, string, double, int, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile(System.Collections.Generic.ICollection<ulong>, string, double, int, bool)
+  type: Method
+  source:
+    id: ExportStepFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 91
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportStepFile(ICollection<ulong> elementIds, string fileName, double scalingFactor, int version, bool useTextMode)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    - id: useTextMode
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ExportStepFile(elementIds As ICollection(Of ULong), fileName As String, scalingFactor As Double, version As Integer, useTextMode As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile*
+  nameWithType.vb: IFileController.ExportStepFile(ICollection(Of ULong), String, Double, Integer, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile(System.Collections.Generic.ICollection(Of ULong), String, Double, Integer, Boolean)
+  name.vb: ExportStepFile(ICollection(Of ULong), String, Double, Integer, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile(System.String)
+  id: Import3dzFile(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Import3dzFile(string)
+  nameWithType: IFileController.Import3dzFile(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile(string)
+  type: Method
+  source:
+    id: Import3dzFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 97
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void Import3dzFile(string aFilePath)
+    parameters:
+    - id: aFilePath
+      type: System.String
+      description: ''
+    content.vb: Sub Import3dzFile(aFilePath As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile*
+  nameWithType.vb: IFileController.Import3dzFile(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile(String)
+  name.vb: Import3dzFile(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportObjFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportObjFile(ICollection<ulong>, string)
+  nameWithType: IFileController.ExportObjFile(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportObjFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportObjFile(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportObjFile(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile*
+  nameWithType.vb: IFileController.ExportObjFile(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportObjFile(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently(System.String,System.Double,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently(System.String,System.Double,System.Boolean)
+  id: ImportSatFileSilently(System.String,System.Double,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportSatFileSilently(string, double, bool)
+  nameWithType: IFileController.ImportSatFileSilently(string, double, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently(string, double, bool)
+  type: Method
+  source:
+    id: ImportSatFileSilently
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 113
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportSatFileSilently(string fileName, double scalingFactor, bool useBinary)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: useBinary
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportSatFileSilently(fileName As String, scalingFactor As Double, useBinary As Boolean) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently*
+  nameWithType.vb: IFileController.ImportSatFileSilently(String, Double, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently(String, Double, Boolean)
+  name.vb: ImportSatFileSilently(String, Double, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.UInt32)
+  id: ExportFbxFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportFbxFile(ICollection<ulong>, string, uint)
+  nameWithType: IFileController.ExportFbxFile(ICollection<ulong>, string, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile(System.Collections.Generic.ICollection<ulong>, string, uint)
+  type: Method
+  source:
+    id: ExportFbxFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 121
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportFbxFile(ICollection<ulong> elementIds, string fileName, uint format)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: format
+      type: System.UInt32
+      description: ''
+    content.vb: Sub ExportFbxFile(elementIds As ICollection(Of ULong), fileName As String, format As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile*
+  nameWithType.vb: IFileController.ExportFbxFile(ICollection(Of ULong), String, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile(System.Collections.Generic.ICollection(Of ULong), String, UInteger)
+  name.vb: ExportFbxFile(ICollection(Of ULong), String, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IFileController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 126
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide(System.String)
+  id: Import3dcFileWithGlide(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Import3dcFileWithGlide(string)
+  nameWithType: IFileController.Import3dcFileWithGlide(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide(string)
+  type: Method
+  source:
+    id: Import3dcFileWithGlide
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 133
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> Import3dcFileWithGlide(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function Import3dcFileWithGlide(fileName As String) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide*
+  nameWithType.vb: IFileController.Import3dcFileWithGlide(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide(String)
+  name.vb: Import3dcFileWithGlide(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile(System.String)
+  id: ImportBtlFile(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportBtlFile(string)
+  nameWithType: IFileController.ImportBtlFile(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile(string)
+  type: Method
+  source:
+    id: ImportBtlFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 139
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ImportBtlFile(string aFilePath)
+    parameters:
+    - id: aFilePath
+      type: System.String
+      description: ''
+    content.vb: Sub ImportBtlFile(aFilePath As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile*
+  nameWithType.vb: IFileController.ImportBtlFile(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile(String)
+  name.vb: ImportBtlFile(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: Export3dcFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Export3dcFile(ICollection<ulong>, string)
+  nameWithType: IFileController.Export3dcFile(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: Export3dcFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 146
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void Export3dcFile(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub Export3dcFile(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile*
+  nameWithType.vb: IFileController.Export3dcFile(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: Export3dcFile(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting(System.String)
+  id: ImportBtlFileForNesting(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportBtlFileForNesting(string)
+  nameWithType: IFileController.ImportBtlFileForNesting(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting(string)
+  type: Method
+  source:
+    id: ImportBtlFileForNesting
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 152
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ImportBtlFileForNesting(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ImportBtlFileForNesting(fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting*
+  nameWithType.vb: IFileController.ImportBtlFileForNesting(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting(String)
+  name.vb: ImportBtlFileForNesting(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting(System.String)
+  id: ExportBtlFileForNesting(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportBtlFileForNesting(string)
+  nameWithType: IFileController.ExportBtlFileForNesting(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting(string)
+  type: Method
+  source:
+    id: ExportBtlFileForNesting
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 158
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportBtlFileForNesting(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportBtlFileForNesting(fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting*
+  nameWithType.vb: IFileController.ExportBtlFileForNesting(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting(String)
+  name.vb: ExportBtlFileForNesting(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean)
+  id: ExportRhinoFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportRhinoFile(ICollection<ulong>, string, int, bool, bool)
+  nameWithType: IFileController.ExportRhinoFile(ICollection<ulong>, string, int, bool, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile(System.Collections.Generic.ICollection<ulong>, string, int, bool, bool)
+  type: Method
+  source:
+    id: ExportRhinoFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 168
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportRhinoFile(ICollection<ulong> elementIds, string fileName, int version, bool useDefaultAssignments, bool writeStandardAttributes)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    - id: useDefaultAssignments
+      type: System.Boolean
+      description: ''
+    - id: writeStandardAttributes
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ExportRhinoFile(elementIds As ICollection(Of ULong), fileName As String, version As Integer, useDefaultAssignments As Boolean, writeStandardAttributes As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile*
+  nameWithType.vb: IFileController.ExportRhinoFile(ICollection(Of ULong), String, Integer, Boolean, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile(System.Collections.Generic.ICollection(Of ULong), String, Integer, Boolean, Boolean)
+  name.vb: ExportRhinoFile(ICollection(Of ULong), String, Integer, Boolean, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  id: ImportBxfFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportBxfFile(string, Vec3)
+  nameWithType: IFileController.ImportBxfFile(string, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile(string, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: ImportBxfFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 176
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportBxfFile(string fileName, Vec3 insertionPosition)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: insertionPosition
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportBxfFile(fileName As String, insertionPosition As Vec3) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile*
+  nameWithType.vb: IFileController.ImportBxfFile(String, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile(String, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ImportBxfFile(String, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath
+  id: GetBlumExportPath
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: GetBlumExportPath()
+  nameWithType: IFileController.GetBlumExportPath()
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath()
+  type: Method
+  source:
+    id: GetBlumExportPath
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 182
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetBlumExportPath()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetBlumExportPath() As String
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath*
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath(System.String)
+  id: SetBlumExportPath(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: SetBlumExportPath(string)
+  nameWithType: IFileController.SetBlumExportPath(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath(string)
+  type: Method
+  source:
+    id: SetBlumExportPath
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 188
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBlumExportPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: ''
+    content.vb: Sub SetBlumExportPath(path As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath*
+  nameWithType.vb: IFileController.SetBlumExportPath(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath(String)
+  name.vb: SetBlumExportPath(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy(System.UInt32,Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy(System.UInt32,Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  id: SetWebGlHierarchy(System.UInt32,Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: SetWebGlHierarchy(uint, DisplayAttribute)
+  nameWithType: IFileController.SetWebGlHierarchy(uint, DisplayAttribute)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy(uint, Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  type: Method
+  source:
+    id: SetWebGlHierarchy
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 195
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetWebGlHierarchy(uint stage, DisplayAttribute displayAttribute)
+    parameters:
+    - id: stage
+      type: System.UInt32
+      description: ''
+    - id: displayAttribute
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+      description: ''
+    content.vb: Sub SetWebGlHierarchy(stage As UInteger, displayAttribute As DisplayAttribute)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy*
+  nameWithType.vb: IFileController.SetWebGlHierarchy(UInteger, DisplayAttribute)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy(UInteger, Cadwork.CwAPI3D.Enums.DisplayAttribute)
+  name.vb: SetWebGlHierarchy(UInteger, DisplayAttribute)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  id: ExportSatFile(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportSatFile(ICollection<ulong>, string, double, bool, int)
+  nameWithType: IFileController.ExportSatFile(ICollection<ulong>, string, double, bool, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile(System.Collections.Generic.ICollection<ulong>, string, double, bool, int)
+  type: Method
+  source:
+    id: ExportSatFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 205
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportSatFile(ICollection<ulong> elementIds, string fileName, double scalingFactor, bool useBinary, int version)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: useBinary
+      type: System.Boolean
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    content.vb: Sub ExportSatFile(elementIds As ICollection(Of ULong), fileName As String, scalingFactor As Double, useBinary As Boolean, version As Integer)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile*
+  nameWithType.vb: IFileController.ExportSatFile(ICollection(Of ULong), String, Double, Boolean, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile(System.Collections.Generic.ICollection(Of ULong), String, Double, Boolean, Integer)
+  name.vb: ExportSatFile(ICollection(Of ULong), String, Double, Boolean, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportGlbFile(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportGlbFile(ICollection<ulong>, string)
+  nameWithType: IFileController.ExportGlbFile(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportGlbFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 212
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportGlbFile(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportGlbFile(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile*
+  nameWithType.vb: IFileController.ExportGlbFile(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportGlbFile(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  id: ImportVariantFile(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportVariantFile(string, Vec3)
+  nameWithType: IFileController.ImportVariantFile(string, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile(string, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: ImportVariantFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 220
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportVariantFile(string fileName, Vec3 insertionPosition)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: insertionPosition
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportVariantFile(fileName As String, insertionPosition As Vec3) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile*
+  nameWithType.vb: IFileController.ImportVariantFile(String, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile(String, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ImportVariantFile(String, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  id: ImportElementLight(System.String,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ImportElementLight(string, Vec3)
+  nameWithType: IFileController.ImportElementLight(string, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight(string, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: ImportElementLight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 228
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong ImportElementLight(string fileName, Vec3 insertionPosition)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: insertionPosition
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function ImportElementLight(fileName As String, insertionPosition As Vec3) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight*
+  nameWithType.vb: IFileController.ImportElementLight(String, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight(String, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ImportElementLight(String, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean,Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean,Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  id: ExportRhinoFileWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Int32,System.Boolean,System.Boolean,Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportRhinoFileWithOptions(ICollection<ulong>, string, int, bool, bool, IRhinoOptions)
+  nameWithType: IFileController.ExportRhinoFileWithOptions(ICollection<ulong>, string, int, bool, bool, IRhinoOptions)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions(System.Collections.Generic.ICollection<ulong>, string, int, bool, bool, Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  type: Method
+  source:
+    id: ExportRhinoFileWithOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 239
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportRhinoFileWithOptions(ICollection<ulong> elementIds, string fileName, int version, bool useDefaultAssignments, bool writeStandardAttributes, IRhinoOptions rhinoOptions)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    - id: useDefaultAssignments
+      type: System.Boolean
+      description: ''
+    - id: writeStandardAttributes
+      type: System.Boolean
+      description: ''
+    - id: rhinoOptions
+      type: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+      description: ''
+    content.vb: Sub ExportRhinoFileWithOptions(elementIds As ICollection(Of ULong), fileName As String, version As Integer, useDefaultAssignments As Boolean, writeStandardAttributes As Boolean, rhinoOptions As IRhinoOptions)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions*
+  nameWithType.vb: IFileController.ExportRhinoFileWithOptions(ICollection(Of ULong), String, Integer, Boolean, Boolean, IRhinoOptions)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions(System.Collections.Generic.ICollection(Of ULong), String, Integer, Boolean, Boolean, Cadwork.CwAPI3D.Helpers.IRhinoOptions)
+  name.vb: ExportRhinoFileWithOptions(ICollection(Of ULong), String, Integer, Boolean, Boolean, IRhinoOptions)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions(System.String,Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions(System.String,Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  id: Import3dcFileWithOptions(System.String,Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: Import3dcFileWithOptions(string, IImport3dcOptions)
+  nameWithType: IFileController.Import3dcFileWithOptions(string, IImport3dcOptions)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions(string, Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  type: Method
+  source:
+    id: Import3dcFileWithOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 247
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> Import3dcFileWithOptions(string fileName, IImport3dcOptions import3dcOptions)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: import3dcOptions
+      type: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function Import3dcFileWithOptions(fileName As String, import3dcOptions As IImport3dcOptions) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions*
+  nameWithType.vb: IFileController.Import3dcFileWithOptions(String, IImport3dcOptions)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions(String, Cadwork.CwAPI3D.Helpers.IImport3dcOptions)
+  name.vb: Import3dcFileWithOptions(String, IImport3dcOptions)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile(System.String)
+  id: LoadWebGlPresetFile(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: LoadWebGlPresetFile(string)
+  nameWithType: IFileController.LoadWebGlPresetFile(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile(string)
+  type: Method
+  source:
+    id: LoadWebGlPresetFile
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 253
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void LoadWebGlPresetFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub LoadWebGlPresetFile(fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile*
+  nameWithType.vb: IFileController.LoadWebGlPresetFile(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile(String)
+  name.vb: LoadWebGlPresetFile(String)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean,System.Boolean)
+  id: ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Int32,System.Boolean,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportStepFileExtrudeDrillingAxes(ICollection<ulong>, string, double, int, bool, bool)
+  nameWithType: IFileController.ExportStepFileExtrudeDrillingAxes(ICollection<ulong>, string, double, int, bool, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection<ulong>, string, double, int, bool, bool)
+  type: Method
+  source:
+    id: ExportStepFileExtrudeDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 264
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportStepFileExtrudeDrillingAxes(ICollection<ulong> elementIds, string fileName, double scalingFactor, int version, bool useTextMode, bool useImperialUnits)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    - id: useTextMode
+      type: System.Boolean
+      description: ''
+    - id: useImperialUnits
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ExportStepFileExtrudeDrillingAxes(elementIds As ICollection(Of ULong), fileName As String, scalingFactor As Double, version As Integer, useTextMode As Boolean, useImperialUnits As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes*
+  nameWithType.vb: IFileController.ExportStepFileExtrudeDrillingAxes(ICollection(Of ULong), String, Double, Integer, Boolean, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes(System.Collections.Generic.ICollection(Of ULong), String, Double, Integer, Boolean, Boolean)
+  name.vb: ExportStepFileExtrudeDrillingAxes(ICollection(Of ULong), String, Double, Integer, Boolean, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  id: ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection{System.UInt64},System.String,System.Double,System.Boolean,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IFileController
+  langs:
+  - csharp
+  - vb
+  name: ExportSatFileCutDrillingAxes(ICollection<ulong>, string, double, bool, int)
+  nameWithType: IFileController.ExportSatFileCutDrillingAxes(ICollection<ulong>, string, double, bool, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection<ulong>, string, double, bool, int)
+  type: Method
+  source:
+    id: ExportSatFileCutDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IFileController.cs
+    startLine: 274
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportSatFileCutDrillingAxes(ICollection<ulong> elementIds, string fileName, double scalingFactor, bool useBinary, int version)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: scalingFactor
+      type: System.Double
+      description: ''
+    - id: useBinary
+      type: System.Boolean
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    content.vb: Sub ExportSatFileCutDrillingAxes(elementIds As ICollection(Of ULong), fileName As String, scalingFactor As Double, useBinary As Boolean, version As Integer)
+  overload: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes*
+  nameWithType.vb: IFileController.ExportSatFileCutDrillingAxes(ICollection(Of ULong), String, Double, Boolean, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes(System.Collections.Generic.ICollection(Of ULong), String, Double, Boolean, Integer)
+  name.vb: ExportSatFileCutDrillingAxes(ICollection(Of ULong), String, Double, Boolean, Integer)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_GetLastError
+  name: GetLastError
+  nameWithType: IFileController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportStlFile_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportStlFile
+  nameWithType: IFileController.ExportStlFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStlFile
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportStepFile_System_String_System_Double_
+  name: ImportStepFile
+  nameWithType: IFileController.ImportStepFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFile
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportStepFileWithMessageOption_System_String_System_Double_System_Boolean_
+  name: ImportStepFileWithMessageOption
+  nameWithType: IFileController.ImportStepFileWithMessageOption
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportStepFileWithMessageOption
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportWebGl_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportWebGl
+  nameWithType: IFileController.ExportWebGl
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportWebGl
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Export3dFile_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: Export3dFile
+  nameWithType: IFileController.Export3dFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Export3dFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportSatFile_System_String_System_Double_System_Boolean_
+  name: ImportSatFile
+  nameWithType: IFileController.ImportSatFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Import3dcFile_System_String_
+  name: Import3dcFile
+  nameWithType: IFileController.Import3dcFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportRhinoFile_System_String_System_Boolean_
+  name: ImportRhinoFile
+  nameWithType: IFileController.ImportRhinoFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportRhinoFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportStepFile_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Double_System_Int32_System_Boolean_
+  name: ExportStepFile
+  nameWithType: IFileController.ExportStepFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFile
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Import3dzFile_System_String_
+  name: Import3dzFile
+  nameWithType: IFileController.Import3dzFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dzFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportObjFile_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportObjFile
+  nameWithType: IFileController.ExportObjFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportObjFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportSatFileSilently_System_String_System_Double_System_Boolean_
+  name: ImportSatFileSilently
+  nameWithType: IFileController.ImportSatFileSilently
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportSatFileSilently
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportFbxFile_System_Collections_Generic_ICollection_System_UInt64__System_String_System_UInt32_
+  name: ExportFbxFile
+  nameWithType: IFileController.ExportFbxFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportFbxFile
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ClearErrors
+  name: ClearErrors
+  nameWithType: IFileController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Import3dcFileWithGlide_System_String_
+  name: Import3dcFileWithGlide
+  nameWithType: IFileController.Import3dcFileWithGlide
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithGlide
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportBtlFile_System_String_
+  name: ImportBtlFile
+  nameWithType: IFileController.ImportBtlFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Export3dcFile_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: Export3dcFile
+  nameWithType: IFileController.Export3dcFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Export3dcFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportBtlFileForNesting_System_String_
+  name: ImportBtlFileForNesting
+  nameWithType: IFileController.ImportBtlFileForNesting
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBtlFileForNesting
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportBtlFileForNesting_System_String_
+  name: ExportBtlFileForNesting
+  nameWithType: IFileController.ExportBtlFileForNesting
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportBtlFileForNesting
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportRhinoFile_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Int32_System_Boolean_System_Boolean_
+  name: ExportRhinoFile
+  nameWithType: IFileController.ExportRhinoFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportBxfFile_System_String_Cadwork_CwAPI3D_Structs_Vec3_
+  name: ImportBxfFile
+  nameWithType: IFileController.ImportBxfFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportBxfFile
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_GetBlumExportPath
+  name: GetBlumExportPath
+  nameWithType: IFileController.GetBlumExportPath
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.GetBlumExportPath
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_SetBlumExportPath_System_String_
+  name: SetBlumExportPath
+  nameWithType: IFileController.SetBlumExportPath
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.SetBlumExportPath
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_SetWebGlHierarchy_System_UInt32_Cadwork_CwAPI3D_Enums_DisplayAttribute_
+  name: SetWebGlHierarchy
+  nameWithType: IFileController.SetWebGlHierarchy
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.SetWebGlHierarchy
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  commentId: T:Cadwork.CwAPI3D.Enums.DisplayAttribute
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.DisplayAttribute.html
+  name: DisplayAttribute
+  nameWithType: DisplayAttribute
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportSatFile_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Double_System_Boolean_System_Int32_
+  name: ExportSatFile
+  nameWithType: IFileController.ExportSatFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportGlbFile_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportGlbFile
+  nameWithType: IFileController.ExportGlbFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportGlbFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportVariantFile_System_String_Cadwork_CwAPI3D_Structs_Vec3_
+  name: ImportVariantFile
+  nameWithType: IFileController.ImportVariantFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportVariantFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ImportElementLight_System_String_Cadwork_CwAPI3D_Structs_Vec3_
+  name: ImportElementLight
+  nameWithType: IFileController.ImportElementLight
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ImportElementLight
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportRhinoFileWithOptions_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Int32_System_Boolean_System_Boolean_Cadwork_CwAPI3D_Helpers_IRhinoOptions_
+  name: ExportRhinoFileWithOptions
+  nameWithType: IFileController.ExportRhinoFileWithOptions
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportRhinoFileWithOptions
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html
+  name: IRhinoOptions
+  nameWithType: IRhinoOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_Import3dcFileWithOptions_System_String_Cadwork_CwAPI3D_Helpers_IImport3dcOptions_
+  name: Import3dcFileWithOptions
+  nameWithType: IFileController.Import3dcFileWithOptions
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.Import3dcFileWithOptions
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html
+  name: IImport3dcOptions
+  nameWithType: IImport3dcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_LoadWebGlPresetFile_System_String_
+  name: LoadWebGlPresetFile
+  nameWithType: IFileController.LoadWebGlPresetFile
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.LoadWebGlPresetFile
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportStepFileExtrudeDrillingAxes_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Double_System_Int32_System_Boolean_System_Boolean_
+  name: ExportStepFileExtrudeDrillingAxes
+  nameWithType: IFileController.ExportStepFileExtrudeDrillingAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportStepFileExtrudeDrillingAxes
+- uid: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html#Cadwork_CwAPI3D_Controllers_IFileController_ExportSatFileCutDrillingAxes_System_Collections_Generic_ICollection_System_UInt64__System_String_System_Double_System_Boolean_System_Int32_
+  name: ExportSatFileCutDrillingAxes
+  nameWithType: IFileController.ExportSatFileCutDrillingAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController.ExportSatFileCutDrillingAxes

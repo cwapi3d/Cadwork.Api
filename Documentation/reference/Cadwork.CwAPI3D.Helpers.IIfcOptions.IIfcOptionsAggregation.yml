@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  id: IIfcOptions.IIfcOptionsAggregation
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  langs:
+  - csharp
+  - vb
+  name: IIfcOptions.IIfcOptionsAggregation
+  nameWithType: IIfcOptions.IIfcOptionsAggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  type: Interface
+  source:
+    id: IIfcOptionsAggregation
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 155
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IIfcOptions.IIfcOptionsAggregation
+    content.vb: Public Interface IIfcOptions.IIfcOptionsAggregation
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  id: ConsiderElementModuleAggregation
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  langs:
+  - csharp
+  - vb
+  name: ConsiderElementModuleAggregation
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  type: Property
+  source:
+    id: ConsiderElementModuleAggregation
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 160
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ConsiderElementModuleAggregation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ConsiderElementModuleAggregation As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  id: ElementModuleAggregationAttribute
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  langs:
+  - csharp
+  - vb
+  name: ElementModuleAggregationAttribute
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  type: Property
+  source:
+    id: ElementModuleAggregationAttribute
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 165
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: ElementGroupingType ElementModuleAggregationAttribute { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementGroupingType
+    content.vb: Property ElementModuleAggregationAttribute As ElementGroupingType
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  id: ExportElementCombineBehavior
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  langs:
+  - csharp
+  - vb
+  name: ExportElementCombineBehavior
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  type: Property
+  source:
+    id: ExportElementCombineBehavior
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 170
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IfcElementCombineBehaviour ExportElementCombineBehavior { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+    content.vb: Property ExportElementCombineBehavior As IfcElementCombineBehaviour
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  id: ExportCoverGeometry
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  langs:
+  - csharp
+  - vb
+  name: ExportCoverGeometry
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  type: Property
+  source:
+    id: ExportCoverGeometry
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 175
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportCoverGeometry { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportCoverGeometry As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsAggregation_ConsiderElementModuleAggregation
+  name: ConsiderElementModuleAggregation
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ConsiderElementModuleAggregation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsAggregation_ElementModuleAggregationAttribute
+  name: ElementModuleAggregationAttribute
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ElementModuleAggregationAttribute
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementGroupingType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ElementGroupingType.html
+  name: ElementGroupingType
+  nameWithType: ElementGroupingType
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsAggregation_ExportElementCombineBehavior
+  name: ExportElementCombineBehavior
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportElementCombineBehavior
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.html
+  name: IfcElementCombineBehaviour
+  nameWithType: IfcElementCombineBehaviour
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsAggregation_ExportCoverGeometry
+  name: ExportCoverGeometry
+  nameWithType: IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.ExportCoverGeometry

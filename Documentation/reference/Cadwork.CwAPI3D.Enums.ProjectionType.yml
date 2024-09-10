@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProjectionType
+  id: ProjectionType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ProjectionType.Orthographic
+  - Cadwork.CwAPI3D.Enums.ProjectionType.Perspective
+  langs:
+  - csharp
+  - vb
+  name: ProjectionType
+  nameWithType: ProjectionType
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType
+  type: Enum
+  source:
+    id: ProjectionType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProjectionType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ProjectionType
+    content.vb: Public Enum ProjectionType
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType.Perspective
+  commentId: F:Cadwork.CwAPI3D.Enums.ProjectionType.Perspective
+  id: Perspective
+  parent: Cadwork.CwAPI3D.Enums.ProjectionType
+  langs:
+  - csharp
+  - vb
+  name: Perspective
+  nameWithType: ProjectionType.Perspective
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType.Perspective
+  type: Field
+  source:
+    id: Perspective
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProjectionType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Perspective = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProjectionType
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType.Orthographic
+  commentId: F:Cadwork.CwAPI3D.Enums.ProjectionType.Orthographic
+  id: Orthographic
+  parent: Cadwork.CwAPI3D.Enums.ProjectionType
+  langs:
+  - csharp
+  - vb
+  name: Orthographic
+  nameWithType: ProjectionType.Orthographic
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType.Orthographic
+  type: Field
+  source:
+    id: Orthographic
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ProjectionType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Orthographic = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProjectionType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProjectionType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ProjectionType.html
+  name: ProjectionType
+  nameWithType: ProjectionType
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType

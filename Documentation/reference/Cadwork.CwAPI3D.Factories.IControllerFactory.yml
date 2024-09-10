@@ -1,0 +1,1224 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory
+  commentId: T:Cadwork.CwAPI3D.Factories.IControllerFactory
+  id: IControllerFactory
+  parent: Cadwork.CwAPI3D.Factories
+  children:
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController
+  - Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IControllerFactory
+  nameWithType: IControllerFactory
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory
+  type: Interface
+  source:
+    id: IControllerFactory
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IControllerFactory
+    content.vb: Public Interface IControllerFactory
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController
+  id: GetAttributeController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetAttributeController()
+  nameWithType: IControllerFactory.GetAttributeController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController()
+  type: Method
+  source:
+    id: GetAttributeController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IAttributeController GetAttributeController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IAttributeController
+      description: ''
+    content.vb: Function GetAttributeController() As IAttributeController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController
+  id: GetConnectorAxisController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetConnectorAxisController()
+  nameWithType: IControllerFactory.GetConnectorAxisController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController()
+  type: Method
+  source:
+    id: GetConnectorAxisController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IConnectorAxisController GetConnectorAxisController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+      description: ''
+    content.vb: Function GetConnectorAxisController() As IConnectorAxisController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController
+  id: GetElementController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetElementController()
+  nameWithType: IControllerFactory.GetElementController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController()
+  type: Method
+  source:
+    id: GetElementController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IElementController GetElementController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IElementController
+      description: ''
+    content.vb: Function GetElementController() As IElementController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController
+  id: GetFileController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetFileController()
+  nameWithType: IControllerFactory.GetFileController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController()
+  type: Method
+  source:
+    id: GetFileController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IFileController GetFileController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IFileController
+      description: ''
+    content.vb: Function GetFileController() As IFileController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController
+  id: GetGeometryController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetGeometryController()
+  nameWithType: IControllerFactory.GetGeometryController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController()
+  type: Method
+  source:
+    id: GetGeometryController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IGeometryController GetGeometryController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IGeometryController
+      description: ''
+    content.vb: Function GetGeometryController() As IGeometryController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController
+  id: GetListController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetListController()
+  nameWithType: IControllerFactory.GetListController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController()
+  type: Method
+  source:
+    id: GetListController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 44
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IListController GetListController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IListController
+      description: ''
+    content.vb: Function GetListController() As IListController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController
+  id: GetMachineController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetMachineController()
+  nameWithType: IControllerFactory.GetMachineController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController()
+  type: Method
+  source:
+    id: GetMachineController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IMachineController GetMachineController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IMachineController
+      description: ''
+    content.vb: Function GetMachineController() As IMachineController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController
+  id: GetMaterialController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialController()
+  nameWithType: IControllerFactory.GetMaterialController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController()
+  type: Method
+  source:
+    id: GetMaterialController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 56
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IMaterialController GetMaterialController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IMaterialController
+      description: ''
+    content.vb: Function GetMaterialController() As IMaterialController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController
+  id: GetMenuController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetMenuController()
+  nameWithType: IControllerFactory.GetMenuController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController()
+  type: Method
+  source:
+    id: GetMenuController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 62
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IMenuController GetMenuController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IMenuController
+      description: ''
+    content.vb: Function GetMenuController() As IMenuController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController
+  id: GetSceneController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetSceneController()
+  nameWithType: IControllerFactory.GetSceneController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController()
+  type: Method
+  source:
+    id: GetSceneController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 68
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: ISceneController GetSceneController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.ISceneController
+      description: ''
+    content.vb: Function GetSceneController() As ISceneController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController
+  id: GetShopDrawingController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetShopDrawingController()
+  nameWithType: IControllerFactory.GetShopDrawingController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController()
+  type: Method
+  source:
+    id: GetShopDrawingController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IShopDrawingController GetShopDrawingController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IShopDrawingController
+      description: ''
+    content.vb: Function GetShopDrawingController() As IShopDrawingController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController
+  id: GetUtilityController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetUtilityController()
+  nameWithType: IControllerFactory.GetUtilityController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController()
+  type: Method
+  source:
+    id: GetUtilityController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 80
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IUtilityController GetUtilityController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IUtilityController
+      description: ''
+    content.vb: Function GetUtilityController() As IUtilityController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController
+  id: GetVisualizationController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetVisualizationController()
+  nameWithType: IControllerFactory.GetVisualizationController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController()
+  type: Method
+  source:
+    id: GetVisualizationController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 86
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IVisualizationController GetVisualizationController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IVisualizationController
+      description: ''
+    content.vb: Function GetVisualizationController() As IVisualizationController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController
+  id: GetEndTypeController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeController()
+  nameWithType: IControllerFactory.GetEndTypeController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController()
+  type: Method
+  source:
+    id: GetEndTypeController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 92
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IEndTypeController GetEndTypeController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IEndTypeController
+      description: ''
+    content.vb: Function GetEndTypeController() As IEndTypeController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties
+  id: CreateEmptyElementModuleProperties
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEmptyElementModuleProperties()
+  nameWithType: IControllerFactory.CreateEmptyElementModuleProperties()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties()
+  type: Method
+  source:
+    id: CreateEmptyElementModuleProperties
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 98
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IElementModuleProperties CreateEmptyElementModuleProperties()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+      description: ''
+    content.vb: Function CreateEmptyElementModuleProperties() As IElementModuleProperties
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController
+  id: GetRoofController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRoofController()
+  nameWithType: IControllerFactory.GetRoofController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController()
+  type: Method
+  source:
+    id: GetRoofController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IRoofController GetRoofController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IRoofController
+      description: ''
+    content.vb: Function GetRoofController() As IRoofController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController
+  id: GetBimController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetBimController()
+  nameWithType: IControllerFactory.GetBimController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController()
+  type: Method
+  source:
+    id: GetBimController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 110
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IBimController GetBimController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IBimController
+      description: ''
+    content.vb: Function GetBimController() As IBimController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings
+  id: CreateEmptyLayerSettings
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEmptyLayerSettings()
+  nameWithType: IControllerFactory.CreateEmptyLayerSettings()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings()
+  type: Method
+  source:
+    id: CreateEmptyLayerSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 116
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: ILayerSettings CreateEmptyLayerSettings()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.ILayerSettings
+      description: ''
+    content.vb: Function CreateEmptyLayerSettings() As ILayerSettings
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController
+  id: GetDimensionController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetDimensionController()
+  nameWithType: IControllerFactory.GetDimensionController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController()
+  type: Method
+  source:
+    id: GetDimensionController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 122
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IDimensionController GetDimensionController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IDimensionController
+      description: ''
+    content.vb: Function GetDimensionController() As IDimensionController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController
+  id: GetGridController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetGridController()
+  nameWithType: IControllerFactory.GetGridController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController()
+  type: Method
+  source:
+    id: GetGridController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 128
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IGridController GetGridController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IGridController
+      description: ''
+    content.vb: Function GetGridController() As IGridController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings
+  id: CreateEmptyExtendedSettings
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateEmptyExtendedSettings()
+  nameWithType: IControllerFactory.CreateEmptyExtendedSettings()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings()
+  type: Method
+  source:
+    id: CreateEmptyExtendedSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 134
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IExtendedSettings CreateEmptyExtendedSettings()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+      description: ''
+    content.vb: Function CreateEmptyExtendedSettings() As IExtendedSettings
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions
+  id: CreateRhinoOptions
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateRhinoOptions()
+  nameWithType: IControllerFactory.CreateRhinoOptions()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions()
+  type: Method
+  source:
+    id: CreateRhinoOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 140
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IRhinoOptions CreateRhinoOptions()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+      description: ''
+    content.vb: Function CreateRhinoOptions() As IRhinoOptions
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions
+  id: CreateIfcOptions
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateIfcOptions()
+  nameWithType: IControllerFactory.CreateIfcOptions()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions()
+  type: Method
+  source:
+    id: CreateIfcOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 146
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions CreateIfcOptions()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions
+      description: ''
+    content.vb: Function CreateIfcOptions() As IIfcOptions
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions
+  id: CreateTextObjectOptions
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateTextObjectOptions()
+  nameWithType: IControllerFactory.CreateTextObjectOptions()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions()
+  type: Method
+  source:
+    id: CreateTextObjectOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 152
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: ITextObjectOptions CreateTextObjectOptions()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+      description: ''
+    content.vb: Function CreateTextObjectOptions() As ITextObjectOptions
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData
+  id: CreateCameraData
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateCameraData()
+  nameWithType: IControllerFactory.CreateCameraData()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData()
+  type: Method
+  source:
+    id: CreateCameraData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 158
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: ICameraData CreateCameraData()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.ICameraData
+      description: ''
+    content.vb: Function CreateCameraData() As ICameraData
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController
+  id: GetMultiLayerCoverController
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: GetMultiLayerCoverController()
+  nameWithType: IControllerFactory.GetMultiLayerCoverController()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController()
+  type: Method
+  source:
+    id: GetMultiLayerCoverController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 164
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IMultiLayerCoverController GetMultiLayerCoverController()
+    return:
+      type: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+      description: ''
+    content.vb: Function GetMultiLayerCoverController() As IMultiLayerCoverController
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController*
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions
+  commentId: M:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions
+  id: CreateImport3dcOptions
+  parent: Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateImport3dcOptions()
+  nameWithType: IControllerFactory.CreateImport3dcOptions()
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions()
+  type: Method
+  source:
+    id: CreateImport3dcOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Factories\IControllerFactory.cs
+    startLine: 170
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Factories
+  summary: ''
+  example: []
+  syntax:
+    content: IImport3dcOptions CreateImport3dcOptions()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+      description: ''
+    content.vb: Function CreateImport3dcOptions() As IImport3dcOptions
+  overload: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions*
+references:
+- uid: Cadwork.CwAPI3D.Factories
+  commentId: N:Cadwork.CwAPI3D.Factories
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Factories
+  nameWithType: Cadwork.CwAPI3D.Factories
+  fullName: Cadwork.CwAPI3D.Factories
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Factories
+    name: Factories
+    href: Cadwork.CwAPI3D.Factories.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Factories
+    name: Factories
+    href: Cadwork.CwAPI3D.Factories.html
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetAttributeController
+  name: GetAttributeController
+  nameWithType: IControllerFactory.GetAttributeController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetAttributeController
+- uid: Cadwork.CwAPI3D.Controllers.IAttributeController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IAttributeController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IAttributeController.html
+  name: IAttributeController
+  nameWithType: IAttributeController
+  fullName: Cadwork.CwAPI3D.Controllers.IAttributeController
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetConnectorAxisController
+  name: GetConnectorAxisController
+  nameWithType: IControllerFactory.GetConnectorAxisController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetConnectorAxisController
+- uid: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IConnectorAxisController.html
+  name: IConnectorAxisController
+  nameWithType: IConnectorAxisController
+  fullName: Cadwork.CwAPI3D.Controllers.IConnectorAxisController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetElementController
+  name: GetElementController
+  nameWithType: IControllerFactory.GetElementController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetElementController
+- uid: Cadwork.CwAPI3D.Controllers.IElementController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IElementController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IElementController.html
+  name: IElementController
+  nameWithType: IElementController
+  fullName: Cadwork.CwAPI3D.Controllers.IElementController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetFileController
+  name: GetFileController
+  nameWithType: IControllerFactory.GetFileController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetFileController
+- uid: Cadwork.CwAPI3D.Controllers.IFileController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IFileController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IFileController.html
+  name: IFileController
+  nameWithType: IFileController
+  fullName: Cadwork.CwAPI3D.Controllers.IFileController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetGeometryController
+  name: GetGeometryController
+  nameWithType: IControllerFactory.GetGeometryController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGeometryController
+- uid: Cadwork.CwAPI3D.Controllers.IGeometryController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IGeometryController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IGeometryController.html
+  name: IGeometryController
+  nameWithType: IGeometryController
+  fullName: Cadwork.CwAPI3D.Controllers.IGeometryController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetListController
+  name: GetListController
+  nameWithType: IControllerFactory.GetListController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetListController
+- uid: Cadwork.CwAPI3D.Controllers.IListController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IListController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IListController.html
+  name: IListController
+  nameWithType: IListController
+  fullName: Cadwork.CwAPI3D.Controllers.IListController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetMachineController
+  name: GetMachineController
+  nameWithType: IControllerFactory.GetMachineController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMachineController
+- uid: Cadwork.CwAPI3D.Controllers.IMachineController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMachineController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IMachineController.html
+  name: IMachineController
+  nameWithType: IMachineController
+  fullName: Cadwork.CwAPI3D.Controllers.IMachineController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetMaterialController
+  name: GetMaterialController
+  nameWithType: IControllerFactory.GetMaterialController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMaterialController
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMaterialController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html
+  name: IMaterialController
+  nameWithType: IMaterialController
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetMenuController
+  name: GetMenuController
+  nameWithType: IControllerFactory.GetMenuController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMenuController
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMenuController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html
+  name: IMenuController
+  nameWithType: IMenuController
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetSceneController
+  name: GetSceneController
+  nameWithType: IControllerFactory.GetSceneController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetSceneController
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController
+  commentId: T:Cadwork.CwAPI3D.Controllers.ISceneController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html
+  name: ISceneController
+  nameWithType: ISceneController
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetShopDrawingController
+  name: GetShopDrawingController
+  nameWithType: IControllerFactory.GetShopDrawingController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetShopDrawingController
+- uid: Cadwork.CwAPI3D.Controllers.IShopDrawingController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IShopDrawingController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IShopDrawingController.html
+  name: IShopDrawingController
+  nameWithType: IShopDrawingController
+  fullName: Cadwork.CwAPI3D.Controllers.IShopDrawingController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetUtilityController
+  name: GetUtilityController
+  nameWithType: IControllerFactory.GetUtilityController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetUtilityController
+- uid: Cadwork.CwAPI3D.Controllers.IUtilityController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IUtilityController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IUtilityController.html
+  name: IUtilityController
+  nameWithType: IUtilityController
+  fullName: Cadwork.CwAPI3D.Controllers.IUtilityController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetVisualizationController
+  name: GetVisualizationController
+  nameWithType: IControllerFactory.GetVisualizationController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetVisualizationController
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IVisualizationController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html
+  name: IVisualizationController
+  nameWithType: IVisualizationController
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetEndTypeController
+  name: GetEndTypeController
+  nameWithType: IControllerFactory.GetEndTypeController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetEndTypeController
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IEndTypeController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html
+  name: IEndTypeController
+  nameWithType: IEndTypeController
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateEmptyElementModuleProperties
+  name: CreateEmptyElementModuleProperties
+  nameWithType: IControllerFactory.CreateEmptyElementModuleProperties
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyElementModuleProperties
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  commentId: T:Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html
+  name: IElementModuleProperties
+  nameWithType: IElementModuleProperties
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetRoofController
+  name: GetRoofController
+  nameWithType: IControllerFactory.GetRoofController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetRoofController
+- uid: Cadwork.CwAPI3D.Controllers.IRoofController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IRoofController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IRoofController.html
+  name: IRoofController
+  nameWithType: IRoofController
+  fullName: Cadwork.CwAPI3D.Controllers.IRoofController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetBimController
+  name: GetBimController
+  nameWithType: IControllerFactory.GetBimController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetBimController
+- uid: Cadwork.CwAPI3D.Controllers.IBimController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IBimController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html
+  name: IBimController
+  nameWithType: IBimController
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateEmptyLayerSettings
+  name: CreateEmptyLayerSettings
+  nameWithType: IControllerFactory.CreateEmptyLayerSettings
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyLayerSettings
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.ILayerSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html
+  name: ILayerSettings
+  nameWithType: ILayerSettings
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetDimensionController
+  name: GetDimensionController
+  nameWithType: IControllerFactory.GetDimensionController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetDimensionController
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IDimensionController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html
+  name: IDimensionController
+  nameWithType: IDimensionController
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetGridController
+  name: GetGridController
+  nameWithType: IControllerFactory.GetGridController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetGridController
+- uid: Cadwork.CwAPI3D.Controllers.IGridController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IGridController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IGridController.html
+  name: IGridController
+  nameWithType: IGridController
+  fullName: Cadwork.CwAPI3D.Controllers.IGridController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateEmptyExtendedSettings
+  name: CreateEmptyExtendedSettings
+  nameWithType: IControllerFactory.CreateEmptyExtendedSettings
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateEmptyExtendedSettings
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html
+  name: IExtendedSettings
+  nameWithType: IExtendedSettings
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateRhinoOptions
+  name: CreateRhinoOptions
+  nameWithType: IControllerFactory.CreateRhinoOptions
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateRhinoOptions
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html
+  name: IRhinoOptions
+  nameWithType: IRhinoOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateIfcOptions
+  name: CreateIfcOptions
+  nameWithType: IControllerFactory.CreateIfcOptions
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateIfcOptions
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions
+  nameWithType: IIfcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateTextObjectOptions
+  name: CreateTextObjectOptions
+  nameWithType: IControllerFactory.CreateTextObjectOptions
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateTextObjectOptions
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html
+  name: ITextObjectOptions
+  nameWithType: ITextObjectOptions
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateCameraData
+  name: CreateCameraData
+  nameWithType: IControllerFactory.CreateCameraData
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateCameraData
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData
+  commentId: T:Cadwork.CwAPI3D.Helpers.ICameraData
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html
+  name: ICameraData
+  nameWithType: ICameraData
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_GetMultiLayerCoverController
+  name: GetMultiLayerCoverController
+  nameWithType: IControllerFactory.GetMultiLayerCoverController
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.GetMultiLayerCoverController
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  parent: Cadwork.CwAPI3D.Controllers
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html
+  name: IMultiLayerCoverController
+  nameWithType: IMultiLayerCoverController
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html#Cadwork_CwAPI3D_Factories_IControllerFactory_CreateImport3dcOptions
+  name: CreateImport3dcOptions
+  nameWithType: IControllerFactory.CreateImport3dcOptions
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory.CreateImport3dcOptions
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html
+  name: IImport3dcOptions
+  nameWithType: IImport3dcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions

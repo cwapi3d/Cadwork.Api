@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  id: IRhinoOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+  langs:
+  - csharp
+  - vb
+  name: IRhinoOptions
+  nameWithType: IRhinoOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  type: Interface
+  source:
+    id: IRhinoOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IRhinoOptions
+    content.vb: Public Interface IRhinoOptions
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+  id: MaterializeEndTypes
+  parent: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  langs:
+  - csharp
+  - vb
+  name: MaterializeEndTypes
+  nameWithType: IRhinoOptions.MaterializeEndTypes
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+  type: Property
+  source:
+    id: MaterializeEndTypes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool MaterializeEndTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property MaterializeEndTypes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes*
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+  commentId: P:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+  id: CutEndTypesCounterparts
+  parent: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  langs:
+  - csharp
+  - vb
+  name: CutEndTypesCounterparts
+  nameWithType: IRhinoOptions.CutEndTypesCounterparts
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+  type: Property
+  source:
+    id: CutEndTypesCounterparts
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutEndTypesCounterparts { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutEndTypesCounterparts As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts*
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+  id: CutDrillingAxes
+  parent: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  langs:
+  - csharp
+  - vb
+  name: CutDrillingAxes
+  nameWithType: IRhinoOptions.CutDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+  type: Property
+  source:
+    id: CutDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutDrillingAxes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutDrillingAxes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes*
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+  commentId: P:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+  id: CutMep
+  parent: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  langs:
+  - csharp
+  - vb
+  name: CutMep
+  nameWithType: IRhinoOptions.CutMep
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+  type: Property
+  source:
+    id: CutMep
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutMep { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutMep As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep*
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings
+  commentId: P:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings
+  id: CutOpenings
+  parent: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  langs:
+  - csharp
+  - vb
+  name: CutOpenings
+  nameWithType: IRhinoOptions.CutOpenings
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings
+  type: Property
+  source:
+    id: CutOpenings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IRhinoOptions.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutOpenings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutOpenings As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html#Cadwork_CwAPI3D_Helpers_IRhinoOptions_MaterializeEndTypes
+  name: MaterializeEndTypes
+  nameWithType: IRhinoOptions.MaterializeEndTypes
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.MaterializeEndTypes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html#Cadwork_CwAPI3D_Helpers_IRhinoOptions_CutEndTypesCounterparts
+  name: CutEndTypesCounterparts
+  nameWithType: IRhinoOptions.CutEndTypesCounterparts
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutEndTypesCounterparts
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html#Cadwork_CwAPI3D_Helpers_IRhinoOptions_CutDrillingAxes
+  name: CutDrillingAxes
+  nameWithType: IRhinoOptions.CutDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutDrillingAxes
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html#Cadwork_CwAPI3D_Helpers_IRhinoOptions_CutMep
+  name: CutMep
+  nameWithType: IRhinoOptions.CutMep
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutMep
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html#Cadwork_CwAPI3D_Helpers_IRhinoOptions_CutOpenings
+  name: CutOpenings
+  nameWithType: IRhinoOptions.CutOpenings
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions.CutOpenings

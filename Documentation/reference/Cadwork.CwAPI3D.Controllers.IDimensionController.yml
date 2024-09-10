@@ -1,0 +1,1198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IDimensionController
+  id: IDimensionController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment(System.UInt64,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3})
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection(System.UInt64,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance(System.UInt64,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IDimensionController
+  nameWithType: IDimensionController
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController
+  type: Interface
+  source:
+    id: IDimensionController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IDimensionController
+    content.vb: Public Interface IDimensionController
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IDimensionController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3})
+  id: CreateDimension(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3,System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3})
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: CreateDimension(Vec3, Vec3, Vec3, ICollection<Vec3>)
+  nameWithType: IDimensionController.CreateDimension(Vec3, Vec3, Vec3, ICollection<Vec3>)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension(Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3, System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Structs.Vec3>)
+  type: Method
+  source:
+    id: CreateDimension
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong CreateDimension(Vec3 xl, Vec3 planeNormal, Vec3 distance, ICollection<Vec3> dimensionPoints)
+    parameters:
+    - id: xl
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: planeNormal
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: distance
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: dimensionPoints
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function CreateDimension(xl As Vec3, planeNormal As Vec3, distance As Vec3, dimensionPoints As ICollection(Of Vec3)) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension*
+  nameWithType.vb: IDimensionController.CreateDimension(Vec3, Vec3, Vec3, ICollection(Of Vec3))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension(Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3, System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Structs.Vec3))
+  name.vb: CreateDimension(Vec3, Vec3, Vec3, ICollection(Of Vec3))
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  id: SetOrientation(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetOrientation(ICollection<ulong>, Vec3, Vec3)
+  nameWithType: IDimensionController.SetOrientation(ICollection<ulong>, Vec3, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation(System.Collections.Generic.ICollection<ulong>, Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: SetOrientation
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 34
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetOrientation(ICollection<ulong> elementIds, Vec3 viewDirection, Vec3 viewDirectionUp)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: viewDirection
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: viewDirectionUp
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Sub SetOrientation(elementIds As ICollection(Of ULong), viewDirection As Vec3, viewDirectionUp As Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation*
+  nameWithType.vb: IDimensionController.SetOrientation(ICollection(Of ULong), Vec3, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation(System.Collections.Generic.ICollection(Of ULong), Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: SetOrientation(ICollection(Of ULong), Vec3, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment(System.UInt64,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment(System.UInt64,Cadwork.CwAPI3D.Structs.Vec3)
+  id: AddSegment(System.UInt64,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: AddSegment(ulong, Vec3)
+  nameWithType: IDimensionController.AddSegment(ulong, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment(ulong, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: AddSegment
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 41
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void AddSegment(ulong elementId, Vec3 segment)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: segment
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Sub AddSegment(elementId As ULong, segment As Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment*
+  nameWithType.vb: IDimensionController.AddSegment(ULong, Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment(ULong, Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: AddSegment(ULong, Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: SetPrecision(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetPrecision(ICollection<ulong>, uint)
+  nameWithType: IDimensionController.SetPrecision(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: SetPrecision
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 48
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetPrecision(ICollection<ulong> elementIds, uint precision)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: precision
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetPrecision(elementIds As ICollection(Of ULong), precision As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision*
+  nameWithType.vb: IDimensionController.SetPrecision(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: SetPrecision(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  id: SetTextSize(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetTextSize(ICollection<ulong>, double)
+  nameWithType: IDimensionController.SetTextSize(ICollection<ulong>, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize(System.Collections.Generic.ICollection<ulong>, double)
+  type: Method
+  source:
+    id: SetTextSize
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetTextSize(ICollection<ulong> elementIds, double textSize)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: textSize
+      type: System.Double
+      description: ''
+    content.vb: Sub SetTextSize(elementIds As ICollection(Of ULong), textSize As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize*
+  nameWithType.vb: IDimensionController.SetTextSize(ICollection(Of ULong), Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize(System.Collections.Generic.ICollection(Of ULong), Double)
+  name.vb: SetTextSize(ICollection(Of ULong), Double)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  id: SetLineThickness(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetLineThickness(ICollection<ulong>, double)
+  nameWithType: IDimensionController.SetLineThickness(ICollection<ulong>, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness(System.Collections.Generic.ICollection<ulong>, double)
+  type: Method
+  source:
+    id: SetLineThickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 62
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLineThickness(ICollection<ulong> elementIds, double thickness)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: thickness
+      type: System.Double
+      description: ''
+    content.vb: Sub SetLineThickness(elementIds As ICollection(Of ULong), thickness As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness*
+  nameWithType.vb: IDimensionController.SetLineThickness(ICollection(Of ULong), Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness(System.Collections.Generic.ICollection(Of ULong), Double)
+  name.vb: SetLineThickness(ICollection(Of ULong), Double)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  id: SetTotalDimension(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetTotalDimension(ICollection<ulong>, bool)
+  nameWithType: IDimensionController.SetTotalDimension(ICollection<ulong>, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension(System.Collections.Generic.ICollection<ulong>, bool)
+  type: Method
+  source:
+    id: SetTotalDimension
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 69
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetTotalDimension(ICollection<ulong> elementIds, bool flag)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub SetTotalDimension(elementIds As ICollection(Of ULong), flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension*
+  nameWithType.vb: IDimensionController.SetTotalDimension(ICollection(Of ULong), Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension(System.Collections.Generic.ICollection(Of ULong), Boolean)
+  name.vb: SetTotalDimension(ICollection(Of ULong), Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: SetTextColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetTextColor(ICollection<ulong>, uint)
+  nameWithType: IDimensionController.SetTextColor(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: SetTextColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 76
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetTextColor(ICollection<ulong> elementIds, uint colorId)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetTextColor(elementIds As ICollection(Of ULong), colorId As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor*
+  nameWithType.vb: IDimensionController.SetTextColor(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: SetTextColor(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: SetLineColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetLineColor(ICollection<ulong>, uint)
+  nameWithType: IDimensionController.SetLineColor(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: SetLineColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 83
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLineColor(ICollection<ulong> elementIds, uint colorId)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetLineColor(elementIds As ICollection(Of ULong), colorId As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor*
+  nameWithType.vb: IDimensionController.SetLineColor(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: SetLineColor(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  id: SetDefaultAnchorLength(System.Collections.Generic.ICollection{System.UInt64},System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultAnchorLength(ICollection<ulong>, double)
+  nameWithType: IDimensionController.SetDefaultAnchorLength(ICollection<ulong>, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength(System.Collections.Generic.ICollection<ulong>, double)
+  type: Method
+  source:
+    id: SetDefaultAnchorLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 90
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetDefaultAnchorLength(ICollection<ulong> elementIds, double length)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: length
+      type: System.Double
+      description: ''
+    content.vb: Sub SetDefaultAnchorLength(elementIds As ICollection(Of ULong), length As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength*
+  nameWithType.vb: IDimensionController.SetDefaultAnchorLength(ICollection(Of ULong), Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength(System.Collections.Generic.ICollection(Of ULong), Double)
+  name.vb: SetDefaultAnchorLength(ICollection(Of ULong), Double)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3)
+  id: SetDistance(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: SetDistance(ICollection<ulong>, Vec3)
+  nameWithType: IDimensionController.SetDistance(ICollection<ulong>, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance(System.Collections.Generic.ICollection<ulong>, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: SetDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 97
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetDistance(ICollection<ulong> elementIds, Vec3 distance)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: distance
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Sub SetDistance(elementIds As ICollection(Of ULong), distance As Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance*
+  nameWithType.vb: IDimensionController.SetDistance(ICollection(Of ULong), Vec3)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance(System.Collections.Generic.ICollection(Of ULong), Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: SetDistance(ICollection(Of ULong), Vec3)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  id: ShiftDistanceAndTexts(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: ShiftDistanceAndTexts(ICollection<ulong>, bool)
+  nameWithType: IDimensionController.ShiftDistanceAndTexts(ICollection<ulong>, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts(System.Collections.Generic.ICollection<ulong>, bool)
+  type: Method
+  source:
+    id: ShiftDistanceAndTexts
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShiftDistanceAndTexts(ICollection<ulong> elementIds, bool flag)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ShiftDistanceAndTexts(elementIds As ICollection(Of ULong), flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts*
+  nameWithType.vb: IDimensionController.ShiftDistanceAndTexts(ICollection(Of ULong), Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts(System.Collections.Generic.ICollection(Of ULong), Boolean)
+  name.vb: ShiftDistanceAndTexts(ICollection(Of ULong), Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints(System.UInt64)
+  id: GetDimensionPoints(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetDimensionPoints(ulong)
+  nameWithType: IDimensionController.GetDimensionPoints(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints(ulong)
+  type: Method
+  source:
+    id: GetDimensionPoints
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 111
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<Vec3> GetDimensionPoints(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+      description: ''
+    content.vb: Function GetDimensionPoints(elementId As ULong) As ICollection(Of Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints*
+  nameWithType.vb: IDimensionController.GetDimensionPoints(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints(ULong)
+  name.vb: GetDimensionPoints(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength(System.UInt64)
+  id: GetDefaultAnchorLength(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultAnchorLength(ulong)
+  nameWithType: IDimensionController.GetDefaultAnchorLength(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength(ulong)
+  type: Method
+  source:
+    id: GetDefaultAnchorLength
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 118
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetDefaultAnchorLength(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetDefaultAnchorLength(elementId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength*
+  nameWithType.vb: IDimensionController.GetDefaultAnchorLength(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength(ULong)
+  name.vb: GetDefaultAnchorLength(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance(System.UInt64)
+  id: GetDistance(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetDistance(ulong)
+  nameWithType: IDimensionController.GetDistance(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance(ulong)
+  type: Method
+  source:
+    id: GetDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 125
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 GetDistance(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Function GetDistance(elementId As ULong) As Vec3
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance*
+  nameWithType.vb: IDimensionController.GetDistance(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance(ULong)
+  name.vb: GetDistance(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal(System.UInt64)
+  id: GetPlaneNormal(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetPlaneNormal(ulong)
+  nameWithType: IDimensionController.GetPlaneNormal(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal(ulong)
+  type: Method
+  source:
+    id: GetPlaneNormal
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 132
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 GetPlaneNormal(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Function GetPlaneNormal(elementId As ULong) As Vec3
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal*
+  nameWithType.vb: IDimensionController.GetPlaneNormal(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal(ULong)
+  name.vb: GetPlaneNormal(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl(System.UInt64)
+  id: GetPlaneXl(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetPlaneXl(ulong)
+  nameWithType: IDimensionController.GetPlaneXl(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl(ulong)
+  type: Method
+  source:
+    id: GetPlaneXl
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 139
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 GetPlaneXl(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Function GetPlaneXl(elementId As ULong) As Vec3
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl*
+  nameWithType.vb: IDimensionController.GetPlaneXl(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl(ULong)
+  name.vb: GetPlaneXl(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount(System.UInt64)
+  id: GetSegmentCount(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetSegmentCount(ulong)
+  nameWithType: IDimensionController.GetSegmentCount(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount(ulong)
+  type: Method
+  source:
+    id: GetSegmentCount
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 146
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: int GetSegmentCount(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Function GetSegmentCount(elementId As ULong) As Integer
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount*
+  nameWithType.vb: IDimensionController.GetSegmentCount(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount(ULong)
+  name.vb: GetSegmentCount(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance(System.UInt64,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance(System.UInt64,System.Int32)
+  id: GetSegmentDistance(System.UInt64,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetSegmentDistance(ulong, int)
+  nameWithType: IDimensionController.GetSegmentDistance(ulong, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance(ulong, int)
+  type: Method
+  source:
+    id: GetSegmentDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 154
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetSegmentDistance(ulong elementId, int segmentIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: segmentIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetSegmentDistance(elementId As ULong, segmentIndex As Integer) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance*
+  nameWithType.vb: IDimensionController.GetSegmentDistance(ULong, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance(ULong, Integer)
+  name.vb: GetSegmentDistance(ULong, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection(System.UInt64,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection(System.UInt64,System.Int32)
+  id: GetSegmentDirection(System.UInt64,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IDimensionController
+  langs:
+  - csharp
+  - vb
+  name: GetSegmentDirection(ulong, int)
+  nameWithType: IDimensionController.GetSegmentDirection(ulong, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection(ulong, int)
+  type: Method
+  source:
+    id: GetSegmentDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IDimensionController.cs
+    startLine: 162
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 GetSegmentDirection(ulong elementId, int segmentIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: segmentIndex
+      type: System.Int32
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Function GetSegmentDirection(elementId As ULong, segmentIndex As Integer) As Vec3
+  overload: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection*
+  nameWithType.vb: IDimensionController.GetSegmentDirection(ULong, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection(ULong, Integer)
+  name.vb: GetSegmentDirection(ULong, Integer)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetLastError
+  name: GetLastError
+  nameWithType: IDimensionController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_CreateDimension_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_System_Collections_Generic_ICollection_Cadwork_CwAPI3D_Structs_Vec3__
+  name: CreateDimension
+  nameWithType: IDimensionController.CreateDimension
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.CreateDimension
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  commentId: T:System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Vec3>
+  nameWithType: ICollection<Vec3>
+  fullName: System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Structs.Vec3>
+  nameWithType.vb: ICollection(Of Vec3)
+  fullName.vb: System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ICollection(Of Vec3)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: )
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetOrientation_System_Collections_Generic_ICollection_System_UInt64__Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_
+  name: SetOrientation
+  nameWithType: IDimensionController.SetOrientation
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetOrientation
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_AddSegment_System_UInt64_Cadwork_CwAPI3D_Structs_Vec3_
+  name: AddSegment
+  nameWithType: IDimensionController.AddSegment
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.AddSegment
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetPrecision_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: SetPrecision
+  nameWithType: IDimensionController.SetPrecision
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetPrecision
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetTextSize_System_Collections_Generic_ICollection_System_UInt64__System_Double_
+  name: SetTextSize
+  nameWithType: IDimensionController.SetTextSize
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextSize
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetLineThickness_System_Collections_Generic_ICollection_System_UInt64__System_Double_
+  name: SetLineThickness
+  nameWithType: IDimensionController.SetLineThickness
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineThickness
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetTotalDimension_System_Collections_Generic_ICollection_System_UInt64__System_Boolean_
+  name: SetTotalDimension
+  nameWithType: IDimensionController.SetTotalDimension
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTotalDimension
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetTextColor_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: SetTextColor
+  nameWithType: IDimensionController.SetTextColor
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetTextColor
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetLineColor_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: SetLineColor
+  nameWithType: IDimensionController.SetLineColor
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetLineColor
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetDefaultAnchorLength_System_Collections_Generic_ICollection_System_UInt64__System_Double_
+  name: SetDefaultAnchorLength
+  nameWithType: IDimensionController.SetDefaultAnchorLength
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDefaultAnchorLength
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_SetDistance_System_Collections_Generic_ICollection_System_UInt64__Cadwork_CwAPI3D_Structs_Vec3_
+  name: SetDistance
+  nameWithType: IDimensionController.SetDistance
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.SetDistance
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_ShiftDistanceAndTexts_System_Collections_Generic_ICollection_System_UInt64__System_Boolean_
+  name: ShiftDistanceAndTexts
+  nameWithType: IDimensionController.ShiftDistanceAndTexts
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.ShiftDistanceAndTexts
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetDimensionPoints_System_UInt64_
+  name: GetDimensionPoints
+  nameWithType: IDimensionController.GetDimensionPoints
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDimensionPoints
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetDefaultAnchorLength_System_UInt64_
+  name: GetDefaultAnchorLength
+  nameWithType: IDimensionController.GetDefaultAnchorLength
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDefaultAnchorLength
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetDistance_System_UInt64_
+  name: GetDistance
+  nameWithType: IDimensionController.GetDistance
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetDistance
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetPlaneNormal_System_UInt64_
+  name: GetPlaneNormal
+  nameWithType: IDimensionController.GetPlaneNormal
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneNormal
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetPlaneXl_System_UInt64_
+  name: GetPlaneXl
+  nameWithType: IDimensionController.GetPlaneXl
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetPlaneXl
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetSegmentCount_System_UInt64_
+  name: GetSegmentCount
+  nameWithType: IDimensionController.GetSegmentCount
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetSegmentDistance_System_UInt64_System_Int32_
+  name: GetSegmentDistance
+  nameWithType: IDimensionController.GetSegmentDistance
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDistance
+- uid: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection
+  href: Cadwork.CwAPI3D.Controllers.IDimensionController.html#Cadwork_CwAPI3D_Controllers_IDimensionController_GetSegmentDirection_System_UInt64_System_Int32_
+  name: GetSegmentDirection
+  nameWithType: IDimensionController.GetSegmentDirection
+  fullName: Cadwork.CwAPI3D.Controllers.IDimensionController.GetSegmentDirection

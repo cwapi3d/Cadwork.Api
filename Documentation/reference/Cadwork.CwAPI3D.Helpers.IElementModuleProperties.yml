@@ -1,0 +1,1604 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  commentId: T:Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  id: IElementModuleProperties
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+  langs:
+  - csharp
+  - vb
+  name: IElementModuleProperties
+  nameWithType: IElementModuleProperties
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  type: Interface
+  source:
+    id: IElementModuleProperties
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IElementModuleProperties
+    content.vb: Public Interface IElementModuleProperties
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+  id: IsAuxiliary
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsAuxiliary
+  nameWithType: IElementModuleProperties.IsAuxiliary
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+  type: Property
+  source:
+    id: IsAuxiliary
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsAuxiliary { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsAuxiliary As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+  id: IsBottomPlate
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsBottomPlate
+  nameWithType: IElementModuleProperties.IsBottomPlate
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+  type: Property
+  source:
+    id: IsBottomPlate
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsBottomPlate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsBottomPlate As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+  id: IsCuttingElement
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsCuttingElement
+  nameWithType: IElementModuleProperties.IsCuttingElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+  type: Property
+  source:
+    id: IsCuttingElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsCuttingElement { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsCuttingElement As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+  id: IsDistributeInAxisDirection
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributeInAxisDirection
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+  type: Property
+  source:
+    id: IsDistributeInAxisDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributeInAxisDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributeInAxisDirection As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  id: IsDistributeInAxisDirectionUseMaxDistance
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributeInAxisDirectionUseMaxDistance
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  type: Property
+  source:
+    id: IsDistributeInAxisDirectionUseMaxDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributeInAxisDirectionUseMaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributeInAxisDirectionUseMaxDistance As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  id: IsDistributeInAxisDirectionUseNumber
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributeInAxisDirectionUseNumber
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  type: Property
+  source:
+    id: IsDistributeInAxisDirectionUseNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributeInAxisDirectionUseNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributeInAxisDirectionUseNumber As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  id: IsDistributePerpendicularToAxisDirection
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributePerpendicularToAxisDirection
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  type: Property
+  source:
+    id: IsDistributePerpendicularToAxisDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributePerpendicularToAxisDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributePerpendicularToAxisDirection As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  id: IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  type: Property
+  source:
+    id: IsDistributePerpendicularToAxisDirectionUseMaxDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributePerpendicularToAxisDirectionUseMaxDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributePerpendicularToAxisDirectionUseMaxDistance As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  id: IsDistributePerpendicularToAxisDirectionUseNumber
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsDistributePerpendicularToAxisDirectionUseNumber
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  type: Property
+  source:
+    id: IsDistributePerpendicularToAxisDirectionUseNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsDistributePerpendicularToAxisDirectionUseNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsDistributePerpendicularToAxisDirectionUseNumber As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+  id: IsElementFromDetail
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsElementFromDetail
+  nameWithType: IElementModuleProperties.IsElementFromDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+  type: Property
+  source:
+    id: IsElementFromDetail
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsElementFromDetail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsElementFromDetail As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  id: IsKeepInCenterOfLayerCurrentWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsKeepInCenterOfLayerCurrentWall
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  type: Property
+  source:
+    id: IsKeepInCenterOfLayerCurrentWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 60
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsKeepInCenterOfLayerCurrentWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsKeepInCenterOfLayerCurrentWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  id: IsKeepInCenterOfLayerNeighbourWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsKeepInCenterOfLayerNeighbourWall
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  type: Property
+  source:
+    id: IsKeepInCenterOfLayerNeighbourWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 65
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsKeepInCenterOfLayerNeighbourWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsKeepInCenterOfLayerNeighbourWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  id: IsKeepInCenterOfRoughVolume
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsKeepInCenterOfRoughVolume
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  type: Property
+  source:
+    id: IsKeepInCenterOfRoughVolume
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 70
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsKeepInCenterOfRoughVolume { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsKeepInCenterOfRoughVolume As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+  id: IsMainElement
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsMainElement
+  nameWithType: IElementModuleProperties.IsMainElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+  type: Property
+  source:
+    id: IsMainElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 75
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsMainElement { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsMainElement As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+  id: IsMoveAccordingLengthAxis
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsMoveAccordingLengthAxis
+  nameWithType: IElementModuleProperties.IsMoveAccordingLengthAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+  type: Property
+  source:
+    id: IsMoveAccordingLengthAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 80
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsMoveAccordingLengthAxis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsMoveAccordingLengthAxis As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+  id: IsMoveAccordingThicknessAxis
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsMoveAccordingThicknessAxis
+  nameWithType: IElementModuleProperties.IsMoveAccordingThicknessAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+  type: Property
+  source:
+    id: IsMoveAccordingThicknessAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 85
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsMoveAccordingThicknessAxis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsMoveAccordingThicknessAxis As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+  id: IsMoveWithTopOfWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsMoveWithTopOfWall
+  nameWithType: IElementModuleProperties.IsMoveWithTopOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+  type: Property
+  source:
+    id: IsMoveWithTopOfWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 90
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsMoveWithTopOfWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsMoveWithTopOfWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+  id: IsNoCollisionControl
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsNoCollisionControl
+  nameWithType: IElementModuleProperties.IsNoCollisionControl
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+  type: Property
+  source:
+    id: IsNoCollisionControl
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 95
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsNoCollisionControl { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNoCollisionControl As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+  id: IsNoInsideControl
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsNoInsideControl
+  nameWithType: IElementModuleProperties.IsNoInsideControl
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+  type: Property
+  source:
+    id: IsNoInsideControl
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 100
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsNoInsideControl { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNoInsideControl As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+  id: IsNotCutWithCuttingElement
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsNotCutWithCuttingElement
+  nameWithType: IElementModuleProperties.IsNotCutWithCuttingElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+  type: Property
+  source:
+    id: IsNotCutWithCuttingElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 105
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsNotCutWithCuttingElement { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNotCutWithCuttingElement As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+  id: IsNotPlacedAtEndOfWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsNotPlacedAtEndOfWall
+  nameWithType: IElementModuleProperties.IsNotPlacedAtEndOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+  type: Property
+  source:
+    id: IsNotPlacedAtEndOfWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 110
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsNotPlacedAtEndOfWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNotPlacedAtEndOfWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+  id: IsNotPlacedAtStartOfWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsNotPlacedAtStartOfWall
+  nameWithType: IElementModuleProperties.IsNotPlacedAtStartOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+  type: Property
+  source:
+    id: IsNotPlacedAtStartOfWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 115
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsNotPlacedAtStartOfWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsNotPlacedAtStartOfWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+  id: IsOpeningLintel
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsOpeningLintel
+  nameWithType: IElementModuleProperties.IsOpeningLintel
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+  type: Property
+  source:
+    id: IsOpeningLintel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 120
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsOpeningLintel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsOpeningLintel As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+  id: IsOpeningSill
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsOpeningSill
+  nameWithType: IElementModuleProperties.IsOpeningSill
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+  type: Property
+  source:
+    id: IsOpeningSill
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 125
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsOpeningSill { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsOpeningSill As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+  id: IsSolderInAxisDirection
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsSolderInAxisDirection
+  nameWithType: IElementModuleProperties.IsSolderInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+  type: Property
+  source:
+    id: IsSolderInAxisDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 130
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsSolderInAxisDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsSolderInAxisDirection As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+  id: IsStopDistributionInAxisDirection
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStopDistributionInAxisDirection
+  nameWithType: IElementModuleProperties.IsStopDistributionInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+  type: Property
+  source:
+    id: IsStopDistributionInAxisDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 135
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStopDistributionInAxisDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStopDistributionInAxisDirection As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  id: IsStopDistributionPerpendicularToAxisDirection
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStopDistributionPerpendicularToAxisDirection
+  nameWithType: IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  type: Property
+  source:
+    id: IsStopDistributionPerpendicularToAxisDirection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 140
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStopDistributionPerpendicularToAxisDirection { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStopDistributionPerpendicularToAxisDirection As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+  id: IsStretchAccordingLengthAxis
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchAccordingLengthAxis
+  nameWithType: IElementModuleProperties.IsStretchAccordingLengthAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+  type: Property
+  source:
+    id: IsStretchAccordingLengthAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 145
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchAccordingLengthAxis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchAccordingLengthAxis As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+  id: IsStretchAccordingThicknessAxis
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchAccordingThicknessAxis
+  nameWithType: IElementModuleProperties.IsStretchAccordingThicknessAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+  type: Property
+  source:
+    id: IsStretchAccordingThicknessAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 150
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchAccordingThicknessAxis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchAccordingThicknessAxis As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+  id: IsStretchInOpeningWidth
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchInOpeningWidth
+  nameWithType: IElementModuleProperties.IsStretchInOpeningWidth
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+  type: Property
+  source:
+    id: IsStretchInOpeningWidth
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 155
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchInOpeningWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchInOpeningWidth As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+  id: IsStretchWithOpeningLintel
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchWithOpeningLintel
+  nameWithType: IElementModuleProperties.IsStretchWithOpeningLintel
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+  type: Property
+  source:
+    id: IsStretchWithOpeningLintel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 160
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchWithOpeningLintel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchWithOpeningLintel As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+  id: IsStretchWithOpeningSill
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchWithOpeningSill
+  nameWithType: IElementModuleProperties.IsStretchWithOpeningSill
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+  type: Property
+  source:
+    id: IsStretchWithOpeningSill
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 165
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchWithOpeningSill { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchWithOpeningSill As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+  id: IsStretchWithTopOfWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsStretchWithTopOfWall
+  nameWithType: IElementModuleProperties.IsStretchWithTopOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+  type: Property
+  source:
+    id: IsStretchWithTopOfWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 170
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsStretchWithTopOfWall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsStretchWithTopOfWall As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+  id: IsTopPlate
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsTopPlate
+  nameWithType: IElementModuleProperties.IsTopPlate
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+  type: Property
+  source:
+    id: IsTopPlate
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 175
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsTopPlate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTopPlate As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+  id: IsUniqueLayerName
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsUniqueLayerName
+  nameWithType: IElementModuleProperties.IsUniqueLayerName
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+  type: Property
+  source:
+    id: IsUniqueLayerName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 180
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsUniqueLayerName { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsUniqueLayerName As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+  id: IsUseForDetailCoordinateSystem
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: IsUseForDetailCoordinateSystem
+  nameWithType: IElementModuleProperties.IsUseForDetailCoordinateSystem
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+  type: Property
+  source:
+    id: IsUseForDetailCoordinateSystem
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 185
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsUseForDetailCoordinateSystem { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsUseForDetailCoordinateSystem As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+  id: DistributeInAxisDirectionDistance
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: DistributeInAxisDirectionDistance
+  nameWithType: IElementModuleProperties.DistributeInAxisDirectionDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+  type: Property
+  source:
+    id: DistributeInAxisDirectionDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 190
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: double DistributeInAxisDirectionDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property DistributeInAxisDirectionDistance As Double
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  id: DistributePerpendicularToAxisDirectionDistance
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: DistributePerpendicularToAxisDirectionDistance
+  nameWithType: IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  type: Property
+  source:
+    id: DistributePerpendicularToAxisDirectionDistance
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 195
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: double DistributePerpendicularToAxisDirectionDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property DistributePerpendicularToAxisDirectionDistance As Double
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  id: KeepInCenterOfLayerCurrentWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: KeepInCenterOfLayerCurrentWall
+  nameWithType: IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  type: Property
+  source:
+    id: KeepInCenterOfLayerCurrentWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 200
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: string KeepInCenterOfLayerCurrentWall { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property KeepInCenterOfLayerCurrentWall As String
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  id: KeepInCenterOfLayerNeighbourWall
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: KeepInCenterOfLayerNeighbourWall
+  nameWithType: IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  type: Property
+  source:
+    id: KeepInCenterOfLayerNeighbourWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 205
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: string KeepInCenterOfLayerNeighbourWall { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property KeepInCenterOfLayerNeighbourWall As String
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+  id: UniqueLayerName
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: UniqueLayerName
+  nameWithType: IElementModuleProperties.UniqueLayerName
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+  type: Property
+  source:
+    id: UniqueLayerName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 210
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: string UniqueLayerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UniqueLayerName As String
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+  id: CuttingElementPriority
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: CuttingElementPriority
+  nameWithType: IElementModuleProperties.CuttingElementPriority
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+  type: Property
+  source:
+    id: CuttingElementPriority
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 215
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: uint CuttingElementPriority { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Property CuttingElementPriority As UInteger
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+  id: DistributeInAxisDirectionNumber
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: DistributeInAxisDirectionNumber
+  nameWithType: IElementModuleProperties.DistributeInAxisDirectionNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+  type: Property
+  source:
+    id: DistributeInAxisDirectionNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 220
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: uint DistributeInAxisDirectionNumber { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Property DistributeInAxisDirectionNumber As UInteger
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber*
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  commentId: P:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  id: DistributePerpendicularToAxisDirectionNumber
+  parent: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  langs:
+  - csharp
+  - vb
+  name: DistributePerpendicularToAxisDirectionNumber
+  nameWithType: IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  type: Property
+  source:
+    id: DistributePerpendicularToAxisDirectionNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IElementModuleProperties.cs
+    startLine: 225
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: uint DistributePerpendicularToAxisDirectionNumber { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Property DistributePerpendicularToAxisDirectionNumber As UInteger
+  overload: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsAuxiliary
+  name: IsAuxiliary
+  nameWithType: IElementModuleProperties.IsAuxiliary
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsAuxiliary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsBottomPlate
+  name: IsBottomPlate
+  nameWithType: IElementModuleProperties.IsBottomPlate
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsBottomPlate
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsCuttingElement
+  name: IsCuttingElement
+  nameWithType: IElementModuleProperties.IsCuttingElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsCuttingElement
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributeInAxisDirection
+  name: IsDistributeInAxisDirection
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirection
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributeInAxisDirectionUseMaxDistance
+  name: IsDistributeInAxisDirectionUseMaxDistance
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseMaxDistance
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributeInAxisDirectionUseNumber
+  name: IsDistributeInAxisDirectionUseNumber
+  nameWithType: IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributeInAxisDirectionUseNumber
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributePerpendicularToAxisDirection
+  name: IsDistributePerpendicularToAxisDirection
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirection
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  name: IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseMaxDistance
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsDistributePerpendicularToAxisDirectionUseNumber
+  name: IsDistributePerpendicularToAxisDirectionUseNumber
+  nameWithType: IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsDistributePerpendicularToAxisDirectionUseNumber
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsElementFromDetail
+  name: IsElementFromDetail
+  nameWithType: IElementModuleProperties.IsElementFromDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsElementFromDetail
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsKeepInCenterOfLayerCurrentWall
+  name: IsKeepInCenterOfLayerCurrentWall
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerCurrentWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsKeepInCenterOfLayerNeighbourWall
+  name: IsKeepInCenterOfLayerNeighbourWall
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfLayerNeighbourWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsKeepInCenterOfRoughVolume
+  name: IsKeepInCenterOfRoughVolume
+  nameWithType: IElementModuleProperties.IsKeepInCenterOfRoughVolume
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsKeepInCenterOfRoughVolume
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsMainElement
+  name: IsMainElement
+  nameWithType: IElementModuleProperties.IsMainElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMainElement
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsMoveAccordingLengthAxis
+  name: IsMoveAccordingLengthAxis
+  nameWithType: IElementModuleProperties.IsMoveAccordingLengthAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingLengthAxis
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsMoveAccordingThicknessAxis
+  name: IsMoveAccordingThicknessAxis
+  nameWithType: IElementModuleProperties.IsMoveAccordingThicknessAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveAccordingThicknessAxis
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsMoveWithTopOfWall
+  name: IsMoveWithTopOfWall
+  nameWithType: IElementModuleProperties.IsMoveWithTopOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsMoveWithTopOfWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsNoCollisionControl
+  name: IsNoCollisionControl
+  nameWithType: IElementModuleProperties.IsNoCollisionControl
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoCollisionControl
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsNoInsideControl
+  name: IsNoInsideControl
+  nameWithType: IElementModuleProperties.IsNoInsideControl
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNoInsideControl
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsNotCutWithCuttingElement
+  name: IsNotCutWithCuttingElement
+  nameWithType: IElementModuleProperties.IsNotCutWithCuttingElement
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotCutWithCuttingElement
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsNotPlacedAtEndOfWall
+  name: IsNotPlacedAtEndOfWall
+  nameWithType: IElementModuleProperties.IsNotPlacedAtEndOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtEndOfWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsNotPlacedAtStartOfWall
+  name: IsNotPlacedAtStartOfWall
+  nameWithType: IElementModuleProperties.IsNotPlacedAtStartOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsNotPlacedAtStartOfWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsOpeningLintel
+  name: IsOpeningLintel
+  nameWithType: IElementModuleProperties.IsOpeningLintel
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningLintel
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsOpeningSill
+  name: IsOpeningSill
+  nameWithType: IElementModuleProperties.IsOpeningSill
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsOpeningSill
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsSolderInAxisDirection
+  name: IsSolderInAxisDirection
+  nameWithType: IElementModuleProperties.IsSolderInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsSolderInAxisDirection
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStopDistributionInAxisDirection
+  name: IsStopDistributionInAxisDirection
+  nameWithType: IElementModuleProperties.IsStopDistributionInAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionInAxisDirection
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStopDistributionPerpendicularToAxisDirection
+  name: IsStopDistributionPerpendicularToAxisDirection
+  nameWithType: IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStopDistributionPerpendicularToAxisDirection
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchAccordingLengthAxis
+  name: IsStretchAccordingLengthAxis
+  nameWithType: IElementModuleProperties.IsStretchAccordingLengthAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingLengthAxis
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchAccordingThicknessAxis
+  name: IsStretchAccordingThicknessAxis
+  nameWithType: IElementModuleProperties.IsStretchAccordingThicknessAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchAccordingThicknessAxis
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchInOpeningWidth
+  name: IsStretchInOpeningWidth
+  nameWithType: IElementModuleProperties.IsStretchInOpeningWidth
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchInOpeningWidth
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchWithOpeningLintel
+  name: IsStretchWithOpeningLintel
+  nameWithType: IElementModuleProperties.IsStretchWithOpeningLintel
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningLintel
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchWithOpeningSill
+  name: IsStretchWithOpeningSill
+  nameWithType: IElementModuleProperties.IsStretchWithOpeningSill
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithOpeningSill
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsStretchWithTopOfWall
+  name: IsStretchWithTopOfWall
+  nameWithType: IElementModuleProperties.IsStretchWithTopOfWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsStretchWithTopOfWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsTopPlate
+  name: IsTopPlate
+  nameWithType: IElementModuleProperties.IsTopPlate
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsTopPlate
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsUniqueLayerName
+  name: IsUniqueLayerName
+  nameWithType: IElementModuleProperties.IsUniqueLayerName
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUniqueLayerName
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_IsUseForDetailCoordinateSystem
+  name: IsUseForDetailCoordinateSystem
+  nameWithType: IElementModuleProperties.IsUseForDetailCoordinateSystem
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.IsUseForDetailCoordinateSystem
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_DistributeInAxisDirectionDistance
+  name: DistributeInAxisDirectionDistance
+  nameWithType: IElementModuleProperties.DistributeInAxisDirectionDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionDistance
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_DistributePerpendicularToAxisDirectionDistance
+  name: DistributePerpendicularToAxisDirectionDistance
+  nameWithType: IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionDistance
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_KeepInCenterOfLayerCurrentWall
+  name: KeepInCenterOfLayerCurrentWall
+  nameWithType: IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerCurrentWall
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_KeepInCenterOfLayerNeighbourWall
+  name: KeepInCenterOfLayerNeighbourWall
+  nameWithType: IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.KeepInCenterOfLayerNeighbourWall
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_UniqueLayerName
+  name: UniqueLayerName
+  nameWithType: IElementModuleProperties.UniqueLayerName
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.UniqueLayerName
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_CuttingElementPriority
+  name: CuttingElementPriority
+  nameWithType: IElementModuleProperties.CuttingElementPriority
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.CuttingElementPriority
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_DistributeInAxisDirectionNumber
+  name: DistributeInAxisDirectionNumber
+  nameWithType: IElementModuleProperties.DistributeInAxisDirectionNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributeInAxisDirectionNumber
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html#Cadwork_CwAPI3D_Helpers_IElementModuleProperties_DistributePerpendicularToAxisDirectionNumber
+  name: DistributePerpendicularToAxisDirectionNumber
+  nameWithType: IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.DistributePerpendicularToAxisDirectionNumber

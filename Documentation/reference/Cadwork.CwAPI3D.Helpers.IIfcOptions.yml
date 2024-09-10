@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions
+  id: IIfcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+  langs:
+  - csharp
+  - vb
+  name: IIfcOptions
+  nameWithType: IIfcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  type: Interface
+  source:
+    id: IIfcOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IIfcOptions
+    content.vb: Public Interface IIfcOptions
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+  id: ProjectData
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  langs:
+  - csharp
+  - vb
+  name: ProjectData
+  nameWithType: IIfcOptions.ProjectData
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+  type: Property
+  source:
+    id: ProjectData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions.IIfcOptionsProjectData ProjectData { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+    content.vb: Property ProjectData As IIfcOptions.IIfcOptionsProjectData
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+  id: Properties
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: IIfcOptions.Properties
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+  type: Property
+  source:
+    id: Properties
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions.IIfcOptionsProperties Properties { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+    content.vb: Property Properties As IIfcOptions.IIfcOptionsProperties
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+  id: LevelOfDetail
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  langs:
+  - csharp
+  - vb
+  name: LevelOfDetail
+  nameWithType: IIfcOptions.LevelOfDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+  type: Property
+  source:
+    id: LevelOfDetail
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions.IIfcOptionsLevelOfDetail LevelOfDetail { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+    content.vb: Property LevelOfDetail As IIfcOptions.IIfcOptionsLevelOfDetail
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+  id: Aggregation
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  langs:
+  - csharp
+  - vb
+  name: Aggregation
+  nameWithType: IIfcOptions.Aggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+  type: Property
+  source:
+    id: Aggregation
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions.IIfcOptionsAggregation Aggregation { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+    content.vb: Property Aggregation As IIfcOptions.IIfcOptionsAggregation
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_ProjectData
+  name: ProjectData
+  nameWithType: IIfcOptions.ProjectData
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.ProjectData
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsProjectData
+  nameWithType: IIfcOptions.IIfcOptionsProjectData
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+    name: IIfcOptionsProjectData
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+    name: IIfcOptionsProjectData
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_Properties
+  name: Properties
+  nameWithType: IIfcOptions.Properties
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.Properties
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsProperties
+  nameWithType: IIfcOptions.IIfcOptionsProperties
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+    name: IIfcOptionsProperties
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+    name: IIfcOptionsProperties
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_LevelOfDetail
+  name: LevelOfDetail
+  nameWithType: IIfcOptions.LevelOfDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.LevelOfDetail
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsLevelOfDetail
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+    name: IIfcOptionsLevelOfDetail
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+    name: IIfcOptionsLevelOfDetail
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_Aggregation
+  name: Aggregation
+  nameWithType: IIfcOptions.Aggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.Aggregation
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsAggregation
+  nameWithType: IIfcOptions.IIfcOptionsAggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+    name: IIfcOptionsAggregation
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+    name: IIfcOptionsAggregation
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html

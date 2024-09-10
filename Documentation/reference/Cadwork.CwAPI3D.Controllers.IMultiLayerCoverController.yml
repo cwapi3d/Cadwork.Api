@@ -1,0 +1,1255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  id: IMultiLayerCoverController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer(System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType,System.String,System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall(System.String)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial(System.UInt64,System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName(System.UInt64,System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness(System.UInt64,System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType(System.UInt64,System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType)
+  - Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName(System.UInt64,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMultiLayerCoverController
+  nameWithType: IMultiLayerCoverController
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  type: Interface
+  source:
+    id: IMultiLayerCoverController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IMultiLayerCoverController
+    content.vb: Public Interface IMultiLayerCoverController
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls
+  id: GetMultiLayerWalls
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetMultiLayerWalls()
+  nameWithType: IMultiLayerCoverController.GetMultiLayerWalls()
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls()
+  type: Method
+  source:
+    id: GetMultiLayerWalls
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetMultiLayerWalls()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetMultiLayerWalls() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls*
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName(System.UInt64)
+  id: GetMultiLayerSetName(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetMultiLayerSetName(ulong)
+  nameWithType: IMultiLayerCoverController.GetMultiLayerSetName(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName(ulong)
+  type: Method
+  source:
+    id: GetMultiLayerSetName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetMultiLayerSetName(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetMultiLayerSetName(multiLayerSetId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName*
+  nameWithType.vb: IMultiLayerCoverController.GetMultiLayerSetName(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName(ULong)
+  name.vb: GetMultiLayerSetName(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName(System.UInt64,System.String)
+  id: SetMultiLayerSetName(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetMultiLayerSetName(ulong, string)
+  nameWithType: IMultiLayerCoverController.SetMultiLayerSetName(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName(ulong, string)
+  type: Method
+  source:
+    id: SetMultiLayerSetName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetMultiLayerSetName(ulong multiLayerSetId, string setName)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: setName
+      type: System.String
+      description: ''
+    content.vb: Sub SetMultiLayerSetName(multiLayerSetId As ULong, setName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName*
+  nameWithType.vb: IMultiLayerCoverController.SetMultiLayerSetName(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName(ULong, String)
+  name.vb: SetMultiLayerSetName(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet(System.UInt64)
+  id: GetElementMultiLayerSet(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetElementMultiLayerSet(ulong)
+  nameWithType: IMultiLayerCoverController.GetElementMultiLayerSet(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet(ulong)
+  type: Method
+  source:
+    id: GetElementMultiLayerSet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 39
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetElementMultiLayerSet(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetElementMultiLayerSet(elementId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet*
+  nameWithType.vb: IMultiLayerCoverController.GetElementMultiLayerSet(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet(ULong)
+  name.vb: GetElementMultiLayerSet(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet(System.UInt64,System.UInt64)
+  id: SetElementMultiLayerSet(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetElementMultiLayerSet(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.SetElementMultiLayerSet(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet(ulong, ulong)
+  type: Method
+  source:
+    id: SetElementMultiLayerSet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 46
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetElementMultiLayerSet(ulong elementId, ulong multiLayerSetId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetElementMultiLayerSet(elementId As ULong, multiLayerSetId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet*
+  nameWithType.vb: IMultiLayerCoverController.SetElementMultiLayerSet(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet(ULong, ULong)
+  name.vb: SetElementMultiLayerSet(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall(System.String)
+  id: CreateMultiLayerWall(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: CreateMultiLayerWall(string)
+  nameWithType: IMultiLayerCoverController.CreateMultiLayerWall(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall(string)
+  type: Method
+  source:
+    id: CreateMultiLayerWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 53
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong CreateMultiLayerWall(string aSetName)
+    parameters:
+    - id: aSetName
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function CreateMultiLayerWall(aSetName As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall*
+  nameWithType.vb: IMultiLayerCoverController.CreateMultiLayerWall(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall(String)
+  name.vb: CreateMultiLayerWall(String)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName(System.UInt64)
+  id: GetCoverName(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetCoverName(ulong)
+  nameWithType: IMultiLayerCoverController.GetCoverName(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName(ulong)
+  type: Method
+  source:
+    id: GetCoverName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 60
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetCoverName(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetCoverName(multiLayerSetId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName*
+  nameWithType.vb: IMultiLayerCoverController.GetCoverName(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName(ULong)
+  name.vb: GetCoverName(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName(System.UInt64,System.String)
+  id: SetCoverName(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetCoverName(ulong, string)
+  nameWithType: IMultiLayerCoverController.SetCoverName(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName(ulong, string)
+  type: Method
+  source:
+    id: SetCoverName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 67
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCoverName(ulong multiLayerSetId, string coverName)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: coverName
+      type: System.String
+      description: ''
+    content.vb: Sub SetCoverName(multiLayerSetId As ULong, coverName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName*
+  nameWithType.vb: IMultiLayerCoverController.SetCoverName(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName(ULong, String)
+  name.vb: SetCoverName(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial(System.UInt64)
+  id: GetCoverMaterial(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetCoverMaterial(ulong)
+  nameWithType: IMultiLayerCoverController.GetCoverMaterial(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial(ulong)
+  type: Method
+  source:
+    id: GetCoverMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetCoverMaterial(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetCoverMaterial(multiLayerSetId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial*
+  nameWithType.vb: IMultiLayerCoverController.GetCoverMaterial(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial(ULong)
+  name.vb: GetCoverMaterial(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial(System.UInt64,System.UInt64)
+  id: SetCoverMaterial(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetCoverMaterial(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.SetCoverMaterial(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial(ulong, ulong)
+  type: Method
+  source:
+    id: SetCoverMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 81
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCoverMaterial(ulong multiLayerSetId, ulong materialId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: materialId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetCoverMaterial(multiLayerSetId As ULong, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial*
+  nameWithType.vb: IMultiLayerCoverController.SetCoverMaterial(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial(ULong, ULong)
+  name.vb: SetCoverMaterial(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness(System.UInt64)
+  id: GetCoverThickness(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetCoverThickness(ulong)
+  nameWithType: IMultiLayerCoverController.GetCoverThickness(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness(ulong)
+  type: Method
+  source:
+    id: GetCoverThickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 88
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetCoverThickness(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetCoverThickness(multiLayerSetId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness*
+  nameWithType.vb: IMultiLayerCoverController.GetCoverThickness(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness(ULong)
+  name.vb: GetCoverThickness(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness(System.UInt64,System.Double)
+  id: SetCoverThickness(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetCoverThickness(ulong, double)
+  nameWithType: IMultiLayerCoverController.SetCoverThickness(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness(ulong, double)
+  type: Method
+  source:
+    id: SetCoverThickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 95
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCoverThickness(ulong multiLayerSetId, double thickness)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: thickness
+      type: System.Double
+      description: ''
+    content.vb: Sub SetCoverThickness(multiLayerSetId As ULong, thickness As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness*
+  nameWithType.vb: IMultiLayerCoverController.SetCoverThickness(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness(ULong, Double)
+  name.vb: SetCoverThickness(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount(System.UInt64)
+  id: GetLayerCount(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetLayerCount(ulong)
+  nameWithType: IMultiLayerCoverController.GetLayerCount(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount(ulong)
+  type: Method
+  source:
+    id: GetLayerCount
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 102
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetLayerCount(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetLayerCount(multiLayerSetId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount*
+  nameWithType.vb: IMultiLayerCoverController.GetLayerCount(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount(ULong)
+  name.vb: GetLayerCount(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer(System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType,System.String,System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer(System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType,System.String,System.UInt64,System.Double)
+  id: AddLayer(System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType,System.String,System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: AddLayer(ulong, MultiLayerType, string, ulong, double)
+  nameWithType: IMultiLayerCoverController.AddLayer(ulong, MultiLayerType, string, ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer(ulong, Cadwork.CwAPI3D.Enums.MultiLayerType, string, ulong, double)
+  type: Method
+  source:
+    id: AddLayer
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 112
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void AddLayer(ulong multiLayerSetId, MultiLayerType type, string name, ulong materialId, double thickness)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: type
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    - id: materialId
+      type: System.UInt64
+      description: ''
+    - id: thickness
+      type: System.Double
+      description: ''
+    content.vb: Sub AddLayer(multiLayerSetId As ULong, type As MultiLayerType, name As String, materialId As ULong, thickness As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer*
+  nameWithType.vb: IMultiLayerCoverController.AddLayer(ULong, MultiLayerType, String, ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer(ULong, Cadwork.CwAPI3D.Enums.MultiLayerType, String, ULong, Double)
+  name.vb: AddLayer(ULong, MultiLayerType, String, ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName(System.UInt64,System.UInt64)
+  id: GetLayerName(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetLayerName(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.GetLayerName(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName(ulong, ulong)
+  type: Method
+  source:
+    id: GetLayerName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 120
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetLayerName(ulong multiLayerSetId, ulong layerIndex)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetLayerName(multiLayerSetId As ULong, layerIndex As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName*
+  nameWithType.vb: IMultiLayerCoverController.GetLayerName(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName(ULong, ULong)
+  name.vb: GetLayerName(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName(System.UInt64,System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName(System.UInt64,System.UInt64,System.String)
+  id: SetLayerName(System.UInt64,System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetLayerName(ulong, ulong, string)
+  nameWithType: IMultiLayerCoverController.SetLayerName(ulong, ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName(ulong, ulong, string)
+  type: Method
+  source:
+    id: SetLayerName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 128
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLayerName(ulong multiLayerSetId, ulong layerIndex, string name)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Sub SetLayerName(multiLayerSetId As ULong, layerIndex As ULong, name As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName*
+  nameWithType.vb: IMultiLayerCoverController.SetLayerName(ULong, ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName(ULong, ULong, String)
+  name.vb: SetLayerName(ULong, ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial(System.UInt64,System.UInt64)
+  id: GetLayerMaterial(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetLayerMaterial(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.GetLayerMaterial(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial(ulong, ulong)
+  type: Method
+  source:
+    id: GetLayerMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 136
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetLayerMaterial(ulong multiLayerSetId, ulong layerIndex)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetLayerMaterial(multiLayerSetId As ULong, layerIndex As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial*
+  nameWithType.vb: IMultiLayerCoverController.GetLayerMaterial(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial(ULong, ULong)
+  name.vb: GetLayerMaterial(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial(System.UInt64,System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial(System.UInt64,System.UInt64,System.UInt64)
+  id: SetLayerMaterial(System.UInt64,System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetLayerMaterial(ulong, ulong, ulong)
+  nameWithType: IMultiLayerCoverController.SetLayerMaterial(ulong, ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial(ulong, ulong, ulong)
+  type: Method
+  source:
+    id: SetLayerMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 144
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLayerMaterial(ulong multiLayerSetId, ulong layerIndex, ulong materialId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    - id: materialId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetLayerMaterial(multiLayerSetId As ULong, layerIndex As ULong, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial*
+  nameWithType.vb: IMultiLayerCoverController.SetLayerMaterial(ULong, ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial(ULong, ULong, ULong)
+  name.vb: SetLayerMaterial(ULong, ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness(System.UInt64,System.UInt64)
+  id: GetLayerThickness(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetLayerThickness(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.GetLayerThickness(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness(ulong, ulong)
+  type: Method
+  source:
+    id: GetLayerThickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 152
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetLayerThickness(ulong multiLayerSetId, ulong layerIndex)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetLayerThickness(multiLayerSetId As ULong, layerIndex As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness*
+  nameWithType.vb: IMultiLayerCoverController.GetLayerThickness(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness(ULong, ULong)
+  name.vb: GetLayerThickness(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness(System.UInt64,System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness(System.UInt64,System.UInt64,System.Double)
+  id: SetLayerThickness(System.UInt64,System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetLayerThickness(ulong, ulong, double)
+  nameWithType: IMultiLayerCoverController.SetLayerThickness(ulong, ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness(ulong, ulong, double)
+  type: Method
+  source:
+    id: SetLayerThickness
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 160
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLayerThickness(ulong multiLayerSetId, ulong layerIndex, double thickness)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    - id: thickness
+      type: System.Double
+      description: ''
+    content.vb: Sub SetLayerThickness(multiLayerSetId As ULong, layerIndex As ULong, thickness As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness*
+  nameWithType.vb: IMultiLayerCoverController.SetLayerThickness(ULong, ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness(ULong, ULong, Double)
+  name.vb: SetLayerThickness(ULong, ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType(System.UInt64,System.UInt64)
+  id: GetLayerType(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetLayerType(ulong, ulong)
+  nameWithType: IMultiLayerCoverController.GetLayerType(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType(ulong, ulong)
+  type: Method
+  source:
+    id: GetLayerType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 168
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: MultiLayerType GetLayerType(ulong multiLayerSetId, ulong layerIndex)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+      description: ''
+    content.vb: Function GetLayerType(multiLayerSetId As ULong, layerIndex As ULong) As MultiLayerType
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType*
+  nameWithType.vb: IMultiLayerCoverController.GetLayerType(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType(ULong, ULong)
+  name.vb: GetLayerType(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType(System.UInt64,System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType(System.UInt64,System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType)
+  id: SetLayerType(System.UInt64,System.UInt64,Cadwork.CwAPI3D.Enums.MultiLayerType)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetLayerType(ulong, ulong, MultiLayerType)
+  nameWithType: IMultiLayerCoverController.SetLayerType(ulong, ulong, MultiLayerType)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType(ulong, ulong, Cadwork.CwAPI3D.Enums.MultiLayerType)
+  type: Method
+  source:
+    id: SetLayerType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 176
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetLayerType(ulong multiLayerSetId, ulong layerIndex, MultiLayerType type)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: layerIndex
+      type: System.UInt64
+      description: ''
+    - id: type
+      type: Cadwork.CwAPI3D.Enums.MultiLayerType
+      description: ''
+    content.vb: Sub SetLayerType(multiLayerSetId As ULong, layerIndex As ULong, type As MultiLayerType)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType*
+  nameWithType.vb: IMultiLayerCoverController.SetLayerType(ULong, ULong, MultiLayerType)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType(ULong, ULong, Cadwork.CwAPI3D.Enums.MultiLayerType)
+  name.vb: SetLayerType(ULong, ULong, MultiLayerType)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor(System.UInt64)
+  id: GetCoverColor(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: GetCoverColor(ulong)
+  nameWithType: IMultiLayerCoverController.GetCoverColor(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor(ulong)
+  type: Method
+  source:
+    id: GetCoverColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 183
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: uint GetCoverColor(ulong multiLayerSetId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Function GetCoverColor(multiLayerSetId As ULong) As UInteger
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor*
+  nameWithType.vb: IMultiLayerCoverController.GetCoverColor(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor(ULong)
+  name.vb: GetCoverColor(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor(System.UInt64,System.UInt32)
+  id: SetCoverColor(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController
+  langs:
+  - csharp
+  - vb
+  name: SetCoverColor(ulong, uint)
+  nameWithType: IMultiLayerCoverController.SetCoverColor(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor(ulong, uint)
+  type: Method
+  source:
+    id: SetCoverColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMultiLayerCoverController.cs
+    startLine: 190
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCoverColor(ulong multiLayerSetId, uint colorId)
+    parameters:
+    - id: multiLayerSetId
+      type: System.UInt64
+      description: ''
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetCoverColor(multiLayerSetId As ULong, colorId As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor*
+  nameWithType.vb: IMultiLayerCoverController.SetCoverColor(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor(ULong, UInteger)
+  name.vb: SetCoverColor(ULong, UInteger)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetMultiLayerWalls
+  name: GetMultiLayerWalls
+  nameWithType: IMultiLayerCoverController.GetMultiLayerWalls
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerWalls
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetMultiLayerSetName_System_UInt64_
+  name: GetMultiLayerSetName
+  nameWithType: IMultiLayerCoverController.GetMultiLayerSetName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetMultiLayerSetName
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetMultiLayerSetName_System_UInt64_System_String_
+  name: SetMultiLayerSetName
+  nameWithType: IMultiLayerCoverController.SetMultiLayerSetName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetMultiLayerSetName
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetElementMultiLayerSet_System_UInt64_
+  name: GetElementMultiLayerSet
+  nameWithType: IMultiLayerCoverController.GetElementMultiLayerSet
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetElementMultiLayerSet
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetElementMultiLayerSet_System_UInt64_System_UInt64_
+  name: SetElementMultiLayerSet
+  nameWithType: IMultiLayerCoverController.SetElementMultiLayerSet
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetElementMultiLayerSet
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_CreateMultiLayerWall_System_String_
+  name: CreateMultiLayerWall
+  nameWithType: IMultiLayerCoverController.CreateMultiLayerWall
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.CreateMultiLayerWall
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetCoverName_System_UInt64_
+  name: GetCoverName
+  nameWithType: IMultiLayerCoverController.GetCoverName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverName
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetCoverName_System_UInt64_System_String_
+  name: SetCoverName
+  nameWithType: IMultiLayerCoverController.SetCoverName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverName
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetCoverMaterial_System_UInt64_
+  name: GetCoverMaterial
+  nameWithType: IMultiLayerCoverController.GetCoverMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetCoverMaterial_System_UInt64_System_UInt64_
+  name: SetCoverMaterial
+  nameWithType: IMultiLayerCoverController.SetCoverMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetCoverThickness_System_UInt64_
+  name: GetCoverThickness
+  nameWithType: IMultiLayerCoverController.GetCoverThickness
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverThickness
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetCoverThickness_System_UInt64_System_Double_
+  name: SetCoverThickness
+  nameWithType: IMultiLayerCoverController.SetCoverThickness
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverThickness
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetLayerCount_System_UInt64_
+  name: GetLayerCount
+  nameWithType: IMultiLayerCoverController.GetLayerCount
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerCount
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_AddLayer_System_UInt64_Cadwork_CwAPI3D_Enums_MultiLayerType_System_String_System_UInt64_System_Double_
+  name: AddLayer
+  nameWithType: IMultiLayerCoverController.AddLayer
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.AddLayer
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType
+  commentId: T:Cadwork.CwAPI3D.Enums.MultiLayerType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.MultiLayerType.html
+  name: MultiLayerType
+  nameWithType: MultiLayerType
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetLayerName_System_UInt64_System_UInt64_
+  name: GetLayerName
+  nameWithType: IMultiLayerCoverController.GetLayerName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerName
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetLayerName_System_UInt64_System_UInt64_System_String_
+  name: SetLayerName
+  nameWithType: IMultiLayerCoverController.SetLayerName
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerName
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetLayerMaterial_System_UInt64_System_UInt64_
+  name: GetLayerMaterial
+  nameWithType: IMultiLayerCoverController.GetLayerMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetLayerMaterial_System_UInt64_System_UInt64_System_UInt64_
+  name: SetLayerMaterial
+  nameWithType: IMultiLayerCoverController.SetLayerMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetLayerThickness_System_UInt64_System_UInt64_
+  name: GetLayerThickness
+  nameWithType: IMultiLayerCoverController.GetLayerThickness
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerThickness
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetLayerThickness_System_UInt64_System_UInt64_System_Double_
+  name: SetLayerThickness
+  nameWithType: IMultiLayerCoverController.SetLayerThickness
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerThickness
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetLayerType_System_UInt64_System_UInt64_
+  name: GetLayerType
+  nameWithType: IMultiLayerCoverController.GetLayerType
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetLayerType
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetLayerType_System_UInt64_System_UInt64_Cadwork_CwAPI3D_Enums_MultiLayerType_
+  name: SetLayerType
+  nameWithType: IMultiLayerCoverController.SetLayerType
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetLayerType
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_GetCoverColor_System_UInt64_
+  name: GetCoverColor
+  nameWithType: IMultiLayerCoverController.GetCoverColor
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.GetCoverColor
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor
+  href: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.html#Cadwork_CwAPI3D_Controllers_IMultiLayerCoverController_SetCoverColor_System_UInt64_System_UInt32_
+  name: SetCoverColor
+  nameWithType: IMultiLayerCoverController.SetCoverColor
+  fullName: Cadwork.CwAPI3D.Controllers.IMultiLayerCoverController.SetCoverColor

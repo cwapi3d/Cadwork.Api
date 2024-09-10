@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData
+  commentId: T:Cadwork.CwAPI3D.Helpers.ICameraData
+  id: ICameraData
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+  - Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView
+  - Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+  - Cadwork.CwAPI3D.Helpers.ICameraData.Position
+  - Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+  - Cadwork.CwAPI3D.Helpers.ICameraData.Target
+  - Cadwork.CwAPI3D.Helpers.ICameraData.Up
+  langs:
+  - csharp
+  - vb
+  name: ICameraData
+  nameWithType: ICameraData
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData
+  type: Interface
+  source:
+    id: ICameraData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ICameraData
+    content.vb: Public Interface ICameraData
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Position
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.Position
+  id: Position
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ICameraData.Position
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Position
+  type: Property
+  source:
+    id: Position
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 Position { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+    content.vb: Property Position As Vec3
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.Position*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Target
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.Target
+  id: Target
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: Target
+  nameWithType: ICameraData.Target
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Target
+  type: Property
+  source:
+    id: Target
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 Target { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+    content.vb: Property Target As Vec3
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.Target*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Up
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.Up
+  id: Up
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: ICameraData.Up
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Up
+  type: Property
+  source:
+    id: Up
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 Up { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+    content.vb: Property Up As Vec3
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.Up*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+  id: Projection
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: Projection
+  nameWithType: ICameraData.Projection
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+  type: Property
+  source:
+    id: Projection
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: ProjectionType Projection { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Enums.ProjectionType
+    content.vb: Property Projection As ProjectionType
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.Projection*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+  id: FieldWidth
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: FieldWidth
+  nameWithType: ICameraData.FieldWidth
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+  type: Property
+  source:
+    id: FieldWidth
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 33
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: float FieldWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property FieldWidth As Single
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+  id: FieldHeight
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: FieldHeight
+  nameWithType: ICameraData.FieldHeight
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+  type: Property
+  source:
+    id: FieldHeight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: float FieldHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property FieldHeight As Single
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight*
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView
+  commentId: P:Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView
+  id: FieldOfView
+  parent: Cadwork.CwAPI3D.Helpers.ICameraData
+  langs:
+  - csharp
+  - vb
+  name: FieldOfView
+  nameWithType: ICameraData.FieldOfView
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView
+  type: Property
+  source:
+    id: FieldOfView
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ICameraData.cs
+    startLine: 43
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: float FieldOfView { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Property FieldOfView As Single
+  overload: Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Position*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.Position
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_Position
+  name: Position
+  nameWithType: ICameraData.Position
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Position
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Target*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.Target
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_Target
+  name: Target
+  nameWithType: ICameraData.Target
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Target
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Up*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.Up
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_Up
+  name: Up
+  nameWithType: ICameraData.Up
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Up
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.Projection*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_Projection
+  name: Projection
+  nameWithType: ICameraData.Projection
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.Projection
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProjectionType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ProjectionType.html
+  name: ProjectionType
+  nameWithType: ProjectionType
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_FieldWidth
+  name: FieldWidth
+  nameWithType: ICameraData.FieldWidth
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldWidth
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_FieldHeight
+  name: FieldHeight
+  nameWithType: ICameraData.FieldHeight
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldHeight
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html#Cadwork_CwAPI3D_Helpers_ICameraData_FieldOfView
+  name: FieldOfView
+  nameWithType: ICameraData.FieldOfView
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData.FieldOfView

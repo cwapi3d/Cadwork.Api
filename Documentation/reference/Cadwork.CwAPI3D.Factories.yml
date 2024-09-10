@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Factories
+  commentId: N:Cadwork.CwAPI3D.Factories
+  id: Cadwork.CwAPI3D.Factories
+  children:
+  - Cadwork.CwAPI3D.Factories.IControllerFactory
+  langs:
+  - csharp
+  - vb
+  name: Cadwork.CwAPI3D.Factories
+  nameWithType: Cadwork.CwAPI3D.Factories
+  fullName: Cadwork.CwAPI3D.Factories
+  type: Namespace
+  assemblies:
+  - Cadwork.CwAPI3D
+references:
+- uid: Cadwork.CwAPI3D.Factories.IControllerFactory
+  commentId: T:Cadwork.CwAPI3D.Factories.IControllerFactory
+  href: Cadwork.CwAPI3D.Factories.IControllerFactory.html
+  name: IControllerFactory
+  nameWithType: IControllerFactory
+  fullName: Cadwork.CwAPI3D.Factories.IControllerFactory

@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  id: IIfcOptions.IIfcOptionsLevelOfDetail
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  langs:
+  - csharp
+  - vb
+  name: IIfcOptions.IIfcOptionsLevelOfDetail
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  type: Interface
+  source:
+    id: IIfcOptionsLevelOfDetail
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 99
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IIfcOptions.IIfcOptionsLevelOfDetail
+    content.vb: Public Interface IIfcOptions.IIfcOptionsLevelOfDetail
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  id: ExportEndTypeMaterialization
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportEndTypeMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  type: Property
+  source:
+    id: ExportEndTypeMaterialization
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportEndTypeMaterialization { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportEndTypeMaterialization As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  id: CutEndTypeCounterparts
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: CutEndTypeCounterparts
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  type: Property
+  source:
+    id: CutEndTypeCounterparts
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 109
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutEndTypeCounterparts { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutEndTypeCounterparts As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  id: ExportVbaDrillingAxes
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportVbaDrillingAxes
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  type: Property
+  source:
+    id: ExportVbaDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 114
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportVbaDrillingAxes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportVbaDrillingAxes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  id: ExportVbaComponents
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportVbaComponents
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  type: Property
+  source:
+    id: ExportVbaComponents
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 119
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportVbaComponents { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportVbaComponents As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  id: CutDrillingAxes
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: CutDrillingAxes
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  type: Property
+  source:
+    id: CutDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 124
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutDrillingAxes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutDrillingAxes As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  id: ExportInstallationRoundMaterialization
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportInstallationRoundMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  type: Property
+  source:
+    id: ExportInstallationRoundMaterialization
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 129
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportInstallationRoundMaterialization { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportInstallationRoundMaterialization As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  id: ExportInstallationRectangularMaterialization
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportInstallationRectangularMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  type: Property
+  source:
+    id: ExportInstallationRectangularMaterialization
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 134
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportInstallationRectangularMaterialization { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportInstallationRectangularMaterialization As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  id: CutInstallationRound
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: CutInstallationRound
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  type: Property
+  source:
+    id: CutInstallationRound
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 139
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutInstallationRound { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutInstallationRound As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  id: CutInstallationRectangular
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: CutInstallationRectangular
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  type: Property
+  source:
+    id: CutInstallationRectangular
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 144
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool CutInstallationRectangular { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property CutInstallationRectangular As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular*
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  commentId: P:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  id: ExportSweptSolidForSimpleGeometry
+  parent: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  langs:
+  - csharp
+  - vb
+  name: ExportSweptSolidForSimpleGeometry
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  type: Property
+  source:
+    id: ExportSweptSolidForSimpleGeometry
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IIfcOptions.cs
+    startLine: 149
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportSweptSolidForSimpleGeometry { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ExportSweptSolidForSimpleGeometry As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportEndTypeMaterialization
+  name: ExportEndTypeMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportEndTypeMaterialization
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_CutEndTypeCounterparts
+  name: CutEndTypeCounterparts
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutEndTypeCounterparts
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportVbaDrillingAxes
+  name: ExportVbaDrillingAxes
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaDrillingAxes
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportVbaComponents
+  name: ExportVbaComponents
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportVbaComponents
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_CutDrillingAxes
+  name: CutDrillingAxes
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutDrillingAxes
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportInstallationRoundMaterialization
+  name: ExportInstallationRoundMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRoundMaterialization
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportInstallationRectangularMaterialization
+  name: ExportInstallationRectangularMaterialization
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportInstallationRectangularMaterialization
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_CutInstallationRound
+  name: CutInstallationRound
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRound
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_CutInstallationRectangular
+  name: CutInstallationRectangular
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.CutInstallationRectangular
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html#Cadwork_CwAPI3D_Helpers_IIfcOptions_IIfcOptionsLevelOfDetail_ExportSweptSolidForSimpleGeometry
+  name: ExportSweptSolidForSimpleGeometry
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.ExportSweptSolidForSimpleGeometry

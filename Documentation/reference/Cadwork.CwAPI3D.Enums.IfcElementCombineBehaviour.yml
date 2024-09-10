@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  id: IfcElementCombineBehaviour
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Assembly
+  - Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Module
+  langs:
+  - csharp
+  - vb
+  name: IfcElementCombineBehaviour
+  nameWithType: IfcElementCombineBehaviour
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  type: Enum
+  source:
+    id: IfcElementCombineBehaviour
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\IfcElementCombineBehaviour.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum IfcElementCombineBehaviour
+    content.vb: Public Enum IfcElementCombineBehaviour
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Assembly
+  commentId: F:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Assembly
+  id: Assembly
+  parent: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Assembly
+  nameWithType: IfcElementCombineBehaviour.Assembly
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Assembly
+  type: Field
+  source:
+    id: Assembly
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\IfcElementCombineBehaviour.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Assembly = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Module
+  commentId: F:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Module
+  id: Module
+  parent: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: IfcElementCombineBehaviour.Module
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.Module
+  type: Field
+  source:
+    id: Module
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\IfcElementCombineBehaviour.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Module = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.html
+  name: IfcElementCombineBehaviour
+  nameWithType: IfcElementCombineBehaviour
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour

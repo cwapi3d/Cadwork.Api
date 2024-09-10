@@ -1,0 +1,3308 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMaterialController
+  id: IMaterialController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial(System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId(System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetName(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup(System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces(System.UInt32,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetName(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor(System.UInt64,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment(System.UInt64,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency(System.UInt64,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight(System.UInt64,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType(System.UInt64,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMaterialController
+  nameWithType: IMaterialController
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController
+  type: Interface
+  source:
+    id: IMaterialController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 6
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: public interface IMaterialController
+    content.vb: Public Interface IMaterialController
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IMaterialController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial(System.String)
+  id: CreateMaterial(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: CreateMaterial(string)
+  nameWithType: IMaterialController.CreateMaterial(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial(string)
+  type: Method
+  source:
+    id: CreateMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong CreateMaterial(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.UInt64
+    content.vb: Function CreateMaterial(name As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial*
+  nameWithType.vb: IMaterialController.CreateMaterial(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial(String)
+  name.vb: CreateMaterial(String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetName(System.UInt64)
+  id: GetName(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetName(ulong)
+  nameWithType: IMaterialController.GetName(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName(ulong)
+  type: Method
+  source:
+    id: GetName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetName(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetName(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName*
+  nameWithType.vb: IMaterialController.GetName(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName(ULong)
+  name.vb: GetName(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetName(System.UInt64,System.String)
+  id: SetName(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetName(ulong, string)
+  nameWithType: IMaterialController.SetName(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName(ulong, string)
+  type: Method
+  source:
+    id: SetName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetName(ulong materialId, string name)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: name
+      type: System.String
+    content.vb: Sub SetName(materialId As ULong, name As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName*
+  nameWithType.vb: IMaterialController.SetName(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName(ULong, String)
+  name.vb: SetName(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup(System.UInt64)
+  id: GetGroup(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetGroup(ulong)
+  nameWithType: IMaterialController.GetGroup(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup(ulong)
+  type: Method
+  source:
+    id: GetGroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetGroup(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetGroup(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup*
+  nameWithType.vb: IMaterialController.GetGroup(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup(ULong)
+  name.vb: GetGroup(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup(System.UInt64,System.String)
+  id: SetGroup(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetGroup(ulong, string)
+  nameWithType: IMaterialController.SetGroup(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup(ulong, string)
+  type: Method
+  source:
+    id: SetGroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetGroup(ulong materialId, string group)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: group
+      type: System.String
+    content.vb: Sub SetGroup(materialId As ULong, group As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup*
+  nameWithType.vb: IMaterialController.SetGroup(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup(ULong, String)
+  name.vb: SetGroup(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode(System.UInt64)
+  id: GetCode(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetCode(ulong)
+  nameWithType: IMaterialController.GetCode(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode(ulong)
+  type: Method
+  source:
+    id: GetCode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetCode(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetCode(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode*
+  nameWithType.vb: IMaterialController.GetCode(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode(ULong)
+  name.vb: GetCode(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode(System.UInt64,System.String)
+  id: SetCode(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetCode(ulong, string)
+  nameWithType: IMaterialController.SetCode(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode(ulong, string)
+  type: Method
+  source:
+    id: SetCode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetCode(ulong materialId, string code)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: code
+      type: System.String
+    content.vb: Sub SetCode(materialId As ULong, code As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode*
+  nameWithType.vb: IMaterialController.SetCode(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode(ULong, String)
+  name.vb: SetCode(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1(System.UInt64)
+  id: GetModulusElasticity1(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetModulusElasticity1(ulong)
+  nameWithType: IMaterialController.GetModulusElasticity1(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1(ulong)
+  type: Method
+  source:
+    id: GetModulusElasticity1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetModulusElasticity1(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetModulusElasticity1(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1*
+  nameWithType.vb: IMaterialController.GetModulusElasticity1(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1(ULong)
+  name.vb: GetModulusElasticity1(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1(System.UInt64,System.Double)
+  id: SetModulusElasticity1(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetModulusElasticity1(ulong, double)
+  nameWithType: IMaterialController.SetModulusElasticity1(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1(ulong, double)
+  type: Method
+  source:
+    id: SetModulusElasticity1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetModulusElasticity1(ulong materialId, double modulus)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: modulus
+      type: System.Double
+    content.vb: Sub SetModulusElasticity1(materialId As ULong, modulus As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1*
+  nameWithType.vb: IMaterialController.SetModulusElasticity1(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1(ULong, Double)
+  name.vb: SetModulusElasticity1(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2(System.UInt64)
+  id: GetModulusElasticity2(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetModulusElasticity2(ulong)
+  nameWithType: IMaterialController.GetModulusElasticity2(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2(ulong)
+  type: Method
+  source:
+    id: GetModulusElasticity2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetModulusElasticity2(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetModulusElasticity2(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2*
+  nameWithType.vb: IMaterialController.GetModulusElasticity2(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2(ULong)
+  name.vb: GetModulusElasticity2(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2(System.UInt64,System.Double)
+  id: SetModulusElasticity2(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetModulusElasticity2(ulong, double)
+  nameWithType: IMaterialController.SetModulusElasticity2(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2(ulong, double)
+  type: Method
+  source:
+    id: SetModulusElasticity2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetModulusElasticity2(ulong materialId, double modulus)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: modulus
+      type: System.Double
+    content.vb: Sub SetModulusElasticity2(materialId As ULong, modulus As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2*
+  nameWithType.vb: IMaterialController.SetModulusElasticity2(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2(ULong, Double)
+  name.vb: SetModulusElasticity2(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3(System.UInt64)
+  id: GetModulusElasticity3(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetModulusElasticity3(ulong)
+  nameWithType: IMaterialController.GetModulusElasticity3(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3(ulong)
+  type: Method
+  source:
+    id: GetModulusElasticity3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetModulusElasticity3(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetModulusElasticity3(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3*
+  nameWithType.vb: IMaterialController.GetModulusElasticity3(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3(ULong)
+  name.vb: GetModulusElasticity3(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3(System.UInt64,System.Double)
+  id: SetModulusElasticity3(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetModulusElasticity3(ulong, double)
+  nameWithType: IMaterialController.SetModulusElasticity3(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3(ulong, double)
+  type: Method
+  source:
+    id: SetModulusElasticity3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetModulusElasticity3(ulong materialId, double modulus)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: modulus
+      type: System.Double
+    content.vb: Sub SetModulusElasticity3(materialId As ULong, modulus As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3*
+  nameWithType.vb: IMaterialController.SetModulusElasticity3(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3(ULong, Double)
+  name.vb: SetModulusElasticity3(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1(System.UInt64)
+  id: GetShearModulus1(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetShearModulus1(ulong)
+  nameWithType: IMaterialController.GetShearModulus1(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1(ulong)
+  type: Method
+  source:
+    id: GetShearModulus1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetShearModulus1(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetShearModulus1(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1*
+  nameWithType.vb: IMaterialController.GetShearModulus1(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1(ULong)
+  name.vb: GetShearModulus1(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1(System.UInt64,System.Double)
+  id: SetShearModulus1(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetShearModulus1(ulong, double)
+  nameWithType: IMaterialController.SetShearModulus1(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1(ulong, double)
+  type: Method
+  source:
+    id: SetShearModulus1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetShearModulus1(ulong materialId, double modulus)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: modulus
+      type: System.Double
+    content.vb: Sub SetShearModulus1(materialId As ULong, modulus As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1*
+  nameWithType.vb: IMaterialController.SetShearModulus1(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1(ULong, Double)
+  name.vb: SetShearModulus1(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2(System.UInt64)
+  id: GetShearModulus2(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetShearModulus2(ulong)
+  nameWithType: IMaterialController.GetShearModulus2(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2(ulong)
+  type: Method
+  source:
+    id: GetShearModulus2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetShearModulus2(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetShearModulus2(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2*
+  nameWithType.vb: IMaterialController.GetShearModulus2(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2(ULong)
+  name.vb: GetShearModulus2(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2(System.UInt64,System.Double)
+  id: SetShearModulus2(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetShearModulus2(ulong, double)
+  nameWithType: IMaterialController.SetShearModulus2(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2(ulong, double)
+  type: Method
+  source:
+    id: SetShearModulus2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetShearModulus2(ulong materialId, double modulus)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: modulus
+      type: System.Double
+    content.vb: Sub SetShearModulus2(materialId As ULong, modulus As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2*
+  nameWithType.vb: IMaterialController.SetShearModulus2(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2(ULong, Double)
+  name.vb: SetShearModulus2(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice(System.UInt64)
+  id: GetPrice(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetPrice(ulong)
+  nameWithType: IMaterialController.GetPrice(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice(ulong)
+  type: Method
+  source:
+    id: GetPrice
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetPrice(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetPrice(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice*
+  nameWithType.vb: IMaterialController.GetPrice(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice(ULong)
+  name.vb: GetPrice(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice(System.UInt64,System.Double)
+  id: SetPrice(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetPrice(ulong, double)
+  nameWithType: IMaterialController.SetPrice(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice(ulong, double)
+  type: Method
+  source:
+    id: SetPrice
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetPrice(ulong materialId, double price)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: price
+      type: System.Double
+    content.vb: Sub SetPrice(materialId As ULong, price As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice*
+  nameWithType.vb: IMaterialController.SetPrice(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice(ULong, Double)
+  name.vb: SetPrice(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType(System.UInt64)
+  id: GetPriceType(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetPriceType(ulong)
+  nameWithType: IMaterialController.GetPriceType(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType(ulong)
+  type: Method
+  source:
+    id: GetPriceType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetPriceType(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetPriceType(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType*
+  nameWithType.vb: IMaterialController.GetPriceType(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType(ULong)
+  name.vb: GetPriceType(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType(System.UInt64,System.String)
+  id: SetPriceType(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetPriceType(ulong, string)
+  nameWithType: IMaterialController.SetPriceType(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType(ulong, string)
+  type: Method
+  source:
+    id: SetPriceType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetPriceType(ulong materialId, string priceType)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: priceType
+      type: System.String
+    content.vb: Sub SetPriceType(materialId As ULong, priceType As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType*
+  nameWithType.vb: IMaterialController.SetPriceType(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType(ULong, String)
+  name.vb: SetPriceType(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity(System.UInt64)
+  id: GetThermalConductivity(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetThermalConductivity(ulong)
+  nameWithType: IMaterialController.GetThermalConductivity(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity(ulong)
+  type: Method
+  source:
+    id: GetThermalConductivity
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetThermalConductivity(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetThermalConductivity(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity*
+  nameWithType.vb: IMaterialController.GetThermalConductivity(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity(ULong)
+  name.vb: GetThermalConductivity(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity(System.UInt64,System.Double)
+  id: SetThermalConductivity(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetThermalConductivity(ulong, double)
+  nameWithType: IMaterialController.SetThermalConductivity(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity(ulong, double)
+  type: Method
+  source:
+    id: SetThermalConductivity
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 31
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetThermalConductivity(ulong materialId, double thermalConductivity)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: thermalConductivity
+      type: System.Double
+    content.vb: Sub SetThermalConductivity(materialId As ULong, thermalConductivity As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity*
+  nameWithType.vb: IMaterialController.SetThermalConductivity(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity(ULong, Double)
+  name.vb: SetThermalConductivity(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity(System.UInt64)
+  id: GetHeatCapacity(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetHeatCapacity(ulong)
+  nameWithType: IMaterialController.GetHeatCapacity(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity(ulong)
+  type: Method
+  source:
+    id: GetHeatCapacity
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetHeatCapacity(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetHeatCapacity(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity*
+  nameWithType.vb: IMaterialController.GetHeatCapacity(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity(ULong)
+  name.vb: GetHeatCapacity(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity(System.UInt64,System.Double)
+  id: SetHeatCapacity(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetHeatCapacity(ulong, double)
+  nameWithType: IMaterialController.SetHeatCapacity(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity(ulong, double)
+  type: Method
+  source:
+    id: SetHeatCapacity
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 33
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetHeatCapacity(ulong materialId, double heatCapacity)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: heatCapacity
+      type: System.Double
+    content.vb: Sub SetHeatCapacity(materialId As ULong, heatCapacity As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity*
+  nameWithType.vb: IMaterialController.SetHeatCapacity(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity(ULong, Double)
+  name.vb: SetHeatCapacity(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin(System.UInt64)
+  id: GetUMin(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetUMin(ulong)
+  nameWithType: IMaterialController.GetUMin(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin(ulong)
+  type: Method
+  source:
+    id: GetUMin
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 34
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetUMin(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetUMin(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin*
+  nameWithType.vb: IMaterialController.GetUMin(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin(ULong)
+  name.vb: GetUMin(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin(System.UInt64,System.Double)
+  id: SetUMin(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetUMin(ulong, double)
+  nameWithType: IMaterialController.SetUMin(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin(ulong, double)
+  type: Method
+  source:
+    id: SetUMin
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetUMin(ulong materialId, double uMin)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: uMin
+      type: System.Double
+    content.vb: Sub SetUMin(materialId As ULong, uMin As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin*
+  nameWithType.vb: IMaterialController.SetUMin(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin(ULong, Double)
+  name.vb: SetUMin(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax(System.UInt64)
+  id: GetUMax(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetUMax(ulong)
+  nameWithType: IMaterialController.GetUMax(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax(ulong)
+  type: Method
+  source:
+    id: GetUMax
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 36
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetUMax(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetUMax(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax*
+  nameWithType.vb: IMaterialController.GetUMax(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax(ULong)
+  name.vb: GetUMax(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax(System.UInt64,System.Double)
+  id: SetUMax(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetUMax(ulong, double)
+  nameWithType: IMaterialController.SetUMax(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax(ulong, double)
+  type: Method
+  source:
+    id: SetUMax
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 37
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetUMax(ulong materialId, double uMax)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: uMax
+      type: System.Double
+    content.vb: Sub SetUMax(materialId As ULong, uMax As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax*
+  nameWithType.vb: IMaterialController.SetUMax(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax(ULong, Double)
+  name.vb: SetUMax(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass(System.UInt64)
+  id: GetFireResistanceClass(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetFireResistanceClass(ulong)
+  nameWithType: IMaterialController.GetFireResistanceClass(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass(ulong)
+  type: Method
+  source:
+    id: GetFireResistanceClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetFireResistanceClass(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetFireResistanceClass(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass*
+  nameWithType.vb: IMaterialController.GetFireResistanceClass(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass(ULong)
+  name.vb: GetFireResistanceClass(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass(System.UInt64,System.String)
+  id: SetFireResistanceClass(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetFireResistanceClass(ulong, string)
+  nameWithType: IMaterialController.SetFireResistanceClass(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass(ulong, string)
+  type: Method
+  source:
+    id: SetFireResistanceClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 39
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetFireResistanceClass(ulong materialId, string fireResistanceClass)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: fireResistanceClass
+      type: System.String
+    content.vb: Sub SetFireResistanceClass(materialId As ULong, fireResistanceClass As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass*
+  nameWithType.vb: IMaterialController.SetFireResistanceClass(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass(ULong, String)
+  name.vb: SetFireResistanceClass(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass(System.UInt64)
+  id: GetSmokeClass(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetSmokeClass(ulong)
+  nameWithType: IMaterialController.GetSmokeClass(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass(ulong)
+  type: Method
+  source:
+    id: GetSmokeClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetSmokeClass(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetSmokeClass(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass*
+  nameWithType.vb: IMaterialController.GetSmokeClass(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass(ULong)
+  name.vb: GetSmokeClass(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass(System.UInt64,System.String)
+  id: SetSmokeClass(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetSmokeClass(ulong, string)
+  nameWithType: IMaterialController.SetSmokeClass(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass(ulong, string)
+  type: Method
+  source:
+    id: SetSmokeClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 41
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetSmokeClass(ulong materialId, string smokeClass)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: smokeClass
+      type: System.String
+    content.vb: Sub SetSmokeClass(materialId As ULong, smokeClass As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass*
+  nameWithType.vb: IMaterialController.SetSmokeClass(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass(ULong, String)
+  name.vb: SetSmokeClass(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass(System.UInt64)
+  id: GetDropFormingClass(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetDropFormingClass(ulong)
+  nameWithType: IMaterialController.GetDropFormingClass(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass(ulong)
+  type: Method
+  source:
+    id: GetDropFormingClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 42
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetDropFormingClass(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetDropFormingClass(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass*
+  nameWithType.vb: IMaterialController.GetDropFormingClass(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass(ULong)
+  name.vb: GetDropFormingClass(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass(System.UInt64,System.String)
+  id: SetDropFormingClass(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetDropFormingClass(ulong, string)
+  nameWithType: IMaterialController.SetDropFormingClass(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass(ulong, string)
+  type: Method
+  source:
+    id: SetDropFormingClass
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 43
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetDropFormingClass(ulong materialId, string dropFormingClass)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: dropFormingClass
+      type: System.String
+    content.vb: Sub SetDropFormingClass(materialId As ULong, dropFormingClass As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass*
+  nameWithType.vb: IMaterialController.SetDropFormingClass(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass(ULong, String)
+  name.vb: SetDropFormingClass(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate(System.UInt64)
+  id: GetBurnOffRate(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetBurnOffRate(ulong)
+  nameWithType: IMaterialController.GetBurnOffRate(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate(ulong)
+  type: Method
+  source:
+    id: GetBurnOffRate
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 44
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetBurnOffRate(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetBurnOffRate(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate*
+  nameWithType.vb: IMaterialController.GetBurnOffRate(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate(ULong)
+  name.vb: GetBurnOffRate(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate(System.UInt64,System.Double)
+  id: SetBurnOffRate(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetBurnOffRate(ulong, double)
+  nameWithType: IMaterialController.SetBurnOffRate(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate(ulong, double)
+  type: Method
+  source:
+    id: SetBurnOffRate
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetBurnOffRate(ulong materialId, double burnOffRate)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: burnOffRate
+      type: System.Double
+    content.vb: Sub SetBurnOffRate(materialId As ULong, burnOffRate As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate*
+  nameWithType.vb: IMaterialController.SetBurnOffRate(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate(ULong, Double)
+  name.vb: SetBurnOffRate(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight(System.UInt64)
+  id: GetWeight(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetWeight(ulong)
+  nameWithType: IMaterialController.GetWeight(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight(ulong)
+  type: Method
+  source:
+    id: GetWeight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 46
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetWeight(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetWeight(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight*
+  nameWithType.vb: IMaterialController.GetWeight(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight(ULong)
+  name.vb: GetWeight(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight(System.UInt64,System.Double)
+  id: SetWeight(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetWeight(ulong, double)
+  nameWithType: IMaterialController.SetWeight(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight(ulong, double)
+  type: Method
+  source:
+    id: SetWeight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetWeight(ulong materialId, double weight)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: weight
+      type: System.Double
+    content.vb: Sub SetWeight(materialId As ULong, weight As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight*
+  nameWithType.vb: IMaterialController.SetWeight(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight(ULong, Double)
+  name.vb: SetWeight(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType(System.UInt64)
+  id: GetWeightType(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetWeightType(ulong)
+  nameWithType: IMaterialController.GetWeightType(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType(ulong)
+  type: Method
+  source:
+    id: GetWeightType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 48
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetWeightType(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetWeightType(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType*
+  nameWithType.vb: IMaterialController.GetWeightType(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType(ULong)
+  name.vb: GetWeightType(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType(System.UInt64,System.String)
+  id: SetWeightType(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetWeightType(ulong, string)
+  nameWithType: IMaterialController.SetWeightType(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType(ulong, string)
+  type: Method
+  source:
+    id: SetWeightType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 49
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetWeightType(ulong materialId, string weightType)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: weightType
+      type: System.String
+    content.vb: Sub SetWeightType(materialId As ULong, weightType As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType*
+  nameWithType.vb: IMaterialController.SetWeightType(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType(ULong, String)
+  name.vb: SetWeightType(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId(System.String)
+  id: GetMaterialId(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialId(string)
+  nameWithType: IMaterialController.GetMaterialId(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId(string)
+  type: Method
+  source:
+    id: GetMaterialId
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialId(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialId(name As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId*
+  nameWithType.vb: IMaterialController.GetMaterialId(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId(String)
+  name.vb: GetMaterialId(String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials
+  id: GetAllMaterials
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetAllMaterials()
+  nameWithType: IMaterialController.GetAllMaterials()
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials()
+  type: Method
+  source:
+    id: GetAllMaterials
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 51
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ICollection<ulong> GetAllMaterials()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+    content.vb: Function GetAllMaterials() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials*
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IMaterialController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 52
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade(System.UInt64)
+  id: GetGrade(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetGrade(ulong)
+  nameWithType: IMaterialController.GetGrade(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade(ulong)
+  type: Method
+  source:
+    id: GetGrade
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 53
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetGrade(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetGrade(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade*
+  nameWithType.vb: IMaterialController.GetGrade(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade(ULong)
+  name.vb: GetGrade(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade(System.UInt64,System.String)
+  id: SetGrade(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetGrade(ulong, string)
+  nameWithType: IMaterialController.SetGrade(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade(ulong, string)
+  type: Method
+  source:
+    id: SetGrade
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 54
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetGrade(ulong materialId, string grade)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: grade
+      type: System.String
+    content.vb: Sub SetGrade(materialId As ULong, grade As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade*
+  nameWithType.vb: IMaterialController.SetGrade(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade(ULong, String)
+  name.vb: SetGrade(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality(System.UInt64)
+  id: GetQuality(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetQuality(ulong)
+  nameWithType: IMaterialController.GetQuality(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality(ulong)
+  type: Method
+  source:
+    id: GetQuality
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetQuality(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetQuality(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality*
+  nameWithType.vb: IMaterialController.GetQuality(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality(ULong)
+  name.vb: GetQuality(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality(System.UInt64,System.String)
+  id: SetQuality(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetQuality(ulong, string)
+  nameWithType: IMaterialController.SetQuality(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality(ulong, string)
+  type: Method
+  source:
+    id: SetQuality
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 56
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetQuality(ulong materialId, string quality)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: quality
+      type: System.String
+    content.vb: Sub SetQuality(materialId As ULong, quality As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality*
+  nameWithType.vb: IMaterialController.SetQuality(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality(ULong, String)
+  name.vb: SetQuality(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition(System.UInt64)
+  id: GetComposition(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetComposition(ulong)
+  nameWithType: IMaterialController.GetComposition(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition(ulong)
+  type: Method
+  source:
+    id: GetComposition
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 57
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetComposition(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetComposition(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition*
+  nameWithType.vb: IMaterialController.GetComposition(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition(ULong)
+  name.vb: GetComposition(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition(System.UInt64,System.String)
+  id: SetComposition(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetComposition(ulong, string)
+  nameWithType: IMaterialController.SetComposition(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition(ulong, string)
+  type: Method
+  source:
+    id: SetComposition
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 58
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetComposition(ulong materialId, string composition)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: composition
+      type: System.String
+    content.vb: Sub SetComposition(materialId As ULong, composition As String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition*
+  nameWithType.vb: IMaterialController.SetComposition(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition(ULong, String)
+  name.vb: SetComposition(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName(System.UInt64)
+  id: GetShortName(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetShortName(ulong)
+  nameWithType: IMaterialController.GetShortName(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName(ulong)
+  type: Method
+  source:
+    id: GetShortName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 59
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetShortName(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.String
+    content.vb: Function GetShortName(materialId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName*
+  nameWithType.vb: IMaterialController.GetShortName(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName(ULong)
+  name.vb: GetShortName(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups
+  id: GetAllMaterialGroups
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetAllMaterialGroups()
+  nameWithType: IMaterialController.GetAllMaterialGroups()
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups()
+  type: Method
+  source:
+    id: GetAllMaterialGroups
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 60
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ICollection<string> GetAllMaterialGroups()
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+    content.vb: Function GetAllMaterialGroups() As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups*
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup(System.String)
+  id: GetParentGroup(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetParentGroup(string)
+  nameWithType: IMaterialController.GetParentGroup(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup(string)
+  type: Method
+  source:
+    id: GetParentGroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 61
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: string GetParentGroup(string aGroup)
+    parameters:
+    - id: aGroup
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetParentGroup(aGroup As String) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup*
+  nameWithType.vb: IMaterialController.GetParentGroup(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup(String)
+  name.vb: GetParentGroup(String)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes(System.UInt32)
+  id: GetMaterialColorAssignmentForNodes(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForNodes(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForNodes(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForNodes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 62
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForNodes(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForNodes(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForNodes(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes(UInteger)
+  name.vb: GetMaterialColorAssignmentForNodes(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForNodes(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForNodes(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForNodes(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForNodes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 63
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForNodes(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForNodes(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForNodes(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForNodes(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes(System.UInt32)
+  id: GetMaterialColorAssignmentForStandardAxes(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForStandardAxes(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForStandardAxes(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForStandardAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 64
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForStandardAxes(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForStandardAxes(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForStandardAxes(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes(UInteger)
+  name.vb: GetMaterialColorAssignmentForStandardAxes(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForStandardAxes(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForStandardAxes(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForStandardAxes(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForStandardAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 65
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForStandardAxes(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForStandardAxes(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForStandardAxes(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForStandardAxes(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes(System.UInt32)
+  id: GetMaterialColorAssignmentForDrillingAxes(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForDrillingAxes(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForDrillingAxes(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 66
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForDrillingAxes(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForDrillingAxes(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForDrillingAxes(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes(UInteger)
+  name.vb: GetMaterialColorAssignmentForDrillingAxes(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForDrillingAxes(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForDrillingAxes(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForDrillingAxes(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForDrillingAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 67
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForDrillingAxes(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForDrillingAxes(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForDrillingAxes(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForDrillingAxes(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes(System.UInt32)
+  id: GetMaterialColorAssignmentForMepAxes(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForMepAxes(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForMepAxes(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForMepAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 68
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForMepAxes(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForMepAxes(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForMepAxes(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes(UInteger)
+  name.vb: GetMaterialColorAssignmentForMepAxes(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForMepAxes(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForMepAxes(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForMepAxes(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForMepAxes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 69
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForMepAxes(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForMepAxes(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForMepAxes(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForMepAxes(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams(System.UInt32)
+  id: GetMaterialColorAssignmentForBeams(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForBeams(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForBeams(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForBeams
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 70
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForBeams(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForBeams(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForBeams(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams(UInteger)
+  name.vb: GetMaterialColorAssignmentForBeams(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForBeams(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForBeams(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForBeams(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForBeams
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 71
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForBeams(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForBeams(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForBeams(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForBeams(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels(System.UInt32)
+  id: GetMaterialColorAssignmentForPanels(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForPanels(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForPanels(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForPanels
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 72
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForPanels(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForPanels(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForPanels(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels(UInteger)
+  name.vb: GetMaterialColorAssignmentForPanels(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForPanels(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForPanels(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForPanels(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForPanels
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 73
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForPanels(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForPanels(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForPanels(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForPanels(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(System.UInt32)
+  id: GetMaterialColorAssignmentForAuxiliaryElements(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForAuxiliaryElements(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForAuxiliaryElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForAuxiliaryElements(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForAuxiliaryElements(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements(UInteger)
+  name.vb: GetMaterialColorAssignmentForAuxiliaryElements(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForAuxiliaryElements(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForAuxiliaryElements(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForAuxiliaryElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 75
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForAuxiliaryElements(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForAuxiliaryElements(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForAuxiliaryElements(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces(System.UInt32)
+  id: GetMaterialColorAssignmentForSurfaces(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterialColorAssignmentForSurfaces(uint)
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForSurfaces(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces(uint)
+  type: Method
+  source:
+    id: GetMaterialColorAssignmentForSurfaces
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 76
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: ulong GetMaterialColorAssignmentForSurfaces(uint colorNumber)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    return:
+      type: System.UInt64
+    content.vb: Function GetMaterialColorAssignmentForSurfaces(colorNumber As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces*
+  nameWithType.vb: IMaterialController.GetMaterialColorAssignmentForSurfaces(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces(UInteger)
+  name.vb: GetMaterialColorAssignmentForSurfaces(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces(System.UInt32,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces(System.UInt32,System.UInt64)
+  id: SetMaterialColorAssignmentForSurfaces(System.UInt32,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterialColorAssignmentForSurfaces(uint, ulong)
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForSurfaces(uint, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces(uint, ulong)
+  type: Method
+  source:
+    id: SetMaterialColorAssignmentForSurfaces
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 77
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetMaterialColorAssignmentForSurfaces(uint colorNumber, ulong materialId)
+    parameters:
+    - id: colorNumber
+      type: System.UInt32
+    - id: materialId
+      type: System.UInt64
+    content.vb: Sub SetMaterialColorAssignmentForSurfaces(colorNumber As UInteger, materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces*
+  nameWithType.vb: IMaterialController.SetMaterialColorAssignmentForSurfaces(UInteger, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces(UInteger, ULong)
+  name.vb: SetMaterialColorAssignmentForSurfaces(UInteger, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor(System.UInt64)
+  id: GetTextureColor(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureColor(ulong)
+  nameWithType: IMaterialController.GetTextureColor(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor(ulong)
+  type: Method
+  source:
+    id: GetTextureColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 78
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: int GetTextureColor(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Int32
+    content.vb: Function GetTextureColor(materialId As ULong) As Integer
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor*
+  nameWithType.vb: IMaterialController.GetTextureColor(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor(ULong)
+  name.vb: GetTextureColor(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor(System.UInt64,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor(System.UInt64,System.Int32)
+  id: SetTextureColor(System.UInt64,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureColor(ulong, int)
+  nameWithType: IMaterialController.SetTextureColor(ulong, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor(ulong, int)
+  type: Method
+  source:
+    id: SetTextureColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 79
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureColor(ulong materialId, int colorNumber)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: colorNumber
+      type: System.Int32
+    content.vb: Sub SetTextureColor(materialId As ULong, colorNumber As Integer)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor*
+  nameWithType.vb: IMaterialController.SetTextureColor(ULong, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor(ULong, Integer)
+  name.vb: SetTextureColor(ULong, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency(System.UInt64)
+  id: GetTextureTransparency(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureTransparency(ulong)
+  nameWithType: IMaterialController.GetTextureTransparency(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency(ulong)
+  type: Method
+  source:
+    id: GetTextureTransparency
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 80
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: int GetTextureTransparency(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Int32
+    content.vb: Function GetTextureTransparency(materialId As ULong) As Integer
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency*
+  nameWithType.vb: IMaterialController.GetTextureTransparency(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency(ULong)
+  name.vb: GetTextureTransparency(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency(System.UInt64,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency(System.UInt64,System.Int32)
+  id: SetTextureTransparency(System.UInt64,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureTransparency(ulong, int)
+  nameWithType: IMaterialController.SetTextureTransparency(ulong, int)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency(ulong, int)
+  type: Method
+  source:
+    id: SetTextureTransparency
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 81
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureTransparency(ulong materialId, int transparency)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: transparency
+      type: System.Int32
+    content.vb: Sub SetTextureTransparency(materialId As ULong, transparency As Integer)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency*
+  nameWithType.vb: IMaterialController.SetTextureTransparency(ULong, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency(ULong, Integer)
+  name.vb: SetTextureTransparency(ULong, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle(System.UInt64)
+  id: GetTextureRotationAngle(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureRotationAngle(ulong)
+  nameWithType: IMaterialController.GetTextureRotationAngle(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle(ulong)
+  type: Method
+  source:
+    id: GetTextureRotationAngle
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 82
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetTextureRotationAngle(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetTextureRotationAngle(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle*
+  nameWithType.vb: IMaterialController.GetTextureRotationAngle(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle(ULong)
+  name.vb: GetTextureRotationAngle(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle(System.UInt64,System.Double)
+  id: SetTextureRotationAngle(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureRotationAngle(ulong, double)
+  nameWithType: IMaterialController.SetTextureRotationAngle(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle(ulong, double)
+  type: Method
+  source:
+    id: SetTextureRotationAngle
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 83
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureRotationAngle(ulong materialId, double angle)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: angle
+      type: System.Double
+    content.vb: Sub SetTextureRotationAngle(materialId As ULong, angle As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle*
+  nameWithType.vb: IMaterialController.SetTextureRotationAngle(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle(ULong, Double)
+  name.vb: SetTextureRotationAngle(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment(System.UInt64)
+  id: GetTextureLengthAlignment(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureLengthAlignment(ulong)
+  nameWithType: IMaterialController.GetTextureLengthAlignment(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment(ulong)
+  type: Method
+  source:
+    id: GetTextureLengthAlignment
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 84
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: bool GetTextureLengthAlignment(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Boolean
+    content.vb: Function GetTextureLengthAlignment(materialId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment*
+  nameWithType.vb: IMaterialController.GetTextureLengthAlignment(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment(ULong)
+  name.vb: GetTextureLengthAlignment(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment(System.UInt64,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment(System.UInt64,System.Boolean)
+  id: SetTextureLengthAlignment(System.UInt64,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureLengthAlignment(ulong, bool)
+  nameWithType: IMaterialController.SetTextureLengthAlignment(ulong, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment(ulong, bool)
+  type: Method
+  source:
+    id: SetTextureLengthAlignment
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 85
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureLengthAlignment(ulong materialId, bool flag)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: flag
+      type: System.Boolean
+    content.vb: Sub SetTextureLengthAlignment(materialId As ULong, flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment*
+  nameWithType.vb: IMaterialController.SetTextureLengthAlignment(ULong, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment(ULong, Boolean)
+  name.vb: SetTextureLengthAlignment(ULong, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX(System.UInt64)
+  id: GetTextureZoomX(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureZoomX(ulong)
+  nameWithType: IMaterialController.GetTextureZoomX(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX(ulong)
+  type: Method
+  source:
+    id: GetTextureZoomX
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 86
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetTextureZoomX(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetTextureZoomX(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX*
+  nameWithType.vb: IMaterialController.GetTextureZoomX(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX(ULong)
+  name.vb: GetTextureZoomX(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX(System.UInt64,System.Double)
+  id: SetTextureZoomX(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureZoomX(ulong, double)
+  nameWithType: IMaterialController.SetTextureZoomX(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX(ulong, double)
+  type: Method
+  source:
+    id: SetTextureZoomX
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 87
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureZoomX(ulong materialId, double value)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: value
+      type: System.Double
+    content.vb: Sub SetTextureZoomX(materialId As ULong, value As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX*
+  nameWithType.vb: IMaterialController.SetTextureZoomX(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX(ULong, Double)
+  name.vb: SetTextureZoomX(ULong, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY(System.UInt64)
+  id: GetTextureZoomY(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: GetTextureZoomY(ulong)
+  nameWithType: IMaterialController.GetTextureZoomY(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY(ulong)
+  type: Method
+  source:
+    id: GetTextureZoomY
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 88
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: double GetTextureZoomY(ulong materialId)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    return:
+      type: System.Double
+    content.vb: Function GetTextureZoomY(materialId As ULong) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY*
+  nameWithType.vb: IMaterialController.GetTextureZoomY(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY(ULong)
+  name.vb: GetTextureZoomY(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY(System.UInt64,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY(System.UInt64,System.Double)
+  id: SetTextureZoomY(System.UInt64,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IMaterialController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureZoomY(ulong, double)
+  nameWithType: IMaterialController.SetTextureZoomY(ulong, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY(ulong, double)
+  type: Method
+  source:
+    id: SetTextureZoomY
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMaterialController.cs
+    startLine: 89
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  syntax:
+    content: void SetTextureZoomY(ulong materialId, double value)
+    parameters:
+    - id: materialId
+      type: System.UInt64
+    - id: value
+      type: System.Double
+    content.vb: Sub SetTextureZoomY(materialId As ULong, value As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY*
+  nameWithType.vb: IMaterialController.SetTextureZoomY(ULong, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY(ULong, Double)
+  name.vb: SetTextureZoomY(ULong, Double)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetLastError
+  name: GetLastError
+  nameWithType: IMaterialController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_CreateMaterial_System_String_
+  name: CreateMaterial
+  nameWithType: IMaterialController.CreateMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.CreateMaterial
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetName
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetName_System_UInt64_
+  name: GetName
+  nameWithType: IMaterialController.GetName
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetName
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetName
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetName_System_UInt64_System_String_
+  name: SetName
+  nameWithType: IMaterialController.SetName
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetName
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetGroup_System_UInt64_
+  name: GetGroup
+  nameWithType: IMaterialController.GetGroup
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGroup
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetGroup_System_UInt64_System_String_
+  name: SetGroup
+  nameWithType: IMaterialController.SetGroup
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGroup
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetCode_System_UInt64_
+  name: GetCode
+  nameWithType: IMaterialController.GetCode
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetCode
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetCode_System_UInt64_System_String_
+  name: SetCode
+  nameWithType: IMaterialController.SetCode
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetCode
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetModulusElasticity1_System_UInt64_
+  name: GetModulusElasticity1
+  nameWithType: IMaterialController.GetModulusElasticity1
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity1
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetModulusElasticity1_System_UInt64_System_Double_
+  name: SetModulusElasticity1
+  nameWithType: IMaterialController.SetModulusElasticity1
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity1
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetModulusElasticity2_System_UInt64_
+  name: GetModulusElasticity2
+  nameWithType: IMaterialController.GetModulusElasticity2
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity2
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetModulusElasticity2_System_UInt64_System_Double_
+  name: SetModulusElasticity2
+  nameWithType: IMaterialController.SetModulusElasticity2
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity2
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetModulusElasticity3_System_UInt64_
+  name: GetModulusElasticity3
+  nameWithType: IMaterialController.GetModulusElasticity3
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetModulusElasticity3
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetModulusElasticity3_System_UInt64_System_Double_
+  name: SetModulusElasticity3
+  nameWithType: IMaterialController.SetModulusElasticity3
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetModulusElasticity3
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetShearModulus1_System_UInt64_
+  name: GetShearModulus1
+  nameWithType: IMaterialController.GetShearModulus1
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus1
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetShearModulus1_System_UInt64_System_Double_
+  name: SetShearModulus1
+  nameWithType: IMaterialController.SetShearModulus1
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus1
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetShearModulus2_System_UInt64_
+  name: GetShearModulus2
+  nameWithType: IMaterialController.GetShearModulus2
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShearModulus2
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetShearModulus2_System_UInt64_System_Double_
+  name: SetShearModulus2
+  nameWithType: IMaterialController.SetShearModulus2
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetShearModulus2
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetPrice_System_UInt64_
+  name: GetPrice
+  nameWithType: IMaterialController.GetPrice
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPrice
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetPrice_System_UInt64_System_Double_
+  name: SetPrice
+  nameWithType: IMaterialController.SetPrice
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPrice
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetPriceType_System_UInt64_
+  name: GetPriceType
+  nameWithType: IMaterialController.GetPriceType
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetPriceType
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetPriceType_System_UInt64_System_String_
+  name: SetPriceType
+  nameWithType: IMaterialController.SetPriceType
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetPriceType
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetThermalConductivity_System_UInt64_
+  name: GetThermalConductivity
+  nameWithType: IMaterialController.GetThermalConductivity
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetThermalConductivity
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetThermalConductivity_System_UInt64_System_Double_
+  name: SetThermalConductivity
+  nameWithType: IMaterialController.SetThermalConductivity
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetThermalConductivity
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetHeatCapacity_System_UInt64_
+  name: GetHeatCapacity
+  nameWithType: IMaterialController.GetHeatCapacity
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetHeatCapacity
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetHeatCapacity_System_UInt64_System_Double_
+  name: SetHeatCapacity
+  nameWithType: IMaterialController.SetHeatCapacity
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetHeatCapacity
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetUMin_System_UInt64_
+  name: GetUMin
+  nameWithType: IMaterialController.GetUMin
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMin
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetUMin_System_UInt64_System_Double_
+  name: SetUMin
+  nameWithType: IMaterialController.SetUMin
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMin
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetUMax_System_UInt64_
+  name: GetUMax
+  nameWithType: IMaterialController.GetUMax
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetUMax
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetUMax_System_UInt64_System_Double_
+  name: SetUMax
+  nameWithType: IMaterialController.SetUMax
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetUMax
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetFireResistanceClass_System_UInt64_
+  name: GetFireResistanceClass
+  nameWithType: IMaterialController.GetFireResistanceClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetFireResistanceClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetFireResistanceClass_System_UInt64_System_String_
+  name: SetFireResistanceClass
+  nameWithType: IMaterialController.SetFireResistanceClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetFireResistanceClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetSmokeClass_System_UInt64_
+  name: GetSmokeClass
+  nameWithType: IMaterialController.GetSmokeClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetSmokeClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetSmokeClass_System_UInt64_System_String_
+  name: SetSmokeClass
+  nameWithType: IMaterialController.SetSmokeClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetSmokeClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetDropFormingClass_System_UInt64_
+  name: GetDropFormingClass
+  nameWithType: IMaterialController.GetDropFormingClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetDropFormingClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetDropFormingClass_System_UInt64_System_String_
+  name: SetDropFormingClass
+  nameWithType: IMaterialController.SetDropFormingClass
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetDropFormingClass
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetBurnOffRate_System_UInt64_
+  name: GetBurnOffRate
+  nameWithType: IMaterialController.GetBurnOffRate
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetBurnOffRate
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetBurnOffRate_System_UInt64_System_Double_
+  name: SetBurnOffRate
+  nameWithType: IMaterialController.SetBurnOffRate
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetBurnOffRate
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetWeight_System_UInt64_
+  name: GetWeight
+  nameWithType: IMaterialController.GetWeight
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeight
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetWeight_System_UInt64_System_Double_
+  name: SetWeight
+  nameWithType: IMaterialController.SetWeight
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeight
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetWeightType_System_UInt64_
+  name: GetWeightType
+  nameWithType: IMaterialController.GetWeightType
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetWeightType
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetWeightType_System_UInt64_System_String_
+  name: SetWeightType
+  nameWithType: IMaterialController.SetWeightType
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetWeightType
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialId_System_String_
+  name: GetMaterialId
+  nameWithType: IMaterialController.GetMaterialId
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialId
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetAllMaterials
+  name: GetAllMaterials
+  nameWithType: IMaterialController.GetAllMaterials
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterials
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_ClearErrors
+  name: ClearErrors
+  nameWithType: IMaterialController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetGrade_System_UInt64_
+  name: GetGrade
+  nameWithType: IMaterialController.GetGrade
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetGrade
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetGrade_System_UInt64_System_String_
+  name: SetGrade
+  nameWithType: IMaterialController.SetGrade
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetGrade
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetQuality_System_UInt64_
+  name: GetQuality
+  nameWithType: IMaterialController.GetQuality
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetQuality
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetQuality_System_UInt64_System_String_
+  name: SetQuality
+  nameWithType: IMaterialController.SetQuality
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetQuality
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetComposition_System_UInt64_
+  name: GetComposition
+  nameWithType: IMaterialController.GetComposition
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetComposition
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetComposition_System_UInt64_System_String_
+  name: SetComposition
+  nameWithType: IMaterialController.SetComposition
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetComposition
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetShortName_System_UInt64_
+  name: GetShortName
+  nameWithType: IMaterialController.GetShortName
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetShortName
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetAllMaterialGroups
+  name: GetAllMaterialGroups
+  nameWithType: IMaterialController.GetAllMaterialGroups
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetAllMaterialGroups
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetParentGroup_System_String_
+  name: GetParentGroup
+  nameWithType: IMaterialController.GetParentGroup
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetParentGroup
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForNodes_System_UInt32_
+  name: GetMaterialColorAssignmentForNodes
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForNodes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForNodes
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForNodes_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForNodes
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForNodes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForNodes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForStandardAxes_System_UInt32_
+  name: GetMaterialColorAssignmentForStandardAxes
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForStandardAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForStandardAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForStandardAxes_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForStandardAxes
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForStandardAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForStandardAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForDrillingAxes_System_UInt32_
+  name: GetMaterialColorAssignmentForDrillingAxes
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForDrillingAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForDrillingAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForDrillingAxes_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForDrillingAxes
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForDrillingAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForDrillingAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForMepAxes_System_UInt32_
+  name: GetMaterialColorAssignmentForMepAxes
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForMepAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForMepAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForMepAxes_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForMepAxes
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForMepAxes
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForMepAxes
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForBeams_System_UInt32_
+  name: GetMaterialColorAssignmentForBeams
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForBeams
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForBeams
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForBeams_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForBeams
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForBeams
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForBeams
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForPanels_System_UInt32_
+  name: GetMaterialColorAssignmentForPanels
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForPanels
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForPanels
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForPanels_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForPanels
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForPanels
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForPanels
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForAuxiliaryElements_System_UInt32_
+  name: GetMaterialColorAssignmentForAuxiliaryElements
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForAuxiliaryElements
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForAuxiliaryElements_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForAuxiliaryElements
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForAuxiliaryElements
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetMaterialColorAssignmentForSurfaces_System_UInt32_
+  name: GetMaterialColorAssignmentForSurfaces
+  nameWithType: IMaterialController.GetMaterialColorAssignmentForSurfaces
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetMaterialColorAssignmentForSurfaces
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetMaterialColorAssignmentForSurfaces_System_UInt32_System_UInt64_
+  name: SetMaterialColorAssignmentForSurfaces
+  nameWithType: IMaterialController.SetMaterialColorAssignmentForSurfaces
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetMaterialColorAssignmentForSurfaces
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureColor_System_UInt64_
+  name: GetTextureColor
+  nameWithType: IMaterialController.GetTextureColor
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureColor
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureColor_System_UInt64_System_Int32_
+  name: SetTextureColor
+  nameWithType: IMaterialController.SetTextureColor
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureColor
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureTransparency_System_UInt64_
+  name: GetTextureTransparency
+  nameWithType: IMaterialController.GetTextureTransparency
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureTransparency
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureTransparency_System_UInt64_System_Int32_
+  name: SetTextureTransparency
+  nameWithType: IMaterialController.SetTextureTransparency
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureTransparency
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureRotationAngle_System_UInt64_
+  name: GetTextureRotationAngle
+  nameWithType: IMaterialController.GetTextureRotationAngle
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureRotationAngle
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureRotationAngle_System_UInt64_System_Double_
+  name: SetTextureRotationAngle
+  nameWithType: IMaterialController.SetTextureRotationAngle
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureRotationAngle
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureLengthAlignment_System_UInt64_
+  name: GetTextureLengthAlignment
+  nameWithType: IMaterialController.GetTextureLengthAlignment
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureLengthAlignment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureLengthAlignment_System_UInt64_System_Boolean_
+  name: SetTextureLengthAlignment
+  nameWithType: IMaterialController.SetTextureLengthAlignment
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureLengthAlignment
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureZoomX_System_UInt64_
+  name: GetTextureZoomX
+  nameWithType: IMaterialController.GetTextureZoomX
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomX
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureZoomX_System_UInt64_System_Double_
+  name: SetTextureZoomX
+  nameWithType: IMaterialController.SetTextureZoomX
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomX
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_GetTextureZoomY_System_UInt64_
+  name: GetTextureZoomY
+  nameWithType: IMaterialController.GetTextureZoomY
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.GetTextureZoomY
+- uid: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY
+  href: Cadwork.CwAPI3D.Controllers.IMaterialController.html#Cadwork_CwAPI3D_Controllers_IMaterialController_SetTextureZoomY_System_UInt64_System_Double_
+  name: SetTextureZoomY
+  nameWithType: IMaterialController.SetTextureZoomY
+  fullName: Cadwork.CwAPI3D.Controllers.IMaterialController.SetTextureZoomY

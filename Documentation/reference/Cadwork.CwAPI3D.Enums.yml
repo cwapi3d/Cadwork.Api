@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  id: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute
+  - Cadwork.CwAPI3D.Enums.DivisionZoneDirection
+  - Cadwork.CwAPI3D.Enums.ElementGroupingType
+  - Cadwork.CwAPI3D.Enums.ElementType
+  - Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  - Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  - Cadwork.CwAPI3D.Enums.IfcPredefinedType
+  - Cadwork.CwAPI3D.Enums.MultiLayerType
+  - Cadwork.CwAPI3D.Enums.ProcessType
+  - Cadwork.CwAPI3D.Enums.ProjectionType
+  - Cadwork.CwAPI3D.Enums.ShortcutKey
+  - Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  - Cadwork.CwAPI3D.Enums.StandardElementType
+  - Cadwork.CwAPI3D.Enums.TextElementType
+  langs:
+  - csharp
+  - vb
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  type: Namespace
+  assemblies:
+  - Cadwork.CwAPI3D
+references:
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  commentId: T:Cadwork.CwAPI3D.Enums.DisplayAttribute
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.DisplayAttribute.html
+  name: DisplayAttribute
+  nameWithType: DisplayAttribute
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DivisionZoneDirection
+  commentId: T:Cadwork.CwAPI3D.Enums.DivisionZoneDirection
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.DivisionZoneDirection.html
+  name: DivisionZoneDirection
+  nameWithType: DivisionZoneDirection
+  fullName: Cadwork.CwAPI3D.Enums.DivisionZoneDirection
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementGroupingType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ElementGroupingType.html
+  name: ElementGroupingType
+  nameWithType: ElementGroupingType
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType
+- uid: Cadwork.CwAPI3D.Enums.ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ElementType.html
+  name: ElementType
+  nameWithType: ElementType
+  fullName: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.html
+  name: Ifc2x3ElementType
+  nameWithType: Ifc2x3ElementType
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour.html
+  name: IfcElementCombineBehaviour
+  nameWithType: IfcElementCombineBehaviour
+  fullName: Cadwork.CwAPI3D.Enums.IfcElementCombineBehaviour
+- uid: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcPredefinedType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.IfcPredefinedType.html
+  name: IfcPredefinedType
+  nameWithType: IfcPredefinedType
+  fullName: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+- uid: Cadwork.CwAPI3D.Enums.MultiLayerType
+  commentId: T:Cadwork.CwAPI3D.Enums.MultiLayerType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.MultiLayerType.html
+  name: MultiLayerType
+  nameWithType: MultiLayerType
+  fullName: Cadwork.CwAPI3D.Enums.MultiLayerType
+- uid: Cadwork.CwAPI3D.Enums.ProcessType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProcessType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ProcessType.html
+  name: ProcessType
+  nameWithType: ProcessType
+  fullName: Cadwork.CwAPI3D.Enums.ProcessType
+- uid: Cadwork.CwAPI3D.Enums.ProjectionType
+  commentId: T:Cadwork.CwAPI3D.Enums.ProjectionType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ProjectionType.html
+  name: ProjectionType
+  nameWithType: ProjectionType
+  fullName: Cadwork.CwAPI3D.Enums.ProjectionType
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKey
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKey
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ShortcutKey.html
+  name: ShortcutKey
+  nameWithType: ShortcutKey
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKey
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.html
+  name: ShortcutKeyModifier
+  nameWithType: ShortcutKeyModifier
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.StandardElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.StandardElementType.html
+  name: StandardElementType
+  nameWithType: StandardElementType
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.TextElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.TextElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.TextElementType.html
+  name: TextElementType
+  nameWithType: TextElementType
+  fullName: Cadwork.CwAPI3D.Enums.TextElementType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html

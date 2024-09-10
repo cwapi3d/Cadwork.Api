@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.ILayerSettings
+  id: ILayerSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+  langs:
+  - csharp
+  - vb
+  name: ILayerSettings
+  nameWithType: ILayerSettings
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  type: Interface
+  source:
+    id: ILayerSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ILayerSettings
+    content.vb: Public Interface ILayerSettings
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+  commentId: P:Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+  id: GetLayerNumber
+  parent: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  langs:
+  - csharp
+  - vb
+  name: GetLayerNumber
+  nameWithType: ILayerSettings.GetLayerNumber
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+  type: Property
+  source:
+    id: GetLayerNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: int GetLayerNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property GetLayerNumber As Integer
+  overload: Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber*
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+  commentId: P:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+  id: WithoutOutput
+  parent: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  langs:
+  - csharp
+  - vb
+  name: WithoutOutput
+  nameWithType: ILayerSettings.WithoutOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+  type: Property
+  source:
+    id: WithoutOutput
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool WithoutOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WithoutOutput As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput*
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+  commentId: P:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+  id: WithDimensionsOutput
+  parent: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  langs:
+  - csharp
+  - vb
+  name: WithDimensionsOutput
+  nameWithType: ILayerSettings.WithDimensionsOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+  type: Property
+  source:
+    id: WithDimensionsOutput
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool WithDimensionsOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WithDimensionsOutput As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput*
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+  commentId: P:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+  id: WithoutDimensionsOutput
+  parent: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  langs:
+  - csharp
+  - vb
+  name: WithoutDimensionsOutput
+  nameWithType: ILayerSettings.WithoutDimensionsOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+  type: Property
+  source:
+    id: WithoutDimensionsOutput
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool WithoutDimensionsOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WithoutDimensionsOutput As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput*
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput
+  commentId: P:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput
+  id: WithAttributesOutput
+  parent: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  langs:
+  - csharp
+  - vb
+  name: WithAttributesOutput
+  nameWithType: ILayerSettings.WithAttributesOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput
+  type: Property
+  source:
+    id: WithAttributesOutput
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\ILayerSettings.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool WithAttributesOutput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WithAttributesOutput As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html#Cadwork_CwAPI3D_Helpers_ILayerSettings_GetLayerNumber
+  name: GetLayerNumber
+  nameWithType: ILayerSettings.GetLayerNumber
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.GetLayerNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html#Cadwork_CwAPI3D_Helpers_ILayerSettings_WithoutOutput
+  name: WithoutOutput
+  nameWithType: ILayerSettings.WithoutOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutOutput
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html#Cadwork_CwAPI3D_Helpers_ILayerSettings_WithDimensionsOutput
+  name: WithDimensionsOutput
+  nameWithType: ILayerSettings.WithDimensionsOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithDimensionsOutput
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html#Cadwork_CwAPI3D_Helpers_ILayerSettings_WithoutDimensionsOutput
+  name: WithoutDimensionsOutput
+  nameWithType: ILayerSettings.WithoutDimensionsOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithoutDimensionsOutput
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html#Cadwork_CwAPI3D_Helpers_ILayerSettings_WithAttributesOutput
+  name: WithAttributesOutput
+  nameWithType: ILayerSettings.WithAttributesOutput
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings.WithAttributesOutput

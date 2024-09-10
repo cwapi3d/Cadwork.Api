@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementGroupingType
+  id: ElementGroupingType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ElementGroupingType.Group
+  - Cadwork.CwAPI3D.Enums.ElementGroupingType.Subgroup
+  langs:
+  - csharp
+  - vb
+  name: ElementGroupingType
+  nameWithType: ElementGroupingType
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  type: Enum
+  source:
+    id: ElementGroupingType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementGroupingType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ElementGroupingType
+    content.vb: Public Enum ElementGroupingType
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType.Group
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementGroupingType.Group
+  id: Group
+  parent: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: ElementGroupingType.Group
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType.Group
+  type: Field
+  source:
+    id: Group
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementGroupingType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Group = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementGroupingType
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType.Subgroup
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementGroupingType.Subgroup
+  id: Subgroup
+  parent: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  langs:
+  - csharp
+  - vb
+  name: Subgroup
+  nameWithType: ElementGroupingType.Subgroup
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType.Subgroup
+  type: Field
+  source:
+    id: Subgroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementGroupingType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Subgroup = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementGroupingType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ElementGroupingType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementGroupingType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ElementGroupingType.html
+  name: ElementGroupingType
+  nameWithType: ElementGroupingType
+  fullName: Cadwork.CwAPI3D.Enums.ElementGroupingType

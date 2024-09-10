@@ -1,0 +1,1136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IEndTypeController
+  id: IEndTypeController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType(System.String,System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId(System.String)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet(System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet(System.UInt64,System.UInt64,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart(System.UInt64,System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac(System.UInt64,System.String,System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog
+  langs:
+  - csharp
+  - vb
+  name: IEndTypeController
+  nameWithType: IEndTypeController
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  type: Interface
+  source:
+    id: IEndTypeController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IEndTypeController
+    content.vb: Public Interface IEndTypeController
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IEndTypeController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName(System.UInt64)
+  id: GetEndTypeName(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeName(ulong)
+  nameWithType: IEndTypeController.GetEndTypeName(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName(ulong)
+  type: Method
+  source:
+    id: GetEndTypeName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetEndTypeName(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetEndTypeName(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName*
+  nameWithType.vb: IEndTypeController.GetEndTypeName(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName(ULong)
+  name.vb: GetEndTypeName(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId(System.String)
+  id: GetEndTypeId(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeId(string)
+  nameWithType: IEndTypeController.GetEndTypeId(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId(string)
+  type: Method
+  source:
+    id: GetEndTypeId
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetEndTypeId(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetEndTypeId(name As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId*
+  nameWithType.vb: IEndTypeController.GetEndTypeId(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId(String)
+  name.vb: GetEndTypeId(String)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart(System.UInt64)
+  id: GetEndTypeIdStart(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeIdStart(ulong)
+  nameWithType: IEndTypeController.GetEndTypeIdStart(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart(ulong)
+  type: Method
+  source:
+    id: GetEndTypeIdStart
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 37
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetEndTypeIdStart(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetEndTypeIdStart(elementId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart*
+  nameWithType.vb: IEndTypeController.GetEndTypeIdStart(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart(ULong)
+  name.vb: GetEndTypeIdStart(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd(System.UInt64)
+  id: GetEndTypeIdEnd(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeIdEnd(ulong)
+  nameWithType: IEndTypeController.GetEndTypeIdEnd(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd(ulong)
+  type: Method
+  source:
+    id: GetEndTypeIdEnd
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 44
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetEndTypeIdEnd(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetEndTypeIdEnd(elementId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd*
+  nameWithType.vb: IEndTypeController.GetEndTypeIdEnd(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd(ULong)
+  name.vb: GetEndTypeIdEnd(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet(System.UInt64,System.UInt32)
+  id: GetEndTypeIdFacet(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeIdFacet(ulong, uint)
+  nameWithType: IEndTypeController.GetEndTypeIdFacet(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet(ulong, uint)
+  type: Method
+  source:
+    id: GetEndTypeIdFacet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 52
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetEndTypeIdFacet(ulong elementId, uint facetIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: facetIndex
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetEndTypeIdFacet(elementId As ULong, facetIndex As UInteger) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet*
+  nameWithType.vb: IEndTypeController.GetEndTypeIdFacet(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet(ULong, UInteger)
+  name.vb: GetEndTypeIdFacet(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart(System.UInt64)
+  id: GetEndTypeNameStart(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeNameStart(ulong)
+  nameWithType: IEndTypeController.GetEndTypeNameStart(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart(ulong)
+  type: Method
+  source:
+    id: GetEndTypeNameStart
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 59
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetEndTypeNameStart(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetEndTypeNameStart(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart*
+  nameWithType.vb: IEndTypeController.GetEndTypeNameStart(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart(ULong)
+  name.vb: GetEndTypeNameStart(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd(System.UInt64)
+  id: GetEndTypeNameEnd(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeNameEnd(ulong)
+  nameWithType: IEndTypeController.GetEndTypeNameEnd(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd(ulong)
+  type: Method
+  source:
+    id: GetEndTypeNameEnd
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 66
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetEndTypeNameEnd(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetEndTypeNameEnd(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd*
+  nameWithType.vb: IEndTypeController.GetEndTypeNameEnd(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd(ULong)
+  name.vb: GetEndTypeNameEnd(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet(System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet(System.UInt64,System.UInt32)
+  id: GetEndTypeNameFacet(System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetEndTypeNameFacet(ulong, uint)
+  nameWithType: IEndTypeController.GetEndTypeNameFacet(ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet(ulong, uint)
+  type: Method
+  source:
+    id: GetEndTypeNameFacet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetEndTypeNameFacet(ulong elementId, uint facetIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: facetIndex
+      type: System.UInt32
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetEndTypeNameFacet(elementId As ULong, facetIndex As UInteger) As String
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet*
+  nameWithType.vb: IEndTypeController.GetEndTypeNameFacet(ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet(ULong, UInteger)
+  name.vb: GetEndTypeNameFacet(ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart(System.UInt64,System.String)
+  id: SetEndTypeNameStart(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeNameStart(ulong, string)
+  nameWithType: IEndTypeController.SetEndTypeNameStart(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart(ulong, string)
+  type: Method
+  source:
+    id: SetEndTypeNameStart
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 81
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeNameStart(ulong elementId, string name)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Sub SetEndTypeNameStart(elementId As ULong, name As String)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart*
+  nameWithType.vb: IEndTypeController.SetEndTypeNameStart(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart(ULong, String)
+  name.vb: SetEndTypeNameStart(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd(System.UInt64,System.String)
+  id: SetEndTypeNameEnd(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeNameEnd(ulong, string)
+  nameWithType: IEndTypeController.SetEndTypeNameEnd(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd(ulong, string)
+  type: Method
+  source:
+    id: SetEndTypeNameEnd
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 88
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeNameEnd(ulong elementId, string name)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Sub SetEndTypeNameEnd(elementId As ULong, name As String)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd*
+  nameWithType.vb: IEndTypeController.SetEndTypeNameEnd(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd(ULong, String)
+  name.vb: SetEndTypeNameEnd(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac(System.UInt64,System.String,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac(System.UInt64,System.String,System.UInt32)
+  id: SetEndTypeNameFac(System.UInt64,System.String,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeNameFac(ulong, string, uint)
+  nameWithType: IEndTypeController.SetEndTypeNameFac(ulong, string, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac(ulong, string, uint)
+  type: Method
+  source:
+    id: SetEndTypeNameFac
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 96
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeNameFac(ulong elementId, string name, uint facetIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    - id: facetIndex
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetEndTypeNameFac(elementId As ULong, name As String, facetIndex As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac*
+  nameWithType.vb: IEndTypeController.SetEndTypeNameFac(ULong, String, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac(ULong, String, UInteger)
+  name.vb: SetEndTypeNameFac(ULong, String, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart(System.UInt64,System.UInt64)
+  id: SetEndTypeIdStart(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeIdStart(ulong, ulong)
+  nameWithType: IEndTypeController.SetEndTypeIdStart(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart(ulong, ulong)
+  type: Method
+  source:
+    id: SetEndTypeIdStart
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 103
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeIdStart(ulong elementId, ulong endTypeId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: endTypeId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetEndTypeIdStart(elementId As ULong, endTypeId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart*
+  nameWithType.vb: IEndTypeController.SetEndTypeIdStart(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart(ULong, ULong)
+  name.vb: SetEndTypeIdStart(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd(System.UInt64,System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd(System.UInt64,System.UInt64)
+  id: SetEndTypeIdEnd(System.UInt64,System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeIdEnd(ulong, ulong)
+  nameWithType: IEndTypeController.SetEndTypeIdEnd(ulong, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd(ulong, ulong)
+  type: Method
+  source:
+    id: SetEndTypeIdEnd
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 110
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeIdEnd(ulong elementId, ulong endTypeId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: endTypeId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetEndTypeIdEnd(elementId As ULong, endTypeId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd*
+  nameWithType.vb: IEndTypeController.SetEndTypeIdEnd(ULong, ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd(ULong, ULong)
+  name.vb: SetEndTypeIdEnd(ULong, ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet(System.UInt64,System.UInt64,System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet(System.UInt64,System.UInt64,System.UInt32)
+  id: SetEndTypeIdFacet(System.UInt64,System.UInt64,System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: SetEndTypeIdFacet(ulong, ulong, uint)
+  nameWithType: IEndTypeController.SetEndTypeIdFacet(ulong, ulong, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet(ulong, ulong, uint)
+  type: Method
+  source:
+    id: SetEndTypeIdFacet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 118
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetEndTypeIdFacet(ulong elementId, ulong endTypeId, uint facetIndex)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    - id: endTypeId
+      type: System.UInt64
+      description: ''
+    - id: facetIndex
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetEndTypeIdFacet(elementId As ULong, endTypeId As ULong, facetIndex As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet*
+  nameWithType.vb: IEndTypeController.SetEndTypeIdFacet(ULong, ULong, UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet(ULong, ULong, UInteger)
+  name.vb: SetEndTypeIdFacet(ULong, ULong, UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType(System.String,System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType(System.String,System.UInt64,System.String)
+  id: CreateNewEndType(System.String,System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEndType(string, ulong, string)
+  nameWithType: IEndTypeController.CreateNewEndType(string, ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType(string, ulong, string)
+  type: Method
+  source:
+    id: CreateNewEndType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 127
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong CreateNewEndType(string name, ulong endTypeId, string aFolderName)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: endTypeId
+      type: System.UInt64
+      description: ''
+    - id: aFolderName
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function CreateNewEndType(name As String, endTypeId As ULong, aFolderName As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType*
+  nameWithType.vb: IEndTypeController.CreateNewEndType(String, ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType(String, ULong, String)
+  name.vb: CreateNewEndType(String, ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IEndTypeController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 132
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds
+  id: GetExistingTenonIds
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetExistingTenonIds()
+  nameWithType: IEndTypeController.GetExistingTenonIds()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds()
+  type: Method
+  source:
+    id: GetExistingTenonIds
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 138
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetExistingTenonIds()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetExistingTenonIds() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds
+  id: GetExistingLengtheningIds
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetExistingLengtheningIds()
+  nameWithType: IEndTypeController.GetExistingLengtheningIds()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds()
+  type: Method
+  source:
+    id: GetExistingLengtheningIds
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 144
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetExistingLengtheningIds()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetExistingLengtheningIds() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds
+  id: GetExistingDovetailIds
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetExistingDovetailIds()
+  nameWithType: IEndTypeController.GetExistingDovetailIds()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds()
+  type: Method
+  source:
+    id: GetExistingDovetailIds
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 150
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetExistingDovetailIds()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetExistingDovetailIds() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds
+  id: GetExistingDovetailDadoIds
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetExistingDovetailDadoIds()
+  nameWithType: IEndTypeController.GetExistingDovetailDadoIds()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds()
+  type: Method
+  source:
+    id: GetExistingDovetailDadoIds
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 156
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetExistingDovetailDadoIds()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetExistingDovetailDadoIds() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds
+  id: GetExistingJapaneseTenonIds
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: GetExistingJapaneseTenonIds()
+  nameWithType: IEndTypeController.GetExistingJapaneseTenonIds()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds()
+  type: Method
+  source:
+    id: GetExistingJapaneseTenonIds
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 162
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetExistingJapaneseTenonIds()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetExistingJapaneseTenonIds() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds*
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog
+  commentId: M:Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog
+  id: StartEndTypeDialog
+  parent: Cadwork.CwAPI3D.Controllers.IEndTypeController
+  langs:
+  - csharp
+  - vb
+  name: StartEndTypeDialog()
+  nameWithType: IEndTypeController.StartEndTypeDialog()
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog()
+  type: Method
+  source:
+    id: StartEndTypeDialog
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IEndTypeController.cs
+    startLine: 168
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong StartEndTypeDialog()
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function StartEndTypeDialog() As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog*
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetLastError
+  name: GetLastError
+  nameWithType: IEndTypeController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeName_System_UInt64_
+  name: GetEndTypeName
+  nameWithType: IEndTypeController.GetEndTypeName
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeName
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeId_System_String_
+  name: GetEndTypeId
+  nameWithType: IEndTypeController.GetEndTypeId
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeId
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeIdStart_System_UInt64_
+  name: GetEndTypeIdStart
+  nameWithType: IEndTypeController.GetEndTypeIdStart
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdStart
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeIdEnd_System_UInt64_
+  name: GetEndTypeIdEnd
+  nameWithType: IEndTypeController.GetEndTypeIdEnd
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdEnd
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeIdFacet_System_UInt64_System_UInt32_
+  name: GetEndTypeIdFacet
+  nameWithType: IEndTypeController.GetEndTypeIdFacet
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeIdFacet
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeNameStart_System_UInt64_
+  name: GetEndTypeNameStart
+  nameWithType: IEndTypeController.GetEndTypeNameStart
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameStart
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeNameEnd_System_UInt64_
+  name: GetEndTypeNameEnd
+  nameWithType: IEndTypeController.GetEndTypeNameEnd
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameEnd
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetEndTypeNameFacet_System_UInt64_System_UInt32_
+  name: GetEndTypeNameFacet
+  nameWithType: IEndTypeController.GetEndTypeNameFacet
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetEndTypeNameFacet
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeNameStart_System_UInt64_System_String_
+  name: SetEndTypeNameStart
+  nameWithType: IEndTypeController.SetEndTypeNameStart
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameStart
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeNameEnd_System_UInt64_System_String_
+  name: SetEndTypeNameEnd
+  nameWithType: IEndTypeController.SetEndTypeNameEnd
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameEnd
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeNameFac_System_UInt64_System_String_System_UInt32_
+  name: SetEndTypeNameFac
+  nameWithType: IEndTypeController.SetEndTypeNameFac
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeNameFac
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeIdStart_System_UInt64_System_UInt64_
+  name: SetEndTypeIdStart
+  nameWithType: IEndTypeController.SetEndTypeIdStart
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdStart
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeIdEnd_System_UInt64_System_UInt64_
+  name: SetEndTypeIdEnd
+  nameWithType: IEndTypeController.SetEndTypeIdEnd
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdEnd
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_SetEndTypeIdFacet_System_UInt64_System_UInt64_System_UInt32_
+  name: SetEndTypeIdFacet
+  nameWithType: IEndTypeController.SetEndTypeIdFacet
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.SetEndTypeIdFacet
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_CreateNewEndType_System_String_System_UInt64_System_String_
+  name: CreateNewEndType
+  nameWithType: IEndTypeController.CreateNewEndType
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.CreateNewEndType
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_ClearErrors
+  name: ClearErrors
+  nameWithType: IEndTypeController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetExistingTenonIds
+  name: GetExistingTenonIds
+  nameWithType: IEndTypeController.GetExistingTenonIds
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingTenonIds
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetExistingLengtheningIds
+  name: GetExistingLengtheningIds
+  nameWithType: IEndTypeController.GetExistingLengtheningIds
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingLengtheningIds
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetExistingDovetailIds
+  name: GetExistingDovetailIds
+  nameWithType: IEndTypeController.GetExistingDovetailIds
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailIds
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetExistingDovetailDadoIds
+  name: GetExistingDovetailDadoIds
+  nameWithType: IEndTypeController.GetExistingDovetailDadoIds
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingDovetailDadoIds
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_GetExistingJapaneseTenonIds
+  name: GetExistingJapaneseTenonIds
+  nameWithType: IEndTypeController.GetExistingJapaneseTenonIds
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.GetExistingJapaneseTenonIds
+- uid: Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog
+  href: Cadwork.CwAPI3D.Controllers.IEndTypeController.html#Cadwork_CwAPI3D_Controllers_IEndTypeController_StartEndTypeDialog
+  name: StartEndTypeDialog
+  nameWithType: IEndTypeController.StartEndTypeDialog
+  fullName: Cadwork.CwAPI3D.Controllers.IEndTypeController.StartEndTypeDialog

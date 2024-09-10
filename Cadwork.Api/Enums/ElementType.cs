@@ -1,0 +1,57 @@
+﻿// Copyright (C) Cadwork. All rights reserved.
+
+namespace Cadwork.Api.Enums;
+
+/// <summary>
+/// 
+/// </summary>
+public enum ElementType
+{
+  None,
+  NormalNode,
+  ConnectorNode,
+  WireAxis,
+  EaveAxis,
+  RectangularAxis,
+  CircularAxis,
+  DrillingAxis,
+  ConnectorAxis,
+  Line,
+  Surface,
+  Cadwork,
+  GlobalCut,
+  Wall,
+  Opening,
+  Floor,
+  Roof,
+  Container,
+  ExportSolid,
+  Auxiliary,
+  NestingParent,
+  RectangularBeam,
+  CircularBeam,
+  SteelShape,
+  Panel,
+  RotationElement,
+  AdditionalElement,
+  Room,
+  GraphicalObject,
+  Dimension,
+  TextDocument,
+  ExportSolidScene,
+  SectionTrace,
+  RoundMep,
+  RectangularMep,
+  ProfileMep,
+  RoofSurface,
+  ContainerBlock,
+  RoofTileSurface,
+  ExchangeObject,
+  FramedWall,
+  SolidWoodWall,
+  LogWall,
+  FramedRoof,
+  SolidWoodRoof,
+  FramedFloor,
+  SolidWoodFloor,
+}

@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  id: IAttributeDisplaySettings
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  - Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+  - Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+  - Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+  langs:
+  - csharp
+  - vb
+  name: IAttributeDisplaySettings
+  nameWithType: IAttributeDisplaySettings
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  type: Interface
+  source:
+    id: IAttributeDisplaySettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IAttributeDisplaySettings.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IAttributeDisplaySettings
+    content.vb: Public Interface IAttributeDisplaySettings
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+  commentId: P:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+  id: TextPositionPercentageValue
+  parent: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  langs:
+  - csharp
+  - vb
+  name: TextPositionPercentageValue
+  nameWithType: IAttributeDisplaySettings.TextPositionPercentageValue
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+  type: Property
+  source:
+    id: TextPositionPercentageValue
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IAttributeDisplaySettings.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: uint TextPositionPercentageValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Property TextPositionPercentageValue As UInteger
+  overload: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue*
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+  commentId: P:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+  id: TextPositionAbsoluteValue
+  parent: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  langs:
+  - csharp
+  - vb
+  name: TextPositionAbsoluteValue
+  nameWithType: IAttributeDisplaySettings.TextPositionAbsoluteValue
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+  type: Property
+  source:
+    id: TextPositionAbsoluteValue
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IAttributeDisplaySettings.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: uint TextPositionAbsoluteValue { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Property TextPositionAbsoluteValue As UInteger
+  overload: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue*
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+  commentId: P:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+  id: IsTextPositionTypePercentage
+  parent: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  langs:
+  - csharp
+  - vb
+  name: IsTextPositionTypePercentage
+  nameWithType: IAttributeDisplaySettings.IsTextPositionTypePercentage
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+  type: Property
+  source:
+    id: IsTextPositionTypePercentage
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IAttributeDisplaySettings.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsTextPositionTypePercentage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTextPositionTypePercentage As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage*
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  commentId: P:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  id: IsTextPositionTypeAbsolute
+  parent: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  langs:
+  - csharp
+  - vb
+  name: IsTextPositionTypeAbsolute
+  nameWithType: IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  type: Property
+  source:
+    id: IsTextPositionTypeAbsolute
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IAttributeDisplaySettings.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsTextPositionTypeAbsolute { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsTextPositionTypeAbsolute As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+  href: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.html#Cadwork_CwAPI3D_Helpers_IAttributeDisplaySettings_TextPositionPercentageValue
+  name: TextPositionPercentageValue
+  nameWithType: IAttributeDisplaySettings.TextPositionPercentageValue
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionPercentageValue
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+  href: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.html#Cadwork_CwAPI3D_Helpers_IAttributeDisplaySettings_TextPositionAbsoluteValue
+  name: TextPositionAbsoluteValue
+  nameWithType: IAttributeDisplaySettings.TextPositionAbsoluteValue
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.TextPositionAbsoluteValue
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+  href: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.html#Cadwork_CwAPI3D_Helpers_IAttributeDisplaySettings_IsTextPositionTypePercentage
+  name: IsTextPositionTypePercentage
+  nameWithType: IAttributeDisplaySettings.IsTextPositionTypePercentage
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypePercentage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  href: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.html#Cadwork_CwAPI3D_Helpers_IAttributeDisplaySettings_IsTextPositionTypeAbsolute
+  name: IsTextPositionTypeAbsolute
+  nameWithType: IAttributeDisplaySettings.IsTextPositionTypeAbsolute
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.IsTextPositionTypeAbsolute

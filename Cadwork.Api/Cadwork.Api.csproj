@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Cadwork.Api</PackageId>
+    <Version>30.576.1</Version>
+    <Authors>Cadwork</Authors>
+    <Company>Cadwork</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © 2024 Cadwork</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\"/>
+    <Folder Include="Structs\"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cadwork.Api.Interop\Cadwork.Api.Interop.csproj"/>
+  </ItemGroup>
+
+</Project>

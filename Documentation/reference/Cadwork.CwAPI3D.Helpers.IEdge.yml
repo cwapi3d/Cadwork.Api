@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IEdge
+  commentId: T:Cadwork.CwAPI3D.Helpers.IEdge
+  id: IEdge
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+  langs:
+  - csharp
+  - vb
+  name: IEdge
+  nameWithType: IEdge
+  fullName: Cadwork.CwAPI3D.Helpers.IEdge
+  type: Interface
+  source:
+    id: IEdge
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IEdge.cs
+    startLine: 4
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  syntax:
+    content: public interface IEdge
+    content.vb: Public Interface IEdge
+- uid: Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+  commentId: P:Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+  id: Vertices
+  parent: Cadwork.CwAPI3D.Helpers.IEdge
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: IEdge.Vertices
+  fullName: Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+  type: Property
+  source:
+    id: Vertices
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IEdge.cs
+    startLine: 6
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  syntax:
+    content: ICollection<Vec3> Vertices { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+    content.vb: Property Vertices As ICollection(Of Vec3)
+  overload: Cadwork.CwAPI3D.Helpers.IEdge.Vertices*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IEdge.Vertices*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+  href: Cadwork.CwAPI3D.Helpers.IEdge.html#Cadwork_CwAPI3D_Helpers_IEdge_Vertices
+  name: Vertices
+  nameWithType: IEdge.Vertices
+  fullName: Cadwork.CwAPI3D.Helpers.IEdge.Vertices
+- uid: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  commentId: T:System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Vec3>
+  nameWithType: ICollection<Vec3>
+  fullName: System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Structs.Vec3>
+  nameWithType.vb: ICollection(Of Vec3)
+  fullName.vb: System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ICollection(Of Vec3)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

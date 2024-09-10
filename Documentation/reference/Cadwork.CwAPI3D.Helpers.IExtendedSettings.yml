@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  id: IExtendedSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+  langs:
+  - csharp
+  - vb
+  name: IExtendedSettings
+  nameWithType: IExtendedSettings
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  type: Interface
+  source:
+    id: IExtendedSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IExtendedSettings
+    content.vb: Public Interface IExtendedSettings
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+  id: PieceByPieceExportWithDimensions
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: PieceByPieceExportWithDimensions
+  nameWithType: IExtendedSettings.PieceByPieceExportWithDimensions
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+  type: Property
+  source:
+    id: PieceByPieceExportWithDimensions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool PieceByPieceExportWithDimensions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PieceByPieceExportWithDimensions As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+  id: PieceByPieceExportWithoutDimensions
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: PieceByPieceExportWithoutDimensions
+  nameWithType: IExtendedSettings.PieceByPieceExportWithoutDimensions
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+  type: Property
+  source:
+    id: PieceByPieceExportWithoutDimensions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool PieceByPieceExportWithoutDimensions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PieceByPieceExportWithoutDimensions As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+  id: WallExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: WallExport
+  nameWithType: IExtendedSettings.WallExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+  type: Property
+  source:
+    id: WallExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool WallExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property WallExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+  id: GroupExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: GroupExport
+  nameWithType: IExtendedSettings.GroupExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+  type: Property
+  source:
+    id: GroupExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool GroupExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property GroupExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+  id: ChiefElement
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: ChiefElement
+  nameWithType: IExtendedSettings.ChiefElement
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+  type: Property
+  source:
+    id: ChiefElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ChiefElement { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ChiefElement As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+  id: MfbExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: MfbExport
+  nameWithType: IExtendedSettings.MfbExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+  type: Property
+  source:
+    id: MfbExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool MfbExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property MfbExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+  id: LogHomeExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: LogHomeExport
+  nameWithType: IExtendedSettings.LogHomeExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+  type: Property
+  source:
+    id: LogHomeExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool LogHomeExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogHomeExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+  id: BtlWallExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: BtlWallExport
+  nameWithType: IExtendedSettings.BtlWallExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+  type: Property
+  source:
+    id: BtlWallExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool BtlWallExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property BtlWallExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+  id: LogMacroExport
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: LogMacroExport
+  nameWithType: IExtendedSettings.LogMacroExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+  type: Property
+  source:
+    id: LogMacroExport
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool LogMacroExport { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property LogMacroExport As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+  id: Outline
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: Outline
+  nameWithType: IExtendedSettings.Outline
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+  type: Property
+  source:
+    id: Outline
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool Outline { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Outline As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline*
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis
+  commentId: P:Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis
+  id: IgnoreForConnectorAxis
+  parent: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  langs:
+  - csharp
+  - vb
+  name: IgnoreForConnectorAxis
+  nameWithType: IExtendedSettings.IgnoreForConnectorAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis
+  type: Property
+  source:
+    id: IgnoreForConnectorAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IExtendedSettings.cs
+    startLine: 60
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IgnoreForConnectorAxis { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IgnoreForConnectorAxis As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_PieceByPieceExportWithDimensions
+  name: PieceByPieceExportWithDimensions
+  nameWithType: IExtendedSettings.PieceByPieceExportWithDimensions
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithDimensions
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_PieceByPieceExportWithoutDimensions
+  name: PieceByPieceExportWithoutDimensions
+  nameWithType: IExtendedSettings.PieceByPieceExportWithoutDimensions
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.PieceByPieceExportWithoutDimensions
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_WallExport
+  name: WallExport
+  nameWithType: IExtendedSettings.WallExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.WallExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_GroupExport
+  name: GroupExport
+  nameWithType: IExtendedSettings.GroupExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.GroupExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_ChiefElement
+  name: ChiefElement
+  nameWithType: IExtendedSettings.ChiefElement
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.ChiefElement
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_MfbExport
+  name: MfbExport
+  nameWithType: IExtendedSettings.MfbExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.MfbExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_LogHomeExport
+  name: LogHomeExport
+  nameWithType: IExtendedSettings.LogHomeExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogHomeExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_BtlWallExport
+  name: BtlWallExport
+  nameWithType: IExtendedSettings.BtlWallExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.BtlWallExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_LogMacroExport
+  name: LogMacroExport
+  nameWithType: IExtendedSettings.LogMacroExport
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.LogMacroExport
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_Outline
+  name: Outline
+  nameWithType: IExtendedSettings.Outline
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.Outline
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html#Cadwork_CwAPI3D_Helpers_IExtendedSettings_IgnoreForConnectorAxis
+  name: IgnoreForConnectorAxis
+  nameWithType: IExtendedSettings.IgnoreForConnectorAxis
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings.IgnoreForConnectorAxis

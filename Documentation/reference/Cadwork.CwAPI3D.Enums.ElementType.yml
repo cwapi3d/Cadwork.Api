@@ -1,0 +1,1145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementType
+  id: ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ElementType.AdditionalElement
+  - Cadwork.CwAPI3D.Enums.ElementType.Auxiliary
+  - Cadwork.CwAPI3D.Enums.ElementType.Cadwork
+  - Cadwork.CwAPI3D.Enums.ElementType.CircularAxis
+  - Cadwork.CwAPI3D.Enums.ElementType.CircularBeam
+  - Cadwork.CwAPI3D.Enums.ElementType.ConnectorAxis
+  - Cadwork.CwAPI3D.Enums.ElementType.ConnectorNode
+  - Cadwork.CwAPI3D.Enums.ElementType.Container
+  - Cadwork.CwAPI3D.Enums.ElementType.ContainerBlock
+  - Cadwork.CwAPI3D.Enums.ElementType.Dimension
+  - Cadwork.CwAPI3D.Enums.ElementType.DrillingAxis
+  - Cadwork.CwAPI3D.Enums.ElementType.EaveAxis
+  - Cadwork.CwAPI3D.Enums.ElementType.ExchangeObject
+  - Cadwork.CwAPI3D.Enums.ElementType.ExportSolid
+  - Cadwork.CwAPI3D.Enums.ElementType.ExportSolidScene
+  - Cadwork.CwAPI3D.Enums.ElementType.Floor
+  - Cadwork.CwAPI3D.Enums.ElementType.FramedFloor
+  - Cadwork.CwAPI3D.Enums.ElementType.FramedRoof
+  - Cadwork.CwAPI3D.Enums.ElementType.FramedWall
+  - Cadwork.CwAPI3D.Enums.ElementType.GlobalCut
+  - Cadwork.CwAPI3D.Enums.ElementType.GraphicalObject
+  - Cadwork.CwAPI3D.Enums.ElementType.Line
+  - Cadwork.CwAPI3D.Enums.ElementType.LogWall
+  - Cadwork.CwAPI3D.Enums.ElementType.NestingParent
+  - Cadwork.CwAPI3D.Enums.ElementType.None
+  - Cadwork.CwAPI3D.Enums.ElementType.NormalNode
+  - Cadwork.CwAPI3D.Enums.ElementType.Opening
+  - Cadwork.CwAPI3D.Enums.ElementType.Panel
+  - Cadwork.CwAPI3D.Enums.ElementType.ProfileMep
+  - Cadwork.CwAPI3D.Enums.ElementType.RectangularAxis
+  - Cadwork.CwAPI3D.Enums.ElementType.RectangularBeam
+  - Cadwork.CwAPI3D.Enums.ElementType.RectangularMep
+  - Cadwork.CwAPI3D.Enums.ElementType.Roof
+  - Cadwork.CwAPI3D.Enums.ElementType.RoofSurface
+  - Cadwork.CwAPI3D.Enums.ElementType.RoofTileSurface
+  - Cadwork.CwAPI3D.Enums.ElementType.Room
+  - Cadwork.CwAPI3D.Enums.ElementType.RotationElement
+  - Cadwork.CwAPI3D.Enums.ElementType.RoundMep
+  - Cadwork.CwAPI3D.Enums.ElementType.SectionTrace
+  - Cadwork.CwAPI3D.Enums.ElementType.SolidWoodFloor
+  - Cadwork.CwAPI3D.Enums.ElementType.SolidWoodRoof
+  - Cadwork.CwAPI3D.Enums.ElementType.SolidWoodWall
+  - Cadwork.CwAPI3D.Enums.ElementType.SteelShape
+  - Cadwork.CwAPI3D.Enums.ElementType.Surface
+  - Cadwork.CwAPI3D.Enums.ElementType.TextDocument
+  - Cadwork.CwAPI3D.Enums.ElementType.Wall
+  - Cadwork.CwAPI3D.Enums.ElementType.WireAxis
+  langs:
+  - csharp
+  - vb
+  name: ElementType
+  nameWithType: ElementType
+  fullName: Cadwork.CwAPI3D.Enums.ElementType
+  type: Enum
+  source:
+    id: ElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ElementType
+    content.vb: Public Enum ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.None
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.None
+  id: None
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ElementType.None
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.None
+  type: Field
+  source:
+    id: None
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: None = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.NormalNode
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.NormalNode
+  id: NormalNode
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: NormalNode
+  nameWithType: ElementType.NormalNode
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.NormalNode
+  type: Field
+  source:
+    id: NormalNode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: NormalNode = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ConnectorNode
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ConnectorNode
+  id: ConnectorNode
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ConnectorNode
+  nameWithType: ElementType.ConnectorNode
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ConnectorNode
+  type: Field
+  source:
+    id: ConnectorNode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ConnectorNode = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.WireAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.WireAxis
+  id: WireAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: WireAxis
+  nameWithType: ElementType.WireAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.WireAxis
+  type: Field
+  source:
+    id: WireAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: WireAxis = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.EaveAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.EaveAxis
+  id: EaveAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: EaveAxis
+  nameWithType: ElementType.EaveAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.EaveAxis
+  type: Field
+  source:
+    id: EaveAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: EaveAxis = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RectangularAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RectangularAxis
+  id: RectangularAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RectangularAxis
+  nameWithType: ElementType.RectangularAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RectangularAxis
+  type: Field
+  source:
+    id: RectangularAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RectangularAxis = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.CircularAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.CircularAxis
+  id: CircularAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: CircularAxis
+  nameWithType: ElementType.CircularAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.CircularAxis
+  type: Field
+  source:
+    id: CircularAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: CircularAxis = 6
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.DrillingAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.DrillingAxis
+  id: DrillingAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: DrillingAxis
+  nameWithType: ElementType.DrillingAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.DrillingAxis
+  type: Field
+  source:
+    id: DrillingAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: DrillingAxis = 7
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ConnectorAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ConnectorAxis
+  id: ConnectorAxis
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ConnectorAxis
+  nameWithType: ElementType.ConnectorAxis
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ConnectorAxis
+  type: Field
+  source:
+    id: ConnectorAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ConnectorAxis = 8
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Line
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Line
+  id: Line
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: ElementType.Line
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Line
+  type: Field
+  source:
+    id: Line
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Line = 9
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Surface
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Surface
+  id: Surface
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Surface
+  nameWithType: ElementType.Surface
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Surface
+  type: Field
+  source:
+    id: Surface
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Surface = 10
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Cadwork
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Cadwork
+  id: Cadwork
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Cadwork
+  nameWithType: ElementType.Cadwork
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Cadwork
+  type: Field
+  source:
+    id: Cadwork
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Cadwork = 11
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.GlobalCut
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.GlobalCut
+  id: GlobalCut
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: GlobalCut
+  nameWithType: ElementType.GlobalCut
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.GlobalCut
+  type: Field
+  source:
+    id: GlobalCut
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: GlobalCut = 12
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Wall
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Wall
+  id: Wall
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Wall
+  nameWithType: ElementType.Wall
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Wall
+  type: Field
+  source:
+    id: Wall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Wall = 13
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Opening
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Opening
+  id: Opening
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Opening
+  nameWithType: ElementType.Opening
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Opening
+  type: Field
+  source:
+    id: Opening
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Opening = 14
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Floor
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Floor
+  id: Floor
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Floor
+  nameWithType: ElementType.Floor
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Floor
+  type: Field
+  source:
+    id: Floor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Floor = 15
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Roof
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Roof
+  id: Roof
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Roof
+  nameWithType: ElementType.Roof
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Roof
+  type: Field
+  source:
+    id: Roof
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Roof = 16
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Container
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Container
+  id: Container
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: ElementType.Container
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Container
+  type: Field
+  source:
+    id: Container
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Container = 17
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ExportSolid
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ExportSolid
+  id: ExportSolid
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ExportSolid
+  nameWithType: ElementType.ExportSolid
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ExportSolid
+  type: Field
+  source:
+    id: ExportSolid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ExportSolid = 18
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Auxiliary
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Auxiliary
+  id: Auxiliary
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Auxiliary
+  nameWithType: ElementType.Auxiliary
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Auxiliary
+  type: Field
+  source:
+    id: Auxiliary
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Auxiliary = 19
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.NestingParent
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.NestingParent
+  id: NestingParent
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: NestingParent
+  nameWithType: ElementType.NestingParent
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.NestingParent
+  type: Field
+  source:
+    id: NestingParent
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: NestingParent = 20
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RectangularBeam
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RectangularBeam
+  id: RectangularBeam
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RectangularBeam
+  nameWithType: ElementType.RectangularBeam
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RectangularBeam
+  type: Field
+  source:
+    id: RectangularBeam
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RectangularBeam = 21
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.CircularBeam
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.CircularBeam
+  id: CircularBeam
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: CircularBeam
+  nameWithType: ElementType.CircularBeam
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.CircularBeam
+  type: Field
+  source:
+    id: CircularBeam
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: CircularBeam = 22
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.SteelShape
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.SteelShape
+  id: SteelShape
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: SteelShape
+  nameWithType: ElementType.SteelShape
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.SteelShape
+  type: Field
+  source:
+    id: SteelShape
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 30
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SteelShape = 23
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Panel
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Panel
+  id: Panel
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: ElementType.Panel
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Panel
+  type: Field
+  source:
+    id: Panel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 31
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel = 24
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RotationElement
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RotationElement
+  id: RotationElement
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RotationElement
+  nameWithType: ElementType.RotationElement
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RotationElement
+  type: Field
+  source:
+    id: RotationElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RotationElement = 25
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.AdditionalElement
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.AdditionalElement
+  id: AdditionalElement
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: AdditionalElement
+  nameWithType: ElementType.AdditionalElement
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.AdditionalElement
+  type: Field
+  source:
+    id: AdditionalElement
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 33
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: AdditionalElement = 26
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Room
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Room
+  id: Room
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: ElementType.Room
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Room
+  type: Field
+  source:
+    id: Room
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 34
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Room = 27
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.GraphicalObject
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.GraphicalObject
+  id: GraphicalObject
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: GraphicalObject
+  nameWithType: ElementType.GraphicalObject
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.GraphicalObject
+  type: Field
+  source:
+    id: GraphicalObject
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: GraphicalObject = 28
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.Dimension
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.Dimension
+  id: Dimension
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: Dimension
+  nameWithType: ElementType.Dimension
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.Dimension
+  type: Field
+  source:
+    id: Dimension
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 36
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Dimension = 29
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.TextDocument
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.TextDocument
+  id: TextDocument
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: TextDocument
+  nameWithType: ElementType.TextDocument
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.TextDocument
+  type: Field
+  source:
+    id: TextDocument
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 37
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: TextDocument = 30
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ExportSolidScene
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ExportSolidScene
+  id: ExportSolidScene
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ExportSolidScene
+  nameWithType: ElementType.ExportSolidScene
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ExportSolidScene
+  type: Field
+  source:
+    id: ExportSolidScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ExportSolidScene = 31
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.SectionTrace
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.SectionTrace
+  id: SectionTrace
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: SectionTrace
+  nameWithType: ElementType.SectionTrace
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.SectionTrace
+  type: Field
+  source:
+    id: SectionTrace
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 39
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SectionTrace = 32
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RoundMep
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RoundMep
+  id: RoundMep
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RoundMep
+  nameWithType: ElementType.RoundMep
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RoundMep
+  type: Field
+  source:
+    id: RoundMep
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 40
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoundMep = 33
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RectangularMep
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RectangularMep
+  id: RectangularMep
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RectangularMep
+  nameWithType: ElementType.RectangularMep
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RectangularMep
+  type: Field
+  source:
+    id: RectangularMep
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 41
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RectangularMep = 34
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ProfileMep
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ProfileMep
+  id: ProfileMep
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ProfileMep
+  nameWithType: ElementType.ProfileMep
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ProfileMep
+  type: Field
+  source:
+    id: ProfileMep
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 42
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ProfileMep = 35
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RoofSurface
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RoofSurface
+  id: RoofSurface
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RoofSurface
+  nameWithType: ElementType.RoofSurface
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RoofSurface
+  type: Field
+  source:
+    id: RoofSurface
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 43
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoofSurface = 36
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ContainerBlock
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ContainerBlock
+  id: ContainerBlock
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ContainerBlock
+  nameWithType: ElementType.ContainerBlock
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ContainerBlock
+  type: Field
+  source:
+    id: ContainerBlock
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 44
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ContainerBlock = 37
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.RoofTileSurface
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.RoofTileSurface
+  id: RoofTileSurface
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: RoofTileSurface
+  nameWithType: ElementType.RoofTileSurface
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.RoofTileSurface
+  type: Field
+  source:
+    id: RoofTileSurface
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: RoofTileSurface = 38
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.ExchangeObject
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.ExchangeObject
+  id: ExchangeObject
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: ExchangeObject
+  nameWithType: ElementType.ExchangeObject
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.ExchangeObject
+  type: Field
+  source:
+    id: ExchangeObject
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 46
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ExchangeObject = 39
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.FramedWall
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.FramedWall
+  id: FramedWall
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: FramedWall
+  nameWithType: ElementType.FramedWall
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.FramedWall
+  type: Field
+  source:
+    id: FramedWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: FramedWall = 40
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodWall
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.SolidWoodWall
+  id: SolidWoodWall
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: SolidWoodWall
+  nameWithType: ElementType.SolidWoodWall
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodWall
+  type: Field
+  source:
+    id: SolidWoodWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 48
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SolidWoodWall = 41
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.LogWall
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.LogWall
+  id: LogWall
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: LogWall
+  nameWithType: ElementType.LogWall
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.LogWall
+  type: Field
+  source:
+    id: LogWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 49
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: LogWall = 42
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.FramedRoof
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.FramedRoof
+  id: FramedRoof
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: FramedRoof
+  nameWithType: ElementType.FramedRoof
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.FramedRoof
+  type: Field
+  source:
+    id: FramedRoof
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: FramedRoof = 43
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodRoof
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.SolidWoodRoof
+  id: SolidWoodRoof
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: SolidWoodRoof
+  nameWithType: ElementType.SolidWoodRoof
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodRoof
+  type: Field
+  source:
+    id: SolidWoodRoof
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 51
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SolidWoodRoof = 44
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.FramedFloor
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.FramedFloor
+  id: FramedFloor
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: FramedFloor
+  nameWithType: ElementType.FramedFloor
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.FramedFloor
+  type: Field
+  source:
+    id: FramedFloor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 52
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: FramedFloor = 45
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+- uid: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodFloor
+  commentId: F:Cadwork.CwAPI3D.Enums.ElementType.SolidWoodFloor
+  id: SolidWoodFloor
+  parent: Cadwork.CwAPI3D.Enums.ElementType
+  langs:
+  - csharp
+  - vb
+  name: SolidWoodFloor
+  nameWithType: ElementType.SolidWoodFloor
+  fullName: Cadwork.CwAPI3D.Enums.ElementType.SolidWoodFloor
+  type: Field
+  source:
+    id: SolidWoodFloor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ElementType.cs
+    startLine: 53
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SolidWoodFloor = 46
+    return:
+      type: Cadwork.CwAPI3D.Enums.ElementType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ElementType.html
+  name: ElementType
+  nameWithType: ElementType
+  fullName: Cadwork.CwAPI3D.Enums.ElementType

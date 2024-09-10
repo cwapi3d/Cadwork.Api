@@ -1,0 +1,868 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IListController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IListController
+  id: IListController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList
+  - Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList
+  - Cadwork.CwAPI3D.Controllers.IListController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportPartList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IListController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList(System.String)
+  - Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IListController
+  nameWithType: IListController
+  fullName: Cadwork.CwAPI3D.Controllers.IListController
+  type: Interface
+  source:
+    id: IListController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IListController
+    content.vb: Public Interface IListController
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IListController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IListController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportProductionList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportProductionList(ICollection<ulong>, string)
+  nameWithType: IListController.ExportProductionList(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportProductionList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportProductionList(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportProductionList(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList*
+  nameWithType.vb: IListController.ExportProductionList(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportProductionList(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportPartList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportPartList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportPartList(ICollection<ulong>, string)
+  nameWithType: IListController.ExportPartList(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportPartList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportPartList(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportPartList(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList*
+  nameWithType.vb: IListController.ExportPartList(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportPartList(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList
+  id: CheckPositionNumbersProductionList
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: CheckPositionNumbersProductionList()
+  nameWithType: IListController.CheckPositionNumbersProductionList()
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList()
+  type: Method
+  source:
+    id: CheckPositionNumbersProductionList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 35
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> CheckPositionNumbersProductionList()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function CheckPositionNumbersProductionList() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList*
+- uid: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList
+  id: CheckPositionNumbersPartList
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: CheckPositionNumbersPartList()
+  nameWithType: IListController.CheckPositionNumbersPartList()
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList()
+  type: Method
+  source:
+    id: CheckPositionNumbersPartList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 41
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> CheckPositionNumbersPartList()
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function CheckPositionNumbersPartList() As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList*
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IListController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 46
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  id: ExportProductionListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportProductionListWithSettings(ICollection<ulong>, string, string)
+  nameWithType: IListController.ExportProductionListWithSettings(ICollection<ulong>, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings(System.Collections.Generic.ICollection<ulong>, string, string)
+  type: Method
+  source:
+    id: ExportProductionListWithSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 54
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportProductionListWithSettings(ICollection<ulong> elementIds, string fileName, string settings)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: settings
+      type: System.String
+      description: ''
+    content.vb: Sub ExportProductionListWithSettings(elementIds As ICollection(Of ULong), fileName As String, settings As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings*
+  nameWithType.vb: IListController.ExportProductionListWithSettings(ICollection(Of ULong), String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings(System.Collections.Generic.ICollection(Of ULong), String, String)
+  name.vb: ExportProductionListWithSettings(ICollection(Of ULong), String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  id: ExportPartListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportPartListWithSettings(ICollection<ulong>, string, string)
+  nameWithType: IListController.ExportPartListWithSettings(ICollection<ulong>, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings(System.Collections.Generic.ICollection<ulong>, string, string)
+  type: Method
+  source:
+    id: ExportPartListWithSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 62
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportPartListWithSettings(ICollection<ulong> elementIds, string fileName, string settings)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: settings
+      type: System.String
+      description: ''
+    content.vb: Sub ExportPartListWithSettings(elementIds As ICollection(Of ULong), fileName As String, settings As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings*
+  nameWithType.vb: IListController.ExportPartListWithSettings(ICollection(Of ULong), String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings(System.Collections.Generic.ICollection(Of ULong), String, String)
+  name.vb: ExportPartListWithSettings(ICollection(Of ULong), String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList(System.Collections.Generic.ICollection{System.UInt64})
+  id: GenerateNewNumbersProductionList(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewNumbersProductionList(ICollection<ulong>)
+  nameWithType: IListController.GenerateNewNumbersProductionList(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: GenerateNewNumbersProductionList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 68
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void GenerateNewNumbersProductionList(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub GenerateNewNumbersProductionList(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList*
+  nameWithType.vb: IListController.GenerateNewNumbersProductionList(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: GenerateNewNumbersProductionList(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList(System.Collections.Generic.ICollection{System.UInt64})
+  id: GenerateNewNumbersPartList(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewNumbersPartList(ICollection<ulong>)
+  nameWithType: IListController.GenerateNewNumbersPartList(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: GenerateNewNumbersPartList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void GenerateNewNumbersPartList(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub GenerateNewNumbersPartList(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList*
+  nameWithType.vb: IListController.GenerateNewNumbersPartList(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: GenerateNewNumbersPartList(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList(System.String)
+  id: LoadListCalculationSettingsProductionList(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: LoadListCalculationSettingsProductionList(string)
+  nameWithType: IListController.LoadListCalculationSettingsProductionList(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList(string)
+  type: Method
+  source:
+    id: LoadListCalculationSettingsProductionList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 80
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void LoadListCalculationSettingsProductionList(string settings)
+    parameters:
+    - id: settings
+      type: System.String
+      description: ''
+    content.vb: Sub LoadListCalculationSettingsProductionList(settings As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList*
+  nameWithType.vb: IListController.LoadListCalculationSettingsProductionList(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList(String)
+  name.vb: LoadListCalculationSettingsProductionList(String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList(System.String)
+  id: LoadListCalculationSettingsPartList(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: LoadListCalculationSettingsPartList(string)
+  nameWithType: IListController.LoadListCalculationSettingsPartList(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList(string)
+  type: Method
+  source:
+    id: LoadListCalculationSettingsPartList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 86
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void LoadListCalculationSettingsPartList(string settings)
+    parameters:
+    - id: settings
+      type: System.String
+      description: ''
+    content.vb: Sub LoadListCalculationSettingsPartList(settings As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList*
+  nameWithType.vb: IListController.LoadListCalculationSettingsPartList(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList(String)
+  name.vb: LoadListCalculationSettingsPartList(String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  id: GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewNumbersProductionListSilently(ICollection<ulong>, uint, bool, bool)
+  nameWithType: IListController.GenerateNewNumbersProductionListSilently(ICollection<ulong>, uint, bool, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection<ulong>, uint, bool, bool)
+  type: Method
+  source:
+    id: GenerateNewNumbersProductionListSilently
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 95
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void GenerateNewNumbersProductionListSilently(ICollection<ulong> elementIds, uint startNumber, bool keepExistingNumbers, bool withContainers)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: startNumber
+      type: System.UInt32
+      description: ''
+    - id: keepExistingNumbers
+      type: System.Boolean
+      description: ''
+    - id: withContainers
+      type: System.Boolean
+      description: ''
+    content.vb: Sub GenerateNewNumbersProductionListSilently(elementIds As ICollection(Of ULong), startNumber As UInteger, keepExistingNumbers As Boolean, withContainers As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently*
+  nameWithType.vb: IListController.GenerateNewNumbersProductionListSilently(ICollection(Of ULong), UInteger, Boolean, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently(System.Collections.Generic.ICollection(Of ULong), UInteger, Boolean, Boolean)
+  name.vb: GenerateNewNumbersProductionListSilently(ICollection(Of ULong), UInteger, Boolean, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  id: GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection{System.UInt64},System.UInt32,System.Boolean,System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: GenerateNewNumbersPartListSilently(ICollection<ulong>, uint, bool, bool)
+  nameWithType: IListController.GenerateNewNumbersPartListSilently(ICollection<ulong>, uint, bool, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection<ulong>, uint, bool, bool)
+  type: Method
+  source:
+    id: GenerateNewNumbersPartListSilently
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 104
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void GenerateNewNumbersPartListSilently(ICollection<ulong> elementIds, uint startNumber, bool keepExistingNumbers, bool withContainers)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: startNumber
+      type: System.UInt32
+      description: ''
+    - id: keepExistingNumbers
+      type: System.Boolean
+      description: ''
+    - id: withContainers
+      type: System.Boolean
+      description: ''
+    content.vb: Sub GenerateNewNumbersPartListSilently(elementIds As ICollection(Of ULong), startNumber As UInteger, keepExistingNumbers As Boolean, withContainers As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently*
+  nameWithType.vb: IListController.GenerateNewNumbersPartListSilently(ICollection(Of ULong), UInteger, Boolean, Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently(System.Collections.Generic.ICollection(Of ULong), UInteger, Boolean, Boolean)
+  name.vb: GenerateNewNumbersPartListSilently(ICollection(Of ULong), UInteger, Boolean, Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportCoverList(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportCoverList(ICollection<ulong>, string)
+  nameWithType: IListController.ExportCoverList(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportCoverList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 111
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportCoverList(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub ExportCoverList(elementIds As ICollection(Of ULong), fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList*
+  nameWithType.vb: IListController.ExportCoverList(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportCoverList(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  id: ExportCoverListWithSettings(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IListController
+  langs:
+  - csharp
+  - vb
+  name: ExportCoverListWithSettings(ICollection<ulong>, string, string)
+  nameWithType: IListController.ExportCoverListWithSettings(ICollection<ulong>, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings(System.Collections.Generic.ICollection<ulong>, string, string)
+  type: Method
+  source:
+    id: ExportCoverListWithSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IListController.cs
+    startLine: 119
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ExportCoverListWithSettings(ICollection<ulong> elementIds, string fileName, string settings)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: settings
+      type: System.String
+      description: ''
+    content.vb: Sub ExportCoverListWithSettings(elementIds As ICollection(Of ULong), fileName As String, settings As String)
+  overload: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings*
+  nameWithType.vb: IListController.ExportCoverListWithSettings(ICollection(Of ULong), String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings(System.Collections.Generic.ICollection(Of ULong), String, String)
+  name.vb: ExportCoverListWithSettings(ICollection(Of ULong), String, String)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_GetLastError
+  name: GetLastError
+  nameWithType: IListController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportProductionList_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportProductionList
+  nameWithType: IListController.ExportProductionList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionList
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportPartList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportPartList_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportPartList
+  nameWithType: IListController.ExportPartList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportPartList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_CheckPositionNumbersProductionList
+  name: CheckPositionNumbersProductionList
+  nameWithType: IListController.CheckPositionNumbersProductionList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersProductionList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_CheckPositionNumbersPartList
+  name: CheckPositionNumbersPartList
+  nameWithType: IListController.CheckPositionNumbersPartList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.CheckPositionNumbersPartList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ClearErrors
+  name: ClearErrors
+  nameWithType: IListController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportProductionListWithSettings_System_Collections_Generic_ICollection_System_UInt64__System_String_System_String_
+  name: ExportProductionListWithSettings
+  nameWithType: IListController.ExportProductionListWithSettings
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportProductionListWithSettings
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportPartListWithSettings_System_Collections_Generic_ICollection_System_UInt64__System_String_System_String_
+  name: ExportPartListWithSettings
+  nameWithType: IListController.ExportPartListWithSettings
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportPartListWithSettings
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_GenerateNewNumbersProductionList_System_Collections_Generic_ICollection_System_UInt64__
+  name: GenerateNewNumbersProductionList
+  nameWithType: IListController.GenerateNewNumbersProductionList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_GenerateNewNumbersPartList_System_Collections_Generic_ICollection_System_UInt64__
+  name: GenerateNewNumbersPartList
+  nameWithType: IListController.GenerateNewNumbersPartList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_LoadListCalculationSettingsProductionList_System_String_
+  name: LoadListCalculationSettingsProductionList
+  nameWithType: IListController.LoadListCalculationSettingsProductionList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsProductionList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_LoadListCalculationSettingsPartList_System_String_
+  name: LoadListCalculationSettingsPartList
+  nameWithType: IListController.LoadListCalculationSettingsPartList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.LoadListCalculationSettingsPartList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_GenerateNewNumbersProductionListSilently_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_System_Boolean_System_Boolean_
+  name: GenerateNewNumbersProductionListSilently
+  nameWithType: IListController.GenerateNewNumbersProductionListSilently
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersProductionListSilently
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_GenerateNewNumbersPartListSilently_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_System_Boolean_System_Boolean_
+  name: GenerateNewNumbersPartListSilently
+  nameWithType: IListController.GenerateNewNumbersPartListSilently
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.GenerateNewNumbersPartListSilently
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportCoverList_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportCoverList
+  nameWithType: IListController.ExportCoverList
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverList
+- uid: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings
+  href: Cadwork.CwAPI3D.Controllers.IListController.html#Cadwork_CwAPI3D_Controllers_IListController_ExportCoverListWithSettings_System_Collections_Generic_ICollection_System_UInt64__System_String_System_String_
+  name: ExportCoverListWithSettings
+  nameWithType: IListController.ExportCoverListWithSettings
+  fullName: Cadwork.CwAPI3D.Controllers.IListController.ExportCoverListWithSettings

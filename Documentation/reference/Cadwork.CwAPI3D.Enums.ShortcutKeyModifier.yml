@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  id: ShortcutKeyModifier
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Alt
+  - Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Control
+  - Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Shift
+  langs:
+  - csharp
+  - vb
+  name: ShortcutKeyModifier
+  nameWithType: ShortcutKeyModifier
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  type: Enum
+  source:
+    id: ShortcutKeyModifier
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKeyModifier.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum ShortcutKeyModifier
+    content.vb: Public Enum ShortcutKeyModifier
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Alt
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Alt
+  id: Alt
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  langs:
+  - csharp
+  - vb
+  name: Alt
+  nameWithType: ShortcutKeyModifier.Alt
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Alt
+  type: Field
+  source:
+    id: Alt
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKeyModifier.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Alt = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Control
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Control
+  id: Control
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  langs:
+  - csharp
+  - vb
+  name: Control
+  nameWithType: ShortcutKeyModifier.Control
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Control
+  type: Field
+  source:
+    id: Control
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKeyModifier.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Control = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Shift
+  commentId: F:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Shift
+  id: Shift
+  parent: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  langs:
+  - csharp
+  - vb
+  name: Shift
+  nameWithType: ShortcutKeyModifier.Shift
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.Shift
+  type: Field
+  source:
+    id: Shift
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\ShortcutKeyModifier.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Shift = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  commentId: T:Cadwork.CwAPI3D.Enums.ShortcutKeyModifier
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier.html
+  name: ShortcutKeyModifier
+  nameWithType: ShortcutKeyModifier
+  fullName: Cadwork.CwAPI3D.Enums.ShortcutKeyModifier

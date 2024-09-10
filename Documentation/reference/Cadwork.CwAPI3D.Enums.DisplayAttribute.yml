@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  commentId: T:Cadwork.CwAPI3D.Enums.DisplayAttribute
+  id: DisplayAttribute
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.AssemblyNumber
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Comment
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Group
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcBuilding
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcStorey
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Material
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.MaterialGroup
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Name
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.None
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.ProductionNumber
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Sku
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.Subgroup
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.TimberNumber
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User1
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User10
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User2
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User3
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User4
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User5
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User6
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User7
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User8
+  - Cadwork.CwAPI3D.Enums.DisplayAttribute.User9
+  langs:
+  - csharp
+  - vb
+  name: DisplayAttribute
+  nameWithType: DisplayAttribute
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  type: Enum
+  source:
+    id: DisplayAttribute
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum DisplayAttribute
+    content.vb: Public Enum DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.None
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.None
+  id: None
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DisplayAttribute.None
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.None
+  type: Field
+  source:
+    id: None
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: None = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Name
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Name
+  id: Name
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DisplayAttribute.Name
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Name
+  type: Field
+  source:
+    id: Name
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Name = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Group
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Group
+  id: Group
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: DisplayAttribute.Group
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Group
+  type: Field
+  source:
+    id: Group
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Group = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Subgroup
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Subgroup
+  id: Subgroup
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Subgroup
+  nameWithType: DisplayAttribute.Subgroup
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Subgroup
+  type: Field
+  source:
+    id: Subgroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Subgroup = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Comment
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Comment
+  id: Comment
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: DisplayAttribute.Comment
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Comment
+  type: Field
+  source:
+    id: Comment
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Comment = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Sku
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Sku
+  id: Sku
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Sku
+  nameWithType: DisplayAttribute.Sku
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Sku
+  type: Field
+  source:
+    id: Sku
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Sku = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.Material
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.Material
+  id: Material
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: Material
+  nameWithType: DisplayAttribute.Material
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.Material
+  type: Field
+  source:
+    id: Material
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 13
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Material = 6
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.MaterialGroup
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.MaterialGroup
+  id: MaterialGroup
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: MaterialGroup
+  nameWithType: DisplayAttribute.MaterialGroup
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.MaterialGroup
+  type: Field
+  source:
+    id: MaterialGroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: MaterialGroup = 7
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User1
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User1
+  id: User1
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User1
+  nameWithType: DisplayAttribute.User1
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User1
+  type: Field
+  source:
+    id: User1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User1 = 8
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User2
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User2
+  id: User2
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User2
+  nameWithType: DisplayAttribute.User2
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User2
+  type: Field
+  source:
+    id: User2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User2 = 9
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User3
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User3
+  id: User3
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User3
+  nameWithType: DisplayAttribute.User3
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User3
+  type: Field
+  source:
+    id: User3
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User3 = 10
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User4
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User4
+  id: User4
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User4
+  nameWithType: DisplayAttribute.User4
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User4
+  type: Field
+  source:
+    id: User4
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 18
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User4 = 11
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User5
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User5
+  id: User5
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User5
+  nameWithType: DisplayAttribute.User5
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User5
+  type: Field
+  source:
+    id: User5
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User5 = 12
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User6
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User6
+  id: User6
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User6
+  nameWithType: DisplayAttribute.User6
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User6
+  type: Field
+  source:
+    id: User6
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 20
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User6 = 13
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User7
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User7
+  id: User7
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User7
+  nameWithType: DisplayAttribute.User7
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User7
+  type: Field
+  source:
+    id: User7
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User7 = 14
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User8
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User8
+  id: User8
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User8
+  nameWithType: DisplayAttribute.User8
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User8
+  type: Field
+  source:
+    id: User8
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User8 = 15
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User9
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User9
+  id: User9
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User9
+  nameWithType: DisplayAttribute.User9
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User9
+  type: Field
+  source:
+    id: User9
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User9 = 16
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.User10
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.User10
+  id: User10
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: User10
+  nameWithType: DisplayAttribute.User10
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.User10
+  type: Field
+  source:
+    id: User10
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: User10 = 17
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.ProductionNumber
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.ProductionNumber
+  id: ProductionNumber
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: ProductionNumber
+  nameWithType: DisplayAttribute.ProductionNumber
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.ProductionNumber
+  type: Field
+  source:
+    id: ProductionNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 25
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ProductionNumber = 18
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.TimberNumber
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.TimberNumber
+  id: TimberNumber
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: TimberNumber
+  nameWithType: DisplayAttribute.TimberNumber
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.TimberNumber
+  type: Field
+  source:
+    id: TimberNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 26
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: TimberNumber = 19
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.AssemblyNumber
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.AssemblyNumber
+  id: AssemblyNumber
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: AssemblyNumber
+  nameWithType: DisplayAttribute.AssemblyNumber
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.AssemblyNumber
+  type: Field
+  source:
+    id: AssemblyNumber
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: AssemblyNumber = 20
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcBuilding
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcBuilding
+  id: IfcBuilding
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: IfcBuilding
+  nameWithType: DisplayAttribute.IfcBuilding
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcBuilding
+  type: Field
+  source:
+    id: IfcBuilding
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 28
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcBuilding = 21
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcStorey
+  commentId: F:Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcStorey
+  id: IfcStorey
+  parent: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  langs:
+  - csharp
+  - vb
+  name: IfcStorey
+  nameWithType: DisplayAttribute.IfcStorey
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute.IfcStorey
+  type: Field
+  source:
+    id: IfcStorey
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\DisplayAttribute.cs
+    startLine: 29
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: IfcStorey = 22
+    return:
+      type: Cadwork.CwAPI3D.Enums.DisplayAttribute
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.DisplayAttribute
+  commentId: T:Cadwork.CwAPI3D.Enums.DisplayAttribute
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.DisplayAttribute.html
+  name: DisplayAttribute
+  nameWithType: DisplayAttribute
+  fullName: Cadwork.CwAPI3D.Enums.DisplayAttribute

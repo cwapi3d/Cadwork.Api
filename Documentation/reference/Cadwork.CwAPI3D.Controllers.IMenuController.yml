@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IMenuController
+  id: IMenuController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus
+  - Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu
+  - Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu(Cadwork.CwAPI3D.Helpers.IMenu)
+  - Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu(System.Collections.Generic.ICollection{System.String})
+  - Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem
+  langs:
+  - csharp
+  - vb
+  name: IMenuController
+  nameWithType: IMenuController
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController
+  type: Interface
+  source:
+    id: IMenuController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IMenuController
+    content.vb: Public Interface IMenuController
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IMenuController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 15
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu
+  id: CreateMenu
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: CreateMenu()
+  nameWithType: IMenuController.CreateMenu()
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu()
+  type: Method
+  source:
+    id: CreateMenu
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 21
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IMenu CreateMenu()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IMenu
+      description: ''
+    content.vb: Function CreateMenu() As IMenu
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem
+  id: GetSelectedMenuItem
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedMenuItem()
+  nameWithType: IMenuController.GetSelectedMenuItem()
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem()
+  type: Method
+  source:
+    id: GetSelectedMenuItem
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: int GetSelectedMenuItem()
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Function GetSelectedMenuItem() As Integer
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus
+  id: CleanupAllMenus
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: CleanupAllMenus()
+  nameWithType: IMenuController.CleanupAllMenus()
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus()
+  type: Method
+  source:
+    id: CleanupAllMenus
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void CleanupAllMenus()
+    content.vb: Sub CleanupAllMenus()
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu(Cadwork.CwAPI3D.Helpers.IMenu)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu(Cadwork.CwAPI3D.Helpers.IMenu)
+  id: DisplayMenu(Cadwork.CwAPI3D.Helpers.IMenu)
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: DisplayMenu(IMenu)
+  nameWithType: IMenuController.DisplayMenu(IMenu)
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu(Cadwork.CwAPI3D.Helpers.IMenu)
+  type: Method
+  source:
+    id: DisplayMenu
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void DisplayMenu(IMenu menu)
+    parameters:
+    - id: menu
+      type: Cadwork.CwAPI3D.Helpers.IMenu
+      description: ''
+    content.vb: Sub DisplayMenu(menu As IMenu)
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IMenuController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 43
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu(System.Collections.Generic.ICollection{System.String})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu(System.Collections.Generic.ICollection{System.String})
+  id: DisplaySimpleMenu(System.Collections.Generic.ICollection{System.String})
+  parent: Cadwork.CwAPI3D.Controllers.IMenuController
+  langs:
+  - csharp
+  - vb
+  name: DisplaySimpleMenu(ICollection<string>)
+  nameWithType: IMenuController.DisplaySimpleMenu(ICollection<string>)
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu(System.Collections.Generic.ICollection<string>)
+  type: Method
+  source:
+    id: DisplaySimpleMenu
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IMenuController.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string DisplaySimpleMenu(ICollection<string> menuItems)
+    parameters:
+    - id: menuItems
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function DisplaySimpleMenu(menuItems As ICollection(Of String)) As String
+  overload: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu*
+  nameWithType.vb: IMenuController.DisplaySimpleMenu(ICollection(Of String))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu(System.Collections.Generic.ICollection(Of String))
+  name.vb: DisplaySimpleMenu(ICollection(Of String))
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_GetLastError
+  name: GetLastError
+  nameWithType: IMenuController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_CreateMenu
+  name: CreateMenu
+  nameWithType: IMenuController.CreateMenu
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.CreateMenu
+- uid: Cadwork.CwAPI3D.Helpers.IMenu
+  commentId: T:Cadwork.CwAPI3D.Helpers.IMenu
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IMenu.html
+  name: IMenu
+  nameWithType: IMenu
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_GetSelectedMenuItem
+  name: GetSelectedMenuItem
+  nameWithType: IMenuController.GetSelectedMenuItem
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.GetSelectedMenuItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_CleanupAllMenus
+  name: CleanupAllMenus
+  nameWithType: IMenuController.CleanupAllMenus
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.CleanupAllMenus
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_DisplayMenu_Cadwork_CwAPI3D_Helpers_IMenu_
+  name: DisplayMenu
+  nameWithType: IMenuController.DisplayMenu
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.DisplayMenu
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_ClearErrors
+  name: ClearErrors
+  nameWithType: IMenuController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu
+  href: Cadwork.CwAPI3D.Controllers.IMenuController.html#Cadwork_CwAPI3D_Controllers_IMenuController_DisplaySimpleMenu_System_Collections_Generic_ICollection_System_String__
+  name: DisplaySimpleMenu
+  nameWithType: IMenuController.DisplaySimpleMenu
+  fullName: Cadwork.CwAPI3D.Controllers.IMenuController.DisplaySimpleMenu
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

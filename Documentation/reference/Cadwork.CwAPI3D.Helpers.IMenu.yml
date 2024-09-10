@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IMenu
+  commentId: T:Cadwork.CwAPI3D.Helpers.IMenu
+  id: IMenu
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem
+  - Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IMenu
+  nameWithType: IMenu
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu
+  type: Interface
+  source:
+    id: IMenu
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IMenu.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IMenu
+    content.vb: Public Interface IMenu
+- uid: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem(System.String)
+  commentId: M:Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem(System.String)
+  id: AddButtonMenuItem(System.String)
+  parent: Cadwork.CwAPI3D.Helpers.IMenu
+  langs:
+  - csharp
+  - vb
+  name: AddButtonMenuItem(string)
+  nameWithType: IMenu.AddButtonMenuItem(string)
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem(string)
+  type: Method
+  source:
+    id: AddButtonMenuItem
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IMenu.cs
+    startLine: 14
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: int AddButtonMenuItem(string label)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Function AddButtonMenuItem(label As String) As Integer
+  overload: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem*
+  nameWithType.vb: IMenu.AddButtonMenuItem(String)
+  fullName.vb: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem(String)
+  name.vb: AddButtonMenuItem(String)
+- uid: Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem
+  commentId: M:Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem
+  id: AddBlankMenuItem
+  parent: Cadwork.CwAPI3D.Helpers.IMenu
+  langs:
+  - csharp
+  - vb
+  name: AddBlankMenuItem()
+  nameWithType: IMenu.AddBlankMenuItem()
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem()
+  type: Method
+  source:
+    id: AddBlankMenuItem
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IMenu.cs
+    startLine: 19
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: void AddBlankMenuItem()
+    content.vb: Sub AddBlankMenuItem()
+  overload: Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem
+  href: Cadwork.CwAPI3D.Helpers.IMenu.html#Cadwork_CwAPI3D_Helpers_IMenu_AddButtonMenuItem_System_String_
+  name: AddButtonMenuItem
+  nameWithType: IMenu.AddButtonMenuItem
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu.AddButtonMenuItem
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem
+  href: Cadwork.CwAPI3D.Helpers.IMenu.html#Cadwork_CwAPI3D_Helpers_IMenu_AddBlankMenuItem
+  name: AddBlankMenuItem
+  nameWithType: IMenu.AddBlankMenuItem
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu.AddBlankMenuItem

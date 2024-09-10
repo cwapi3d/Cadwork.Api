@@ -1,0 +1,43 @@
+{
+  "metadata": [
+    {
+      "src": [{
+      "files": ["Cadwork.CwAPI3D/*.csproj"],
+      "src": "../"
+    }],
+      "dest": "reference"
+    }
+  ],
+  "build": {
+    "content": [
+      { "files": [ "reference/**" ] },
+      {
+        "files": [
+          "**.md",
+           "**/toc.yml"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Cadwork.CwAPI3D Docs",
+      "_appTitle": "Cadwork.CwAPI3D Docs",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

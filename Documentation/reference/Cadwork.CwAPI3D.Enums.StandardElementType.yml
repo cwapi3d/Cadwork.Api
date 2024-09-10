@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.StandardElementType
+  id: StandardElementType
+  parent: Cadwork.CwAPI3D.Enums
+  children:
+  - Cadwork.CwAPI3D.Enums.StandardElementType.Beam
+  - Cadwork.CwAPI3D.Enums.StandardElementType.ConnectorAxis
+  - Cadwork.CwAPI3D.Enums.StandardElementType.Container
+  - Cadwork.CwAPI3D.Enums.StandardElementType.ExportSolid
+  - Cadwork.CwAPI3D.Enums.StandardElementType.Panel
+  - Cadwork.CwAPI3D.Enums.StandardElementType.SteelShape
+  langs:
+  - csharp
+  - vb
+  name: StandardElementType
+  nameWithType: StandardElementType
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType
+  type: Enum
+  source:
+    id: StandardElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 5
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  summary: ''
+  example: []
+  syntax:
+    content: public enum StandardElementType
+    content.vb: Public Enum StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.Beam
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.Beam
+  id: Beam
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: Beam
+  nameWithType: StandardElementType.Beam
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.Beam
+  type: Field
+  source:
+    id: Beam
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Beam = 0
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.Panel
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.Panel
+  id: Panel
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: StandardElementType.Panel
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.Panel
+  type: Field
+  source:
+    id: Panel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 8
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Panel = 1
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.ConnectorAxis
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.ConnectorAxis
+  id: ConnectorAxis
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: ConnectorAxis
+  nameWithType: StandardElementType.ConnectorAxis
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.ConnectorAxis
+  type: Field
+  source:
+    id: ConnectorAxis
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 9
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ConnectorAxis = 2
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.ExportSolid
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.ExportSolid
+  id: ExportSolid
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: ExportSolid
+  nameWithType: StandardElementType.ExportSolid
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.ExportSolid
+  type: Field
+  source:
+    id: ExportSolid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: ExportSolid = 3
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.Container
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.Container
+  id: Container
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: Container
+  nameWithType: StandardElementType.Container
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.Container
+  type: Field
+  source:
+    id: Container
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: Container = 4
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType.SteelShape
+  commentId: F:Cadwork.CwAPI3D.Enums.StandardElementType.SteelShape
+  id: SteelShape
+  parent: Cadwork.CwAPI3D.Enums.StandardElementType
+  langs:
+  - csharp
+  - vb
+  name: SteelShape
+  nameWithType: StandardElementType.SteelShape
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType.SteelShape
+  type: Field
+  source:
+    id: SteelShape
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Enums\StandardElementType.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Enums
+  syntax:
+    content: SteelShape = 5
+    return:
+      type: Cadwork.CwAPI3D.Enums.StandardElementType
+references:
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Enums.StandardElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.StandardElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.StandardElementType.html
+  name: StandardElementType
+  nameWithType: StandardElementType
+  fullName: Cadwork.CwAPI3D.Enums.StandardElementType

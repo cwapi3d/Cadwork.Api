@@ -1,0 +1,1054 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController
+  commentId: T:Cadwork.CwAPI3D.Controllers.ISceneController
+  id: ISceneController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.ISceneController.AddScene(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes(System.Collections.Generic.ICollection{System.String})
+  - Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName(System.Collections.Generic.ICollection{System.String},System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent(System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene(System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup(System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex(System.UInt64,System.String)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor(System.String,Cadwork.CwAPI3D.Structs.ColorRgb,System.Int32)
+  - Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes(System.UInt64)
+  langs:
+  - csharp
+  - vb
+  name: ISceneController
+  nameWithType: ISceneController
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController
+  type: Interface
+  source:
+    id: ISceneController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ISceneController
+    content.vb: Public Interface ISceneController
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: ISceneController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.AddScene(System.String)
+  id: AddScene(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: AddScene(string)
+  nameWithType: ISceneController.AddScene(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene(string)
+  type: Method
+  source:
+    id: AddScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool AddScene(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function AddScene(name As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene*
+  nameWithType.vb: ISceneController.AddScene(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene(String)
+  name.vb: AddScene(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene(System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene(System.String,System.String)
+  id: RenameScene(System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: RenameScene(string, string)
+  nameWithType: ISceneController.RenameScene(string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene(string, string)
+  type: Method
+  source:
+    id: RenameScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool RenameScene(string oldName, string newName)
+    parameters:
+    - id: oldName
+      type: System.String
+      description: ''
+    - id: newName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function RenameScene(oldName As String, newName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene*
+  nameWithType.vb: ISceneController.RenameScene(String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene(String, String)
+  name.vb: RenameScene(String, String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene(System.String)
+  id: DeleteScene(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: DeleteScene(string)
+  nameWithType: ISceneController.DeleteScene(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene(string)
+  type: Method
+  source:
+    id: DeleteScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 39
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool DeleteScene(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function DeleteScene(name As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene*
+  nameWithType.vb: ISceneController.DeleteScene(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene(String)
+  name.vb: DeleteScene(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  id: AddElementsToScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: AddElementsToScene(string, ICollection<ulong>)
+  nameWithType: ISceneController.AddElementsToScene(string, ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene(string, System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: AddElementsToScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 47
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool AddElementsToScene(string name, ICollection<ulong> elementIds)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function AddElementsToScene(name As String, elementIds As ICollection(Of ULong)) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene*
+  nameWithType.vb: ISceneController.AddElementsToScene(String, ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene(String, System.Collections.Generic.ICollection(Of ULong))
+  name.vb: AddElementsToScene(String, ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  id: RemoveElementsFromScene(System.String,System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: RemoveElementsFromScene(string, ICollection<ulong>)
+  nameWithType: ISceneController.RemoveElementsFromScene(string, ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene(string, System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: RemoveElementsFromScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 55
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool RemoveElementsFromScene(string name, ICollection<ulong> elementIds)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function RemoveElementsFromScene(name As String, elementIds As ICollection(Of ULong)) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene*
+  nameWithType.vb: ISceneController.RemoveElementsFromScene(String, ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene(String, System.Collections.Generic.ICollection(Of ULong))
+  name.vb: RemoveElementsFromScene(String, ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene(System.String)
+  id: GetElementsFromScene(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GetElementsFromScene(string)
+  nameWithType: ISceneController.GetElementsFromScene(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene(string)
+  type: Method
+  source:
+    id: GetElementsFromScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 62
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> GetElementsFromScene(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function GetElementsFromScene(name As String) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene*
+  nameWithType.vb: ISceneController.GetElementsFromScene(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene(String)
+  name.vb: GetElementsFromScene(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene(System.String)
+  id: ActivateScene(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: ActivateScene(string)
+  nameWithType: ISceneController.ActivateScene(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene(string)
+  type: Method
+  source:
+    id: ActivateScene
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 69
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ActivateScene(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ActivateScene(name As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene*
+  nameWithType.vb: ISceneController.ActivateScene(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene(String)
+  name.vb: ActivateScene(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: ISceneController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 74
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList
+  id: GetSceneList
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GetSceneList()
+  nameWithType: ISceneController.GetSceneList()
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList()
+  type: Method
+  source:
+    id: GetSceneList
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 80
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetSceneList()
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetSceneList() As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList*
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes(System.Collections.Generic.ICollection{System.String})
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes(System.Collections.Generic.ICollection{System.String})
+  id: GroupScenes(System.Collections.Generic.ICollection{System.String})
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GroupScenes(ICollection<string>)
+  nameWithType: ISceneController.GroupScenes(ICollection<string>)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes(System.Collections.Generic.ICollection<string>)
+  type: Method
+  source:
+    id: GroupScenes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 87
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: uint GroupScenes(ICollection<string> sceneNames)
+    parameters:
+    - id: sceneNames
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Function GroupScenes(sceneNames As ICollection(Of String)) As UInteger
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes*
+  nameWithType.vb: ISceneController.GroupScenes(ICollection(Of String))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes(System.Collections.Generic.ICollection(Of String))
+  name.vb: GroupScenes(ICollection(Of String))
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes(System.UInt64)
+  id: UngroupScenes(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: UngroupScenes(ulong)
+  nameWithType: ISceneController.UngroupScenes(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes(ulong)
+  type: Method
+  source:
+    id: UngroupScenes
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 93
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void UngroupScenes(ulong groupIndex)
+    parameters:
+    - id: groupIndex
+      type: System.UInt64
+      description: ''
+    content.vb: Sub UngroupScenes(groupIndex As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes*
+  nameWithType.vb: ISceneController.UngroupScenes(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes(ULong)
+  name.vb: UngroupScenes(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent(System.String)
+  id: IsScenePresent(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: IsScenePresent(string)
+  nameWithType: ISceneController.IsScenePresent(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent(string)
+  type: Method
+  source:
+    id: IsScenePresent
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 100
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsScenePresent(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsScenePresent(name As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent*
+  nameWithType.vb: ISceneController.IsScenePresent(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent(String)
+  name.vb: IsScenePresent(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor(System.String,Cadwork.CwAPI3D.Structs.ColorRgb,System.Int32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor(System.String,Cadwork.CwAPI3D.Structs.ColorRgb,System.Int32)
+  id: SetGroupTabColor(System.String,Cadwork.CwAPI3D.Structs.ColorRgb,System.Int32)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: SetGroupTabColor(string, ColorRgb, int)
+  nameWithType: ISceneController.SetGroupTabColor(string, ColorRgb, int)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor(string, Cadwork.CwAPI3D.Structs.ColorRgb, int)
+  type: Method
+  source:
+    id: SetGroupTabColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 108
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetGroupTabColor(string groupName, ColorRgb color, int alpha)
+    parameters:
+    - id: groupName
+      type: System.String
+      description: ''
+    - id: color
+      type: Cadwork.CwAPI3D.Structs.ColorRgb
+      description: ''
+    - id: alpha
+      type: System.Int32
+      description: ''
+    content.vb: Sub SetGroupTabColor(groupName As String, color As ColorRgb, alpha As Integer)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor*
+  nameWithType.vb: ISceneController.SetGroupTabColor(String, ColorRgb, Integer)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor(String, Cadwork.CwAPI3D.Structs.ColorRgb, Integer)
+  name.vb: SetGroupTabColor(String, ColorRgb, Integer)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup(System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup(System.String,System.String)
+  id: RenameSceneGroup(System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: RenameSceneGroup(string, string)
+  nameWithType: ISceneController.RenameSceneGroup(string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup(string, string)
+  type: Method
+  source:
+    id: RenameSceneGroup
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 115
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void RenameSceneGroup(string oldName, string newName)
+    parameters:
+    - id: oldName
+      type: System.String
+      description: ''
+    - id: newName
+      type: System.String
+      description: ''
+    content.vb: Sub RenameSceneGroup(oldName As String, newName As String)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup*
+  nameWithType.vb: ISceneController.RenameSceneGroup(String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup(String, String)
+  name.vb: RenameSceneGroup(String, String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName(System.String)
+  id: GetGroupIndexByName(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GetGroupIndexByName(string)
+  nameWithType: ISceneController.GetGroupIndexByName(string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName(string)
+  type: Method
+  source:
+    id: GetGroupIndexByName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 122
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetGroupIndexByName(string aSceneGroupName)
+    parameters:
+    - id: aSceneGroupName
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetGroupIndexByName(aSceneGroupName As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName*
+  nameWithType.vb: ISceneController.GetGroupIndexByName(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName(String)
+  name.vb: GetGroupIndexByName(String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex(System.UInt64,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex(System.UInt64,System.String)
+  id: RenameSceneGroupByIndex(System.UInt64,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: RenameSceneGroupByIndex(ulong, string)
+  nameWithType: ISceneController.RenameSceneGroupByIndex(ulong, string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex(ulong, string)
+  type: Method
+  source:
+    id: RenameSceneGroupByIndex
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 129
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void RenameSceneGroupByIndex(ulong groupIndex, string name)
+    parameters:
+    - id: groupIndex
+      type: System.UInt64
+      description: ''
+    - id: name
+      type: System.String
+      description: ''
+    content.vb: Sub RenameSceneGroupByIndex(groupIndex As ULong, name As String)
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex*
+  nameWithType.vb: ISceneController.RenameSceneGroupByIndex(ULong, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex(ULong, String)
+  name.vb: RenameSceneGroupByIndex(ULong, String)
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName(System.Collections.Generic.ICollection{System.String},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName(System.Collections.Generic.ICollection{System.String},System.String)
+  id: GroupScenesWithName(System.Collections.Generic.ICollection{System.String},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.ISceneController
+  langs:
+  - csharp
+  - vb
+  name: GroupScenesWithName(ICollection<string>, string)
+  nameWithType: ISceneController.GroupScenesWithName(ICollection<string>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName(System.Collections.Generic.ICollection<string>, string)
+  type: Method
+  source:
+    id: GroupScenesWithName
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\ISceneController.cs
+    startLine: 137
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: uint GroupScenesWithName(ICollection<string> sceneNames, string groupName)
+    parameters:
+    - id: sceneNames
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    - id: groupName
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Function GroupScenesWithName(sceneNames As ICollection(Of String), groupName As String) As UInteger
+  overload: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName*
+  nameWithType.vb: ISceneController.GroupScenesWithName(ICollection(Of String), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName(System.Collections.Generic.ICollection(Of String), String)
+  name.vb: GroupScenesWithName(ICollection(Of String), String)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GetLastError
+  name: GetLastError
+  nameWithType: ISceneController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.AddScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_AddScene_System_String_
+  name: AddScene
+  nameWithType: ISceneController.AddScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.AddScene
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_RenameScene_System_String_System_String_
+  name: RenameScene
+  nameWithType: ISceneController.RenameScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameScene
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_DeleteScene_System_String_
+  name: DeleteScene
+  nameWithType: ISceneController.DeleteScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.DeleteScene
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_AddElementsToScene_System_String_System_Collections_Generic_ICollection_System_UInt64__
+  name: AddElementsToScene
+  nameWithType: ISceneController.AddElementsToScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.AddElementsToScene
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_RemoveElementsFromScene_System_String_System_Collections_Generic_ICollection_System_UInt64__
+  name: RemoveElementsFromScene
+  nameWithType: ISceneController.RemoveElementsFromScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RemoveElementsFromScene
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GetElementsFromScene_System_String_
+  name: GetElementsFromScene
+  nameWithType: ISceneController.GetElementsFromScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetElementsFromScene
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_ActivateScene_System_String_
+  name: ActivateScene
+  nameWithType: ISceneController.ActivateScene
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.ActivateScene
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_ClearErrors
+  name: ClearErrors
+  nameWithType: ISceneController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GetSceneList
+  name: GetSceneList
+  nameWithType: ISceneController.GetSceneList
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetSceneList
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GroupScenes_System_Collections_Generic_ICollection_System_String__
+  name: GroupScenes
+  nameWithType: ISceneController.GroupScenes
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenes
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_UngroupScenes_System_UInt64_
+  name: UngroupScenes
+  nameWithType: ISceneController.UngroupScenes
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.UngroupScenes
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_IsScenePresent_System_String_
+  name: IsScenePresent
+  nameWithType: ISceneController.IsScenePresent
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.IsScenePresent
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_SetGroupTabColor_System_String_Cadwork_CwAPI3D_Structs_ColorRgb_System_Int32_
+  name: SetGroupTabColor
+  nameWithType: ISceneController.SetGroupTabColor
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.SetGroupTabColor
+- uid: Cadwork.CwAPI3D.Structs.ColorRgb
+  commentId: T:Cadwork.CwAPI3D.Structs.ColorRgb
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.ColorRgb.html
+  name: ColorRgb
+  nameWithType: ColorRgb
+  fullName: Cadwork.CwAPI3D.Structs.ColorRgb
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_RenameSceneGroup_System_String_System_String_
+  name: RenameSceneGroup
+  nameWithType: ISceneController.RenameSceneGroup
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroup
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GetGroupIndexByName_System_String_
+  name: GetGroupIndexByName
+  nameWithType: ISceneController.GetGroupIndexByName
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GetGroupIndexByName
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_RenameSceneGroupByIndex_System_UInt64_System_String_
+  name: RenameSceneGroupByIndex
+  nameWithType: ISceneController.RenameSceneGroupByIndex
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.RenameSceneGroupByIndex
+- uid: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName
+  href: Cadwork.CwAPI3D.Controllers.ISceneController.html#Cadwork_CwAPI3D_Controllers_ISceneController_GroupScenesWithName_System_Collections_Generic_ICollection_System_String__System_String_
+  name: GroupScenesWithName
+  nameWithType: ISceneController.GroupScenesWithName
+  fullName: Cadwork.CwAPI3D.Controllers.ISceneController.GroupScenesWithName

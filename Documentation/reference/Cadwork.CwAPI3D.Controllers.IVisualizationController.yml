@@ -1,0 +1,2227 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IVisualizationController
+  id: IVisualizationController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId(System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings(System.String)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData(Cadwork.CwAPI3D.Helpers.ICameraData)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.ColorRgb)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam(System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel(System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall(System.Boolean)
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements
+  - Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements
+  langs:
+  - csharp
+  - vb
+  name: IVisualizationController
+  nameWithType: IVisualizationController
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  type: Interface
+  source:
+    id: IVisualizationController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 11
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IVisualizationController
+    content.vb: Public Interface IVisualizationController
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IVisualizationController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor(System.UInt64)
+  id: GetColor(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetColor(ulong)
+  nameWithType: IVisualizationController.GetColor(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor(ulong)
+  type: Method
+  source:
+    id: GetColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 24
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: uint GetColor(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Function GetColor(elementId As ULong) As UInteger
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor*
+  nameWithType.vb: IVisualizationController.GetColor(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor(ULong)
+  name.vb: GetColor(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: SetColor(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetColor(ICollection<ulong>, uint)
+  nameWithType: IVisualizationController.SetColor(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: SetColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 31
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetColor(ICollection<ulong> elementIds, uint colorId)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetColor(elementIds As ICollection(Of ULong), colorId As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor*
+  nameWithType.vb: IVisualizationController.SetColor(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: SetColor(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor(System.UInt64)
+  id: GetOpenGlColor(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetOpenGlColor(ulong)
+  nameWithType: IVisualizationController.GetOpenGlColor(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor(ulong)
+  type: Method
+  source:
+    id: GetOpenGlColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ColorRgb GetOpenGlColor(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.ColorRgb
+      description: ''
+    content.vb: Function GetOpenGlColor(elementId As ULong) As ColorRgb
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor*
+  nameWithType.vb: IVisualizationController.GetOpenGlColor(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor(ULong)
+  name.vb: GetOpenGlColor(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.ColorRgb)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.ColorRgb)
+  id: SetOpenGlColor(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Structs.ColorRgb)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetOpenGlColor(ICollection<ulong>, ColorRgb)
+  nameWithType: IVisualizationController.SetOpenGlColor(ICollection<ulong>, ColorRgb)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor(System.Collections.Generic.ICollection<ulong>, Cadwork.CwAPI3D.Structs.ColorRgb)
+  type: Method
+  source:
+    id: SetOpenGlColor
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetOpenGlColor(ICollection<ulong> elementIds, ColorRgb colorRgb)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: colorRgb
+      type: Cadwork.CwAPI3D.Structs.ColorRgb
+      description: ''
+    content.vb: Sub SetOpenGlColor(elementIds As ICollection(Of ULong), colorRgb As ColorRgb)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor*
+  nameWithType.vb: IVisualizationController.SetOpenGlColor(ICollection(Of ULong), ColorRgb)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor(System.Collections.Generic.ICollection(Of ULong), Cadwork.CwAPI3D.Structs.ColorRgb)
+  name.vb: SetOpenGlColor(ICollection(Of ULong), ColorRgb)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive(System.UInt64)
+  id: IsActive(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsActive(ulong)
+  nameWithType: IVisualizationController.IsActive(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive(ulong)
+  type: Method
+  source:
+    id: IsActive
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 52
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsActive(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsActive(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive*
+  nameWithType.vb: IVisualizationController.IsActive(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive(ULong)
+  name.vb: IsActive(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetActive(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetActive(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetActive(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetActive
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 58
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetActive(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetActive(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive*
+  nameWithType.vb: IVisualizationController.SetActive(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetActive(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetInactive(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetInactive(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetInactive(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetInactive
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 64
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetInactive(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetInactive(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive*
+  nameWithType.vb: IVisualizationController.SetInactive(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetInactive(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible(System.UInt64)
+  id: IsVisible(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsVisible(ulong)
+  nameWithType: IVisualizationController.IsVisible(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible(ulong)
+  type: Method
+  source:
+    id: IsVisible
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 71
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsVisible(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsVisible(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible*
+  nameWithType.vb: IVisualizationController.IsVisible(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible(ULong)
+  name.vb: IsVisible(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetVisible(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetVisible(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetVisible(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetVisible
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 77
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetVisible(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetVisible(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible*
+  nameWithType.vb: IVisualizationController.SetVisible(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetVisible(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetInvisible(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetInvisible(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetInvisible(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetInvisible
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 83
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetInvisible(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetInvisible(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible*
+  nameWithType.vb: IVisualizationController.SetInvisible(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetInvisible(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable(System.UInt64)
+  id: IsImmutable(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsImmutable(ulong)
+  nameWithType: IVisualizationController.IsImmutable(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable(ulong)
+  type: Method
+  source:
+    id: IsImmutable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 90
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsImmutable(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsImmutable(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable*
+  nameWithType.vb: IVisualizationController.IsImmutable(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable(ULong)
+  name.vb: IsImmutable(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetImmutable(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetImmutable(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetImmutable(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetImmutable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 96
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetImmutable(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetImmutable(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable*
+  nameWithType.vb: IVisualizationController.SetImmutable(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetImmutable(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetMutable(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetMutable(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetMutable(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetMutable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 102
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetMutable(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetMutable(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable*
+  nameWithType.vb: IVisualizationController.SetMutable(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetMutable(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements
+  id: ShowAllElements
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowAllElements()
+  nameWithType: IVisualizationController.ShowAllElements()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements()
+  type: Method
+  source:
+    id: ShowAllElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 107
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowAllElements()
+    content.vb: Sub ShowAllElements()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements
+  id: HideAllElements
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: HideAllElements()
+  nameWithType: IVisualizationController.HideAllElements()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements()
+  type: Method
+  source:
+    id: HideAllElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 112
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void HideAllElements()
+    content.vb: Sub HideAllElements()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements
+  id: ZoomAllElements
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ZoomAllElements()
+  nameWithType: IVisualizationController.ZoomAllElements()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements()
+  type: Method
+  source:
+    id: ZoomAllElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 117
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ZoomAllElements()
+    content.vb: Sub ZoomAllElements()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements
+  id: ZoomActiveElements
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ZoomActiveElements()
+  nameWithType: IVisualizationController.ZoomActiveElements()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements()
+  type: Method
+  source:
+    id: ZoomActiveElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 122
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ZoomActiveElements()
+    content.vb: Sub ZoomActiveElements()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh
+  id: Refresh
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: Refresh()
+  nameWithType: IVisualizationController.Refresh()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh()
+  type: Method
+  source:
+    id: Refresh
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 127
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void Refresh()
+    content.vb: Sub Refresh()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt64)
+  id: SetMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetMaterial(ICollection<ulong>, ulong)
+  nameWithType: IVisualizationController.SetMaterial(ICollection<ulong>, ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial(System.Collections.Generic.ICollection<ulong>, ulong)
+  type: Method
+  source:
+    id: SetMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 134
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetMaterial(ICollection<ulong> elementIds, ulong materialId)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: materialId
+      type: System.UInt64
+      description: ''
+    content.vb: Sub SetMaterial(elementIds As ICollection(Of ULong), materialId As ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial*
+  nameWithType.vb: IVisualizationController.SetMaterial(ICollection(Of ULong), ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial(System.Collections.Generic.ICollection(Of ULong), ULong)
+  name.vb: SetMaterial(ICollection(Of ULong), ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial(System.UInt64)
+  id: GetMaterial(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetMaterial(ulong)
+  nameWithType: IVisualizationController.GetMaterial(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial(ulong)
+  type: Method
+  source:
+    id: GetMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 141
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetMaterial(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetMaterial(elementId As ULong) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial*
+  nameWithType.vb: IVisualizationController.GetMaterial(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial(ULong)
+  name.vb: GetMaterial(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX
+  id: ShowViewPositiveX
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewPositiveX()
+  nameWithType: IVisualizationController.ShowViewPositiveX()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX()
+  type: Method
+  source:
+    id: ShowViewPositiveX
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 146
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewPositiveX()
+    content.vb: Sub ShowViewPositiveX()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX
+  id: ShowViewNegativeX
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewNegativeX()
+  nameWithType: IVisualizationController.ShowViewNegativeX()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX()
+  type: Method
+  source:
+    id: ShowViewNegativeX
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 151
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewNegativeX()
+    content.vb: Sub ShowViewNegativeX()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY
+  id: ShowViewPositiveY
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewPositiveY()
+  nameWithType: IVisualizationController.ShowViewPositiveY()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY()
+  type: Method
+  source:
+    id: ShowViewPositiveY
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 156
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewPositiveY()
+    content.vb: Sub ShowViewPositiveY()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY
+  id: ShowViewNegativeY
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewNegativeY()
+  nameWithType: IVisualizationController.ShowViewNegativeY()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY()
+  type: Method
+  source:
+    id: ShowViewNegativeY
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 161
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewNegativeY()
+    content.vb: Sub ShowViewNegativeY()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ
+  id: ShowViewPositiveZ
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewPositiveZ()
+  nameWithType: IVisualizationController.ShowViewPositiveZ()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ()
+  type: Method
+  source:
+    id: ShowViewPositiveZ
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 166
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewPositiveZ()
+    content.vb: Sub ShowViewPositiveZ()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ
+  id: ShowViewNegativeZ
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewNegativeZ()
+  nameWithType: IVisualizationController.ShowViewNegativeZ()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ()
+  type: Method
+  source:
+    id: ShowViewNegativeZ
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 171
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewNegativeZ()
+    content.vb: Sub ShowViewNegativeZ()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo
+  id: ShowViewStandardAxo
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewStandardAxo()
+  nameWithType: IVisualizationController.ShowViewStandardAxo()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo()
+  type: Method
+  source:
+    id: ShowViewStandardAxo
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 176
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewStandardAxo()
+    content.vb: Sub ShowViewStandardAxo()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe
+  id: ShowViewWireframe
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewWireframe()
+  nameWithType: IVisualizationController.ShowViewWireframe()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe()
+  type: Method
+  source:
+    id: ShowViewWireframe
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 181
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewWireframe()
+    content.vb: Sub ShowViewWireframe()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines
+  id: ShowViewHiddenLines
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewHiddenLines()
+  nameWithType: IVisualizationController.ShowViewHiddenLines()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines()
+  type: Method
+  source:
+    id: ShowViewHiddenLines
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 186
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewHiddenLines()
+    content.vb: Sub ShowViewHiddenLines()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines
+  id: ShowViewDashedHiddenLines
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewDashedHiddenLines()
+  nameWithType: IVisualizationController.ShowViewDashedHiddenLines()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines()
+  type: Method
+  source:
+    id: ShowViewDashedHiddenLines
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 191
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewDashedHiddenLines()
+    content.vb: Sub ShowViewDashedHiddenLines()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2
+  id: ShowViewShaded2
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewShaded2()
+  nameWithType: IVisualizationController.ShowViewShaded2()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2()
+  type: Method
+  source:
+    id: ShowViewShaded2
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 196
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewShaded2()
+    content.vb: Sub ShowViewShaded2()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1
+  id: ShowViewShaded1
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewShaded1()
+  nameWithType: IVisualizationController.ShowViewShaded1()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1()
+  type: Method
+  source:
+    id: ShowViewShaded1
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 201
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewShaded1()
+    content.vb: Sub ShowViewShaded1()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable(System.UInt64)
+  id: IsSelectable(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsSelectable(ulong)
+  nameWithType: IVisualizationController.IsSelectable(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable(ulong)
+  type: Method
+  source:
+    id: IsSelectable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 208
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsSelectable(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsSelectable(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable*
+  nameWithType.vb: IVisualizationController.IsSelectable(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable(ULong)
+  name.vb: IsSelectable(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetUnselectable(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetUnselectable(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetUnselectable(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetUnselectable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 214
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetUnselectable(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetUnselectable(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable*
+  nameWithType.vb: IVisualizationController.SetUnselectable(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetUnselectable(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable(System.Collections.Generic.ICollection{System.UInt64})
+  id: SetSelectable(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetSelectable(ICollection<ulong>)
+  nameWithType: IVisualizationController.SetSelectable(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: SetSelectable
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 220
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetSelectable(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub SetSelectable(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable*
+  nameWithType.vb: IVisualizationController.SetSelectable(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: SetSelectable(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IVisualizationController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 225
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings(System.String)
+  id: LoadMarkingSettings(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: LoadMarkingSettings(string)
+  nameWithType: IVisualizationController.LoadMarkingSettings(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings(string)
+  type: Method
+  source:
+    id: LoadMarkingSettings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 231
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void LoadMarkingSettings(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    content.vb: Sub LoadMarkingSettings(fileName As String)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings*
+  nameWithType.vb: IVisualizationController.LoadMarkingSettings(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings(String)
+  name.vb: LoadMarkingSettings(String)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d
+  id: IsPlane2d
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsPlane2d()
+  nameWithType: IVisualizationController.IsPlane2d()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d()
+  type: Method
+  source:
+    id: IsPlane2d
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 237
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsPlane2d()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsPlane2d() As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  id: SetCamera(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetCamera(Vec3, Vec3)
+  nameWithType: IVisualizationController.SetCamera(Vec3, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera(Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: SetCamera
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 244
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCamera(Vec3 position, Vec3 target)
+    parameters:
+    - id: position
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: target
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Sub SetCamera(position As Vec3, target As Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo
+  id: ShowViewAxo
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowViewAxo()
+  nameWithType: IVisualizationController.ShowViewAxo()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo()
+  type: Method
+  source:
+    id: ShowViewAxo
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 249
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowViewAxo()
+    content.vb: Sub ShowViewAxo()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral
+  id: ShowPerspectiveCentral
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowPerspectiveCentral()
+  nameWithType: IVisualizationController.ShowPerspectiveCentral()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral()
+  type: Method
+  source:
+    id: ShowPerspectiveCentral
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 254
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowPerspectiveCentral()
+    content.vb: Sub ShowPerspectiveCentral()
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam(System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam(System.Boolean)
+  id: ShowReferenceSideBeam(System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowReferenceSideBeam(bool)
+  nameWithType: IVisualizationController.ShowReferenceSideBeam(bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam(bool)
+  type: Method
+  source:
+    id: ShowReferenceSideBeam
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 260
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowReferenceSideBeam(bool flag)
+    parameters:
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ShowReferenceSideBeam(flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam*
+  nameWithType.vb: IVisualizationController.ShowReferenceSideBeam(Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam(Boolean)
+  name.vb: ShowReferenceSideBeam(Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel(System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel(System.Boolean)
+  id: ShowReferenceSidePanel(System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowReferenceSidePanel(bool)
+  nameWithType: IVisualizationController.ShowReferenceSidePanel(bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel(bool)
+  type: Method
+  source:
+    id: ShowReferenceSidePanel
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 266
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowReferenceSidePanel(bool flag)
+    parameters:
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ShowReferenceSidePanel(flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel*
+  nameWithType.vb: IVisualizationController.ShowReferenceSidePanel(Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel(Boolean)
+  name.vb: ShowReferenceSidePanel(Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall(System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall(System.Boolean)
+  id: ShowReferenceSideWall(System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: ShowReferenceSideWall(bool)
+  nameWithType: IVisualizationController.ShowReferenceSideWall(bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall(bool)
+  type: Method
+  source:
+    id: ShowReferenceSideWall
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 272
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ShowReferenceSideWall(bool flag)
+    parameters:
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub ShowReferenceSideWall(flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall*
+  nameWithType.vb: IVisualizationController.ShowReferenceSideWall(Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall(Boolean)
+  name.vb: ShowReferenceSideWall(Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId(System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId(System.UInt32)
+  id: GetRgbFromCadworkColorId(System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetRgbFromCadworkColorId(uint)
+  nameWithType: IVisualizationController.GetRgbFromCadworkColorId(uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId(uint)
+  type: Method
+  source:
+    id: GetRgbFromCadworkColorId
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 279
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ColorRgb GetRgbFromCadworkColorId(uint colorId)
+    parameters:
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Structs.ColorRgb
+      description: ''
+    content.vb: Function GetRgbFromCadworkColorId(colorId As UInteger) As ColorRgb
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId*
+  nameWithType.vb: IVisualizationController.GetRgbFromCadworkColorId(UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId(UInteger)
+  name.vb: GetRgbFromCadworkColorId(UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  id: SetColorWithoutMaterial(System.Collections.Generic.ICollection{System.UInt64},System.UInt32)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetColorWithoutMaterial(ICollection<ulong>, uint)
+  nameWithType: IVisualizationController.SetColorWithoutMaterial(ICollection<ulong>, uint)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial(System.Collections.Generic.ICollection<ulong>, uint)
+  type: Method
+  source:
+    id: SetColorWithoutMaterial
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 286
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetColorWithoutMaterial(ICollection<ulong> elementIds, uint colorId)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: colorId
+      type: System.UInt32
+      description: ''
+    content.vb: Sub SetColorWithoutMaterial(elementIds As ICollection(Of ULong), colorId As UInteger)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial*
+  nameWithType.vb: IVisualizationController.SetColorWithoutMaterial(ICollection(Of ULong), UInteger)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial(System.Collections.Generic.ICollection(Of ULong), UInteger)
+  name.vb: SetColorWithoutMaterial(ICollection(Of ULong), UInteger)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated(System.UInt64)
+  id: IsTextureRotated(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsTextureRotated(ulong)
+  nameWithType: IVisualizationController.IsTextureRotated(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated(ulong)
+  type: Method
+  source:
+    id: IsTextureRotated
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 293
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsTextureRotated(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsTextureRotated(elementId As ULong) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated*
+  nameWithType.vb: IVisualizationController.IsTextureRotated(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated(ULong)
+  name.vb: IsTextureRotated(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  id: SetTextureRotated(System.Collections.Generic.ICollection{System.UInt64},System.Boolean)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetTextureRotated(ICollection<ulong>, bool)
+  nameWithType: IVisualizationController.SetTextureRotated(ICollection<ulong>, bool)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated(System.Collections.Generic.ICollection<ulong>, bool)
+  type: Method
+  source:
+    id: SetTextureRotated
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 300
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetTextureRotated(ICollection<ulong> elementIds, bool flag)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: flag
+      type: System.Boolean
+      description: ''
+    content.vb: Sub SetTextureRotated(elementIds As ICollection(Of ULong), flag As Boolean)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated*
+  nameWithType.vb: IVisualizationController.SetTextureRotated(ICollection(Of ULong), Boolean)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated(System.Collections.Generic.ICollection(Of ULong), Boolean)
+  name.vb: SetTextureRotated(ICollection(Of ULong), Boolean)
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData
+  id: GetCameraData
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: GetCameraData()
+  nameWithType: IVisualizationController.GetCameraData()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData()
+  type: Method
+  source:
+    id: GetCameraData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 306
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICameraData GetCameraData()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.ICameraData
+      description: ''
+    content.vb: Function GetCameraData() As ICameraData
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData(Cadwork.CwAPI3D.Helpers.ICameraData)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData(Cadwork.CwAPI3D.Helpers.ICameraData)
+  id: SetCameraData(Cadwork.CwAPI3D.Helpers.ICameraData)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: SetCameraData(ICameraData)
+  nameWithType: IVisualizationController.SetCameraData(ICameraData)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData(Cadwork.CwAPI3D.Helpers.ICameraData)
+  type: Method
+  source:
+    id: SetCameraData
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 312
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetCameraData(ICameraData cameraData)
+    parameters:
+    - id: cameraData
+      type: Cadwork.CwAPI3D.Helpers.ICameraData
+      description: ''
+    content.vb: Sub SetCameraData(cameraData As ICameraData)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode
+  id: IsCadworkWindowInLightMode
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsCadworkWindowInLightMode()
+  nameWithType: IVisualizationController.IsCadworkWindowInLightMode()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode()
+  type: Method
+  source:
+    id: IsCadworkWindowInLightMode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 318
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsCadworkWindowInLightMode()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsCadworkWindowInLightMode() As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode
+  id: IsCadworkWindowInDarkMode
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: IsCadworkWindowInDarkMode()
+  nameWithType: IVisualizationController.IsCadworkWindowInDarkMode()
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode()
+  type: Method
+  source:
+    id: IsCadworkWindowInDarkMode
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 324
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsCadworkWindowInDarkMode()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function IsCadworkWindowInDarkMode() As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode*
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  id: EnterWorkingPlane(Cadwork.CwAPI3D.Structs.Vec3,Cadwork.CwAPI3D.Structs.Vec3)
+  parent: Cadwork.CwAPI3D.Controllers.IVisualizationController
+  langs:
+  - csharp
+  - vb
+  name: EnterWorkingPlane(Vec3, Vec3)
+  nameWithType: IVisualizationController.EnterWorkingPlane(Vec3, Vec3)
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane(Cadwork.CwAPI3D.Structs.Vec3, Cadwork.CwAPI3D.Structs.Vec3)
+  type: Method
+  source:
+    id: EnterWorkingPlane
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IVisualizationController.cs
+    startLine: 331
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void EnterWorkingPlane(Vec3 planeNormal, Vec3 planeOrigin)
+    parameters:
+    - id: planeNormal
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    - id: planeOrigin
+      type: Cadwork.CwAPI3D.Structs.Vec3
+      description: ''
+    content.vb: Sub EnterWorkingPlane(planeNormal As Vec3, planeOrigin As Vec3)
+  overload: Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane*
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetLastError
+  name: GetLastError
+  nameWithType: IVisualizationController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetColor_System_UInt64_
+  name: GetColor
+  nameWithType: IVisualizationController.GetColor
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetColor
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetColor_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: SetColor
+  nameWithType: IVisualizationController.SetColor
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColor
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetOpenGlColor_System_UInt64_
+  name: GetOpenGlColor
+  nameWithType: IVisualizationController.GetOpenGlColor
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetOpenGlColor
+- uid: Cadwork.CwAPI3D.Structs.ColorRgb
+  commentId: T:Cadwork.CwAPI3D.Structs.ColorRgb
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.ColorRgb.html
+  name: ColorRgb
+  nameWithType: ColorRgb
+  fullName: Cadwork.CwAPI3D.Structs.ColorRgb
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetOpenGlColor_System_Collections_Generic_ICollection_System_UInt64__Cadwork_CwAPI3D_Structs_ColorRgb_
+  name: SetOpenGlColor
+  nameWithType: IVisualizationController.SetOpenGlColor
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetOpenGlColor
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsActive_System_UInt64_
+  name: IsActive
+  nameWithType: IVisualizationController.IsActive
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsActive
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetActive_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetActive
+  nameWithType: IVisualizationController.SetActive
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetActive
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetInactive_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetInactive
+  nameWithType: IVisualizationController.SetInactive
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInactive
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsVisible_System_UInt64_
+  name: IsVisible
+  nameWithType: IVisualizationController.IsVisible
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsVisible
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetVisible_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetVisible
+  nameWithType: IVisualizationController.SetVisible
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetVisible
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetInvisible_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetInvisible
+  nameWithType: IVisualizationController.SetInvisible
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetInvisible
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsImmutable_System_UInt64_
+  name: IsImmutable
+  nameWithType: IVisualizationController.IsImmutable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsImmutable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetImmutable_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetImmutable
+  nameWithType: IVisualizationController.SetImmutable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetImmutable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetMutable_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetMutable
+  nameWithType: IVisualizationController.SetMutable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMutable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowAllElements
+  name: ShowAllElements
+  nameWithType: IVisualizationController.ShowAllElements
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowAllElements
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_HideAllElements
+  name: HideAllElements
+  nameWithType: IVisualizationController.HideAllElements
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.HideAllElements
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ZoomAllElements
+  name: ZoomAllElements
+  nameWithType: IVisualizationController.ZoomAllElements
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomAllElements
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ZoomActiveElements
+  name: ZoomActiveElements
+  nameWithType: IVisualizationController.ZoomActiveElements
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ZoomActiveElements
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_Refresh
+  name: Refresh
+  nameWithType: IVisualizationController.Refresh
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.Refresh
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetMaterial_System_Collections_Generic_ICollection_System_UInt64__System_UInt64_
+  name: SetMaterial
+  nameWithType: IVisualizationController.SetMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetMaterial_System_UInt64_
+  name: GetMaterial
+  nameWithType: IVisualizationController.GetMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewPositiveX
+  name: ShowViewPositiveX
+  nameWithType: IVisualizationController.ShowViewPositiveX
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveX
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewNegativeX
+  name: ShowViewNegativeX
+  nameWithType: IVisualizationController.ShowViewNegativeX
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeX
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewPositiveY
+  name: ShowViewPositiveY
+  nameWithType: IVisualizationController.ShowViewPositiveY
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveY
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewNegativeY
+  name: ShowViewNegativeY
+  nameWithType: IVisualizationController.ShowViewNegativeY
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeY
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewPositiveZ
+  name: ShowViewPositiveZ
+  nameWithType: IVisualizationController.ShowViewPositiveZ
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewPositiveZ
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewNegativeZ
+  name: ShowViewNegativeZ
+  nameWithType: IVisualizationController.ShowViewNegativeZ
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewNegativeZ
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewStandardAxo
+  name: ShowViewStandardAxo
+  nameWithType: IVisualizationController.ShowViewStandardAxo
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewStandardAxo
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewWireframe
+  name: ShowViewWireframe
+  nameWithType: IVisualizationController.ShowViewWireframe
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewWireframe
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewHiddenLines
+  name: ShowViewHiddenLines
+  nameWithType: IVisualizationController.ShowViewHiddenLines
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewHiddenLines
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewDashedHiddenLines
+  name: ShowViewDashedHiddenLines
+  nameWithType: IVisualizationController.ShowViewDashedHiddenLines
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewDashedHiddenLines
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewShaded2
+  name: ShowViewShaded2
+  nameWithType: IVisualizationController.ShowViewShaded2
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded2
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewShaded1
+  name: ShowViewShaded1
+  nameWithType: IVisualizationController.ShowViewShaded1
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewShaded1
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsSelectable_System_UInt64_
+  name: IsSelectable
+  nameWithType: IVisualizationController.IsSelectable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsSelectable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetUnselectable_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetUnselectable
+  nameWithType: IVisualizationController.SetUnselectable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetUnselectable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetSelectable_System_Collections_Generic_ICollection_System_UInt64__
+  name: SetSelectable
+  nameWithType: IVisualizationController.SetSelectable
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetSelectable
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ClearErrors
+  name: ClearErrors
+  nameWithType: IVisualizationController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_LoadMarkingSettings_System_String_
+  name: LoadMarkingSettings
+  nameWithType: IVisualizationController.LoadMarkingSettings
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.LoadMarkingSettings
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsPlane2d
+  name: IsPlane2d
+  nameWithType: IVisualizationController.IsPlane2d
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsPlane2d
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetCamera_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_
+  name: SetCamera
+  nameWithType: IVisualizationController.SetCamera
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCamera
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowViewAxo
+  name: ShowViewAxo
+  nameWithType: IVisualizationController.ShowViewAxo
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowViewAxo
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowPerspectiveCentral
+  name: ShowPerspectiveCentral
+  nameWithType: IVisualizationController.ShowPerspectiveCentral
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowPerspectiveCentral
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowReferenceSideBeam_System_Boolean_
+  name: ShowReferenceSideBeam
+  nameWithType: IVisualizationController.ShowReferenceSideBeam
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideBeam
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowReferenceSidePanel_System_Boolean_
+  name: ShowReferenceSidePanel
+  nameWithType: IVisualizationController.ShowReferenceSidePanel
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSidePanel
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_ShowReferenceSideWall_System_Boolean_
+  name: ShowReferenceSideWall
+  nameWithType: IVisualizationController.ShowReferenceSideWall
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.ShowReferenceSideWall
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetRgbFromCadworkColorId_System_UInt32_
+  name: GetRgbFromCadworkColorId
+  nameWithType: IVisualizationController.GetRgbFromCadworkColorId
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetRgbFromCadworkColorId
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetColorWithoutMaterial_System_Collections_Generic_ICollection_System_UInt64__System_UInt32_
+  name: SetColorWithoutMaterial
+  nameWithType: IVisualizationController.SetColorWithoutMaterial
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetColorWithoutMaterial
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsTextureRotated_System_UInt64_
+  name: IsTextureRotated
+  nameWithType: IVisualizationController.IsTextureRotated
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsTextureRotated
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetTextureRotated_System_Collections_Generic_ICollection_System_UInt64__System_Boolean_
+  name: SetTextureRotated
+  nameWithType: IVisualizationController.SetTextureRotated
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetTextureRotated
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_GetCameraData
+  name: GetCameraData
+  nameWithType: IVisualizationController.GetCameraData
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.GetCameraData
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData
+  commentId: T:Cadwork.CwAPI3D.Helpers.ICameraData
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html
+  name: ICameraData
+  nameWithType: ICameraData
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_SetCameraData_Cadwork_CwAPI3D_Helpers_ICameraData_
+  name: SetCameraData
+  nameWithType: IVisualizationController.SetCameraData
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.SetCameraData
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsCadworkWindowInLightMode
+  name: IsCadworkWindowInLightMode
+  nameWithType: IVisualizationController.IsCadworkWindowInLightMode
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInLightMode
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_IsCadworkWindowInDarkMode
+  name: IsCadworkWindowInDarkMode
+  nameWithType: IVisualizationController.IsCadworkWindowInDarkMode
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.IsCadworkWindowInDarkMode
+- uid: Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane
+  href: Cadwork.CwAPI3D.Controllers.IVisualizationController.html#Cadwork_CwAPI3D_Controllers_IVisualizationController_EnterWorkingPlane_Cadwork_CwAPI3D_Structs_Vec3_Cadwork_CwAPI3D_Structs_Vec3_
+  name: EnterWorkingPlane
+  nameWithType: IVisualizationController.EnterWorkingPlane
+  fullName: Cadwork.CwAPI3D.Controllers.IVisualizationController.EnterWorkingPlane

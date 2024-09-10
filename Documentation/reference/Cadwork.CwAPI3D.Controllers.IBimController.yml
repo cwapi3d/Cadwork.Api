@@ -1,0 +1,1589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Controllers.IBimController
+  commentId: T:Cadwork.CwAPI3D.Controllers.IBimController
+  id: IBimController
+  parent: Cadwork.CwAPI3D.Controllers
+  children:
+  - Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors
+  - Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetLastError
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetStorey(System.UInt64)
+  - Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight(System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects(System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  - Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  - Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  - Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight(System.String,System.String,System.Double)
+  - Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection{System.UInt64})
+  - Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection{System.UInt64})
+  langs:
+  - csharp
+  - vb
+  name: IBimController
+  nameWithType: IBimController
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController
+  type: Interface
+  source:
+    id: IBimController
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 10
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IBimController
+    content.vb: Public Interface IBimController
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetLastError
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetLastError
+  id: GetLastError
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetLastError()
+  nameWithType: IBimController.GetLastError()
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetLastError()
+  type: Method
+  source:
+    id: GetLastError
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 16
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IError GetLastError()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IError
+      description: ''
+    content.vb: Function GetLastError() As IError
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetLastError*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid(System.UInt64)
+  id: GetIfcGuid(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfcGuid(ulong)
+  nameWithType: IBimController.GetIfcGuid(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid(ulong)
+  type: Method
+  source:
+    id: GetIfcGuid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 23
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetIfcGuid(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetIfcGuid(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid*
+  nameWithType.vb: IBimController.GetIfcGuid(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid(ULong)
+  name.vb: GetIfcGuid(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  id: SetBuildingAndStorey(System.Collections.Generic.ICollection{System.UInt64},System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingAndStorey(ICollection<ulong>, string, string)
+  nameWithType: IBimController.SetBuildingAndStorey(ICollection<ulong>, string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey(System.Collections.Generic.ICollection<ulong>, string, string)
+  type: Method
+  source:
+    id: SetBuildingAndStorey
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 31
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetBuildingAndStorey(ICollection<ulong> elementIds, string building, string storey)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: building
+      type: System.String
+      description: ''
+    - id: storey
+      type: System.String
+      description: ''
+    content.vb: Sub SetBuildingAndStorey(elementIds As ICollection(Of ULong), building As String, storey As String)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey*
+  nameWithType.vb: IBimController.SetBuildingAndStorey(ICollection(Of ULong), String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey(System.Collections.Generic.ICollection(Of ULong), String, String)
+  name.vb: SetBuildingAndStorey(ICollection(Of ULong), String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding(System.UInt64)
+  id: GetBuilding(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetBuilding(ulong)
+  nameWithType: IBimController.GetBuilding(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding(ulong)
+  type: Method
+  source:
+    id: GetBuilding
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 38
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetBuilding(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetBuilding(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding*
+  nameWithType.vb: IBimController.GetBuilding(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding(ULong)
+  name.vb: GetBuilding(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetStorey(System.UInt64)
+  id: GetStorey(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetStorey(ulong)
+  nameWithType: IBimController.GetStorey(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey(ulong)
+  type: Method
+  source:
+    id: GetStorey
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 45
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetStorey(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetStorey(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey*
+  nameWithType.vb: IBimController.GetStorey(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey(ULong)
+  name.vb: GetStorey(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors
+  id: ClearErrors
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ClearErrors()
+  nameWithType: IBimController.ClearErrors()
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors()
+  type: Method
+  source:
+    id: ClearErrors
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 50
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void ClearErrors()
+    content.vb: Sub ClearErrors()
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType(System.UInt64)
+  id: GetIfc2x3ElementType(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfc2x3ElementType(ulong)
+  nameWithType: IBimController.GetIfc2x3ElementType(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType(ulong)
+  type: Method
+  source:
+    id: GetIfc2x3ElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 57
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: Ifc2x3ElementType GetIfc2x3ElementType(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+      description: ''
+    content.vb: Function GetIfc2x3ElementType(elementId As ULong) As Ifc2x3ElementType
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType*
+  nameWithType.vb: IBimController.GetIfc2x3ElementType(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType(ULong)
+  name.vb: GetIfc2x3ElementType(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  id: SetIfc2X3ElementType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: SetIfc2X3ElementType(ICollection<ulong>, Ifc2x3ElementType)
+  nameWithType: IBimController.SetIfc2X3ElementType(ICollection<ulong>, Ifc2x3ElementType)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType(System.Collections.Generic.ICollection<ulong>, Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  type: Method
+  source:
+    id: SetIfc2X3ElementType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 64
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetIfc2X3ElementType(ICollection<ulong> elementIds, Ifc2x3ElementType type)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: type
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+      description: ''
+    content.vb: Sub SetIfc2X3ElementType(elementIds As ICollection(Of ULong), type As Ifc2x3ElementType)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType*
+  nameWithType.vb: IBimController.SetIfc2X3ElementType(ICollection(Of ULong), Ifc2x3ElementType)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType(System.Collections.Generic.ICollection(Of ULong), Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  name.vb: SetIfc2X3ElementType(ICollection(Of ULong), Ifc2x3ElementType)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject(System.String)
+  id: ImportIfcAsGraphicalObject(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ImportIfcAsGraphicalObject(string)
+  nameWithType: IBimController.ImportIfcAsGraphicalObject(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject(string)
+  type: Method
+  source:
+    id: ImportIfcAsGraphicalObject
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 71
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ImportIfcAsGraphicalObject(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ImportIfcAsGraphicalObject(fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject*
+  nameWithType.vb: IBimController.ImportIfcAsGraphicalObject(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject(String)
+  name.vb: ImportIfcAsGraphicalObject(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf(System.String)
+  id: ImportBcf(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ImportBcf(string)
+  nameWithType: IBimController.ImportBcf(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf(string)
+  type: Method
+  source:
+    id: ImportBcf
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 78
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ImportBcf(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ImportBcf(fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf*
+  nameWithType.vb: IBimController.ImportBcf(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf(String)
+  name.vb: ImportBcf(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf(System.String)
+  id: ExportBcf(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportBcf(string)
+  nameWithType: IBimController.ExportBcf(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf(string)
+  type: Method
+  source:
+    id: ExportBcf
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 85
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportBcf(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportBcf(fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf*
+  nameWithType.vb: IBimController.ExportBcf(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf(String)
+  name.vb: ExportBcf(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportIfc(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportIfc(ICollection<ulong>, string)
+  nameWithType: IBimController.ExportIfc(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportIfc
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 93
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportIfc(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportIfc(elementIds As ICollection(Of ULong), fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc*
+  nameWithType.vb: IBimController.ExportIfc(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportIfc(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects(System.String)
+  id: ImportIfcReturnExchangeObjects(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ImportIfcReturnExchangeObjects(string)
+  nameWithType: IBimController.ImportIfcReturnExchangeObjects(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects(string)
+  type: Method
+  source:
+    id: ImportIfcReturnExchangeObjects
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 100
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ImportIfcReturnExchangeObjects(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ImportIfcReturnExchangeObjects(fileName As String) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects*
+  nameWithType.vb: IBimController.ImportIfcReturnExchangeObjects(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects(String)
+  name.vb: ImportIfcReturnExchangeObjects(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects(System.Collections.Generic.ICollection{System.UInt64})
+  id: ConvertExchangeObjects(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ConvertExchangeObjects(ICollection<ulong>)
+  nameWithType: IBimController.ConvertExchangeObjects(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: ConvertExchangeObjects
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 107
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<ulong> ConvertExchangeObjects(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Function ConvertExchangeObjects(elementIds As ICollection(Of ULong)) As ICollection(Of ULong)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects*
+  nameWithType.vb: IBimController.ConvertExchangeObjects(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: ConvertExchangeObjects(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight(System.String,System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight(System.String,System.String)
+  id: GetStoreyHeight(System.String,System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetStoreyHeight(string, string)
+  nameWithType: IBimController.GetStoreyHeight(string, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight(string, string)
+  type: Method
+  source:
+    id: GetStoreyHeight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 115
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: double GetStoreyHeight(string aBuilding, string storey)
+    parameters:
+    - id: aBuilding
+      type: System.String
+      description: ''
+    - id: storey
+      type: System.String
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function GetStoreyHeight(aBuilding As String, storey As String) As Double
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight*
+  nameWithType.vb: IBimController.GetStoreyHeight(String, String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight(String, String)
+  name.vb: GetStoreyHeight(String, String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight(System.String,System.String,System.Double)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight(System.String,System.String,System.Double)
+  id: SetStoreyHeight(System.String,System.String,System.Double)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: SetStoreyHeight(string, string, double)
+  nameWithType: IBimController.SetStoreyHeight(string, string, double)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight(string, string, double)
+  type: Method
+  source:
+    id: SetStoreyHeight
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 123
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetStoreyHeight(string aBuilding, string storey, double height)
+    parameters:
+    - id: aBuilding
+      type: System.String
+      description: ''
+    - id: storey
+      type: System.String
+      description: ''
+    - id: height
+      type: System.Double
+      description: ''
+    content.vb: Sub SetStoreyHeight(aBuilding As String, storey As String, height As Double)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight*
+  nameWithType.vb: IBimController.SetStoreyHeight(String, String, Double)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight(String, String, Double)
+  name.vb: SetStoreyHeight(String, String, Double)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  id: GetIfc2x3ElementTypeString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfc2x3ElementTypeString(Ifc2x3ElementType)
+  nameWithType: IBimController.GetIfc2x3ElementTypeString(Ifc2x3ElementType)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  type: Method
+  source:
+    id: GetIfc2x3ElementTypeString
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 130
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetIfc2x3ElementTypeString(Ifc2x3ElementType type)
+    parameters:
+    - id: type
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetIfc2x3ElementTypeString(type As Ifc2x3ElementType) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  id: GetIfc2x3ElementTypeDisplayString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfc2x3ElementTypeDisplayString(Ifc2x3ElementType)
+  nameWithType: IBimController.GetIfc2x3ElementTypeDisplayString(Ifc2x3ElementType)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString(Cadwork.CwAPI3D.Enums.Ifc2x3ElementType)
+  type: Method
+  source:
+    id: GetIfc2x3ElementTypeDisplayString
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 137
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetIfc2x3ElementTypeDisplayString(Ifc2x3ElementType type)
+    parameters:
+    - id: type
+      type: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetIfc2x3ElementTypeDisplayString(type As Ifc2x3ElementType) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings
+  id: GetAllBuildings
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetAllBuildings()
+  nameWithType: IBimController.GetAllBuildings()
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings()
+  type: Method
+  source:
+    id: GetAllBuildings
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 143
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetAllBuildings()
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetAllBuildings() As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys(System.String)
+  id: GetAllStoreys(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetAllStoreys(string)
+  nameWithType: IBimController.GetAllStoreys(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys(string)
+  type: Method
+  source:
+    id: GetAllStoreys
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 150
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<string> GetAllStoreys(string building)
+    parameters:
+    - id: building
+      type: System.String
+      description: ''
+    return:
+      type: System.Collections.Generic.ICollection{System.String}
+      description: ''
+    content.vb: Function GetAllStoreys(building As String) As ICollection(Of String)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys*
+  nameWithType.vb: IBimController.GetAllStoreys(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys(String)
+  name.vb: GetAllStoreys(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportIfc2x3Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportIfc2x3Silently(ICollection<ulong>, string)
+  nameWithType: IBimController.ExportIfc2x3Silently(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportIfc2x3Silently
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 158
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportIfc2x3Silently(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportIfc2x3Silently(elementIds As ICollection(Of ULong), fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently*
+  nameWithType.vb: IBimController.ExportIfc2x3Silently(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportIfc2x3Silently(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  id: ExportIfc4Silently(System.Collections.Generic.ICollection{System.UInt64},System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportIfc4Silently(ICollection<ulong>, string)
+  nameWithType: IBimController.ExportIfc4Silently(ICollection<ulong>, string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently(System.Collections.Generic.ICollection<ulong>, string)
+  type: Method
+  source:
+    id: ExportIfc4Silently
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 166
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportIfc4Silently(ICollection<ulong> elementIds, string fileName)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportIfc4Silently(elementIds As ICollection(Of ULong), fileName As String) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently*
+  nameWithType.vb: IBimController.ExportIfc4Silently(ICollection(Of ULong), String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently(System.Collections.Generic.ICollection(Of ULong), String)
+  name.vb: ExportIfc4Silently(ICollection(Of ULong), String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  id: ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportIfc4SilentlyWithOptions(ICollection<ulong>, string, IIfcOptions)
+  nameWithType: IBimController.ExportIfc4SilentlyWithOptions(ICollection<ulong>, string, IIfcOptions)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection<ulong>, string, Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  type: Method
+  source:
+    id: ExportIfc4SilentlyWithOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 175
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportIfc4SilentlyWithOptions(ICollection<ulong> elementIds, string fileName, IIfcOptions options)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: options
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportIfc4SilentlyWithOptions(elementIds As ICollection(Of ULong), fileName As String, options As IIfcOptions) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions*
+  nameWithType.vb: IBimController.ExportIfc4SilentlyWithOptions(ICollection(Of ULong), String, IIfcOptions)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions(System.Collections.Generic.ICollection(Of ULong), String, Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  name.vb: ExportIfc4SilentlyWithOptions(ICollection(Of ULong), String, IIfcOptions)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  id: ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection{System.UInt64},System.String,Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: ExportIfc2x3SilentlyWithOptions(ICollection<ulong>, string, IIfcOptions)
+  nameWithType: IBimController.ExportIfc2x3SilentlyWithOptions(ICollection<ulong>, string, IIfcOptions)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection<ulong>, string, Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  type: Method
+  source:
+    id: ExportIfc2x3SilentlyWithOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 184
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: bool ExportIfc2x3SilentlyWithOptions(ICollection<ulong> elementIds, string fileName, IIfcOptions options)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: fileName
+      type: System.String
+      description: ''
+    - id: options
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Function ExportIfc2x3SilentlyWithOptions(elementIds As ICollection(Of ULong), fileName As String, options As IIfcOptions) As Boolean
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions*
+  nameWithType.vb: IBimController.ExportIfc2x3SilentlyWithOptions(ICollection(Of ULong), String, IIfcOptions)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions(System.Collections.Generic.ICollection(Of ULong), String, Cadwork.CwAPI3D.Helpers.IIfcOptions)
+  name.vb: ExportIfc2x3SilentlyWithOptions(ICollection(Of ULong), String, IIfcOptions)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid(System.String)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid(System.String)
+  id: GetElementIdFromIfcBase64Guid(System.String)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetElementIdFromIfcBase64Guid(string)
+  nameWithType: IBimController.GetElementIdFromIfcBase64Guid(string)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid(string)
+  type: Method
+  source:
+    id: GetElementIdFromIfcBase64Guid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 191
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: ulong GetElementIdFromIfcBase64Guid(string guid)
+    parameters:
+    - id: guid
+      type: System.String
+      description: ''
+    return:
+      type: System.UInt64
+      description: ''
+    content.vb: Function GetElementIdFromIfcBase64Guid(guid As String) As ULong
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid*
+  nameWithType.vb: IBimController.GetElementIdFromIfcBase64Guid(String)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid(String)
+  name.vb: GetElementIdFromIfcBase64Guid(String)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid(System.UInt64)
+  id: GetIfcBase64Guid(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfcBase64Guid(ulong)
+  nameWithType: IBimController.GetIfcBase64Guid(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid(ulong)
+  type: Method
+  source:
+    id: GetIfcBase64Guid
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 198
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: string GetIfcBase64Guid(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function GetIfcBase64Guid(elementId As ULong) As String
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid*
+  nameWithType.vb: IBimController.GetIfcBase64Guid(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid(ULong)
+  name.vb: GetIfcBase64Guid(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection{System.UInt64})
+  id: UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: UpdateBmtStructureCreatedElements(ICollection<ulong>)
+  nameWithType: IBimController.UpdateBmtStructureCreatedElements(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: UpdateBmtStructureCreatedElements
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 204
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void UpdateBmtStructureCreatedElements(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub UpdateBmtStructureCreatedElements(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements*
+  nameWithType.vb: IBimController.UpdateBmtStructureCreatedElements(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: UpdateBmtStructureCreatedElements(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection{System.UInt64})
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection{System.UInt64})
+  id: UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection{System.UInt64})
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: UpdateBmtStructureBuildingStorey(ICollection<ulong>)
+  nameWithType: IBimController.UpdateBmtStructureBuildingStorey(ICollection<ulong>)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection<ulong>)
+  type: Method
+  source:
+    id: UpdateBmtStructureBuildingStorey
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 210
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void UpdateBmtStructureBuildingStorey(ICollection<ulong> elementIds)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    content.vb: Sub UpdateBmtStructureBuildingStorey(elementIds As ICollection(Of ULong))
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey*
+  nameWithType.vb: IBimController.UpdateBmtStructureBuildingStorey(ICollection(Of ULong))
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey(System.Collections.Generic.ICollection(Of ULong))
+  name.vb: UpdateBmtStructureBuildingStorey(ICollection(Of ULong))
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions
+  id: GetIfcOptions
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfcOptions()
+  nameWithType: IBimController.GetIfcOptions()
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions()
+  type: Method
+  source:
+    id: GetIfcOptions
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 216
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IIfcOptions GetIfcOptions()
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IIfcOptions
+      description: ''
+    content.vb: Function GetIfcOptions() As IIfcOptions
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions*
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType(System.UInt64)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType(System.UInt64)
+  id: GetIfcPredefinedType(System.UInt64)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: GetIfcPredefinedType(ulong)
+  nameWithType: IBimController.GetIfcPredefinedType(ulong)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType(ulong)
+  type: Method
+  source:
+    id: GetIfcPredefinedType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 223
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: IfcPredefinedType GetIfcPredefinedType(ulong elementId)
+    parameters:
+    - id: elementId
+      type: System.UInt64
+      description: ''
+    return:
+      type: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+      description: ''
+    content.vb: Function GetIfcPredefinedType(elementId As ULong) As IfcPredefinedType
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType*
+  nameWithType.vb: IBimController.GetIfcPredefinedType(ULong)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType(ULong)
+  name.vb: GetIfcPredefinedType(ULong)
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  commentId: M:Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  id: SetIfcPredefinedType(System.Collections.Generic.ICollection{System.UInt64},Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  parent: Cadwork.CwAPI3D.Controllers.IBimController
+  langs:
+  - csharp
+  - vb
+  name: SetIfcPredefinedType(ICollection<ulong>, IfcPredefinedType)
+  nameWithType: IBimController.SetIfcPredefinedType(ICollection<ulong>, IfcPredefinedType)
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType(System.Collections.Generic.ICollection<ulong>, Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  type: Method
+  source:
+    id: SetIfcPredefinedType
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Controllers\IBimController.cs
+    startLine: 230
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Controllers
+  summary: ''
+  example: []
+  syntax:
+    content: void SetIfcPredefinedType(ICollection<ulong> elementIds, IfcPredefinedType predefinedType)
+    parameters:
+    - id: elementIds
+      type: System.Collections.Generic.ICollection{System.UInt64}
+      description: ''
+    - id: predefinedType
+      type: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+      description: ''
+    content.vb: Sub SetIfcPredefinedType(elementIds As ICollection(Of ULong), predefinedType As IfcPredefinedType)
+  overload: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType*
+  nameWithType.vb: IBimController.SetIfcPredefinedType(ICollection(Of ULong), IfcPredefinedType)
+  fullName.vb: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType(System.Collections.Generic.ICollection(Of ULong), Cadwork.CwAPI3D.Enums.IfcPredefinedType)
+  name.vb: SetIfcPredefinedType(ICollection(Of ULong), IfcPredefinedType)
+references:
+- uid: Cadwork.CwAPI3D.Controllers
+  commentId: N:Cadwork.CwAPI3D.Controllers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Controllers
+  nameWithType: Cadwork.CwAPI3D.Controllers
+  fullName: Cadwork.CwAPI3D.Controllers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Controllers
+    name: Controllers
+    href: Cadwork.CwAPI3D.Controllers.html
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetLastError*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetLastError
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetLastError
+  name: GetLastError
+  nameWithType: IBimController.GetLastError
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetLastError
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfcGuid_System_UInt64_
+  name: GetIfcGuid
+  nameWithType: IBimController.GetIfcGuid
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcGuid
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_SetBuildingAndStorey_System_Collections_Generic_ICollection_System_UInt64__System_String_System_String_
+  name: SetBuildingAndStorey
+  nameWithType: IBimController.SetBuildingAndStorey
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetBuildingAndStorey
+- uid: System.Collections.Generic.ICollection{System.UInt64}
+  commentId: T:System.Collections.Generic.ICollection{System.UInt64}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<ulong>
+  nameWithType: ICollection<ulong>
+  fullName: System.Collections.Generic.ICollection<ulong>
+  nameWithType.vb: ICollection(Of ULong)
+  fullName.vb: System.Collections.Generic.ICollection(Of ULong)
+  name.vb: ICollection(Of ULong)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.UInt64
+    name: ulong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.UInt64
+    name: ULong
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint64
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetBuilding_System_UInt64_
+  name: GetBuilding
+  nameWithType: IBimController.GetBuilding
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetBuilding
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetStorey
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetStorey_System_UInt64_
+  name: GetStorey
+  nameWithType: IBimController.GetStorey
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetStorey
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ClearErrors
+  name: ClearErrors
+  nameWithType: IBimController.ClearErrors
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ClearErrors
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfc2x3ElementType_System_UInt64_
+  name: GetIfc2x3ElementType
+  nameWithType: IBimController.GetIfc2x3ElementType
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  commentId: T:Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType.html
+  name: Ifc2x3ElementType
+  nameWithType: Ifc2x3ElementType
+  fullName: Cadwork.CwAPI3D.Enums.Ifc2x3ElementType
+- uid: Cadwork.CwAPI3D.Enums
+  commentId: N:Cadwork.CwAPI3D.Enums
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Enums
+  nameWithType: Cadwork.CwAPI3D.Enums
+  fullName: Cadwork.CwAPI3D.Enums
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Enums
+    name: Enums
+    href: Cadwork.CwAPI3D.Enums.html
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_SetIfc2X3ElementType_System_Collections_Generic_ICollection_System_UInt64__Cadwork_CwAPI3D_Enums_Ifc2x3ElementType_
+  name: SetIfc2X3ElementType
+  nameWithType: IBimController.SetIfc2X3ElementType
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetIfc2X3ElementType
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ImportIfcAsGraphicalObject_System_String_
+  name: ImportIfcAsGraphicalObject
+  nameWithType: IBimController.ImportIfcAsGraphicalObject
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcAsGraphicalObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ImportBcf_System_String_
+  name: ImportBcf
+  nameWithType: IBimController.ImportBcf
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportBcf
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportBcf_System_String_
+  name: ExportBcf
+  nameWithType: IBimController.ExportBcf
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportBcf
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportIfc_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportIfc
+  nameWithType: IBimController.ExportIfc
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ImportIfcReturnExchangeObjects_System_String_
+  name: ImportIfcReturnExchangeObjects
+  nameWithType: IBimController.ImportIfcReturnExchangeObjects
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ImportIfcReturnExchangeObjects
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ConvertExchangeObjects_System_Collections_Generic_ICollection_System_UInt64__
+  name: ConvertExchangeObjects
+  nameWithType: IBimController.ConvertExchangeObjects
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ConvertExchangeObjects
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetStoreyHeight_System_String_System_String_
+  name: GetStoreyHeight
+  nameWithType: IBimController.GetStoreyHeight
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetStoreyHeight
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_SetStoreyHeight_System_String_System_String_System_Double_
+  name: SetStoreyHeight
+  nameWithType: IBimController.SetStoreyHeight
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetStoreyHeight
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfc2x3ElementTypeString_Cadwork_CwAPI3D_Enums_Ifc2x3ElementType_
+  name: GetIfc2x3ElementTypeString
+  nameWithType: IBimController.GetIfc2x3ElementTypeString
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeString
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfc2x3ElementTypeDisplayString_Cadwork_CwAPI3D_Enums_Ifc2x3ElementType_
+  name: GetIfc2x3ElementTypeDisplayString
+  nameWithType: IBimController.GetIfc2x3ElementTypeDisplayString
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfc2x3ElementTypeDisplayString
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetAllBuildings
+  name: GetAllBuildings
+  nameWithType: IBimController.GetAllBuildings
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetAllBuildings
+- uid: System.Collections.Generic.ICollection{System.String}
+  commentId: T:System.Collections.Generic.ICollection{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<string>
+  nameWithType: ICollection<string>
+  fullName: System.Collections.Generic.ICollection<string>
+  nameWithType.vb: ICollection(Of String)
+  fullName.vb: System.Collections.Generic.ICollection(Of String)
+  name.vb: ICollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetAllStoreys_System_String_
+  name: GetAllStoreys
+  nameWithType: IBimController.GetAllStoreys
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetAllStoreys
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportIfc2x3Silently_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportIfc2x3Silently
+  nameWithType: IBimController.ExportIfc2x3Silently
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3Silently
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportIfc4Silently_System_Collections_Generic_ICollection_System_UInt64__System_String_
+  name: ExportIfc4Silently
+  nameWithType: IBimController.ExportIfc4Silently
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4Silently
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportIfc4SilentlyWithOptions_System_Collections_Generic_ICollection_System_UInt64__System_String_Cadwork_CwAPI3D_Helpers_IIfcOptions_
+  name: ExportIfc4SilentlyWithOptions
+  nameWithType: IBimController.ExportIfc4SilentlyWithOptions
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc4SilentlyWithOptions
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions
+  nameWithType: IIfcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_ExportIfc2x3SilentlyWithOptions_System_Collections_Generic_ICollection_System_UInt64__System_String_Cadwork_CwAPI3D_Helpers_IIfcOptions_
+  name: ExportIfc2x3SilentlyWithOptions
+  nameWithType: IBimController.ExportIfc2x3SilentlyWithOptions
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.ExportIfc2x3SilentlyWithOptions
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetElementIdFromIfcBase64Guid_System_String_
+  name: GetElementIdFromIfcBase64Guid
+  nameWithType: IBimController.GetElementIdFromIfcBase64Guid
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetElementIdFromIfcBase64Guid
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfcBase64Guid_System_UInt64_
+  name: GetIfcBase64Guid
+  nameWithType: IBimController.GetIfcBase64Guid
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcBase64Guid
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_UpdateBmtStructureCreatedElements_System_Collections_Generic_ICollection_System_UInt64__
+  name: UpdateBmtStructureCreatedElements
+  nameWithType: IBimController.UpdateBmtStructureCreatedElements
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureCreatedElements
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_UpdateBmtStructureBuildingStorey_System_Collections_Generic_ICollection_System_UInt64__
+  name: UpdateBmtStructureBuildingStorey
+  nameWithType: IBimController.UpdateBmtStructureBuildingStorey
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.UpdateBmtStructureBuildingStorey
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfcOptions
+  name: GetIfcOptions
+  nameWithType: IBimController.GetIfcOptions
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcOptions
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_GetIfcPredefinedType_System_UInt64_
+  name: GetIfcPredefinedType
+  nameWithType: IBimController.GetIfcPredefinedType
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.GetIfcPredefinedType
+- uid: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+  commentId: T:Cadwork.CwAPI3D.Enums.IfcPredefinedType
+  parent: Cadwork.CwAPI3D.Enums
+  href: Cadwork.CwAPI3D.Enums.IfcPredefinedType.html
+  name: IfcPredefinedType
+  nameWithType: IfcPredefinedType
+  fullName: Cadwork.CwAPI3D.Enums.IfcPredefinedType
+- uid: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType*
+  commentId: Overload:Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType
+  href: Cadwork.CwAPI3D.Controllers.IBimController.html#Cadwork_CwAPI3D_Controllers_IBimController_SetIfcPredefinedType_System_Collections_Generic_ICollection_System_UInt64__Cadwork_CwAPI3D_Enums_IfcPredefinedType_
+  name: SetIfcPredefinedType
+  nameWithType: IBimController.SetIfcPredefinedType
+  fullName: Cadwork.CwAPI3D.Controllers.IBimController.SetIfcPredefinedType

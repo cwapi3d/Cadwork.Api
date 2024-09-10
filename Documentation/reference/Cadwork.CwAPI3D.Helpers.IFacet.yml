@@ -1,0 +1,465 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers.IFacet
+  commentId: T:Cadwork.CwAPI3D.Helpers.IFacet
+  id: IFacet
+  parent: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+  - Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+  - Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+  - Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+  - Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+  - Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+  langs:
+  - csharp
+  - vb
+  name: IFacet
+  nameWithType: IFacet
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet
+  type: Interface
+  source:
+    id: IFacet
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 7
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IFacet
+    content.vb: Public Interface IFacet
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+  id: IsReferenceFace
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: IsReferenceFace
+  nameWithType: IFacet.IsReferenceFace
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+  type: Property
+  source:
+    id: IsReferenceFace
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 12
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: bool IsReferenceFace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsReferenceFace As Boolean
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace*
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+  id: Vertices
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: Vertices
+  nameWithType: IFacet.Vertices
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+  type: Property
+  source:
+    id: Vertices
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 17
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<Vec3> Vertices { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+    content.vb: Property Vertices As ICollection(Of Vec3)
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.Vertices*
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+  id: ExternalPolygon
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: ExternalPolygon
+  nameWithType: IFacet.ExternalPolygon
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+  type: Property
+  source:
+    id: ExternalPolygon
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 22
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: IPolygon ExternalPolygon { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Helpers.IPolygon
+    content.vb: Property ExternalPolygon As IPolygon
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon*
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+  id: InternalPolygons
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: InternalPolygons
+  nameWithType: IFacet.InternalPolygons
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+  type: Property
+  source:
+    id: InternalPolygons
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 27
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: ICollection<IPolygon> InternalPolygons { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Helpers.IPolygon}
+    content.vb: Property InternalPolygons As ICollection(Of IPolygon)
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons*
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+  id: NormalVector
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: NormalVector
+  nameWithType: IFacet.NormalVector
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+  type: Property
+  source:
+    id: NormalVector
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 32
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: Vec3 NormalVector { get; set; }
+    parameters: []
+    return:
+      type: Cadwork.CwAPI3D.Structs.Vec3
+    content.vb: Property NormalVector As Vec3
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.NormalVector*
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+  commentId: P:Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+  id: DistanceToOrigin
+  parent: Cadwork.CwAPI3D.Helpers.IFacet
+  langs:
+  - csharp
+  - vb
+  name: DistanceToOrigin
+  nameWithType: IFacet.DistanceToOrigin
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+  type: Property
+  source:
+    id: DistanceToOrigin
+    path: D:\source\mtldev\Cadwork.CwAPI3D\Cadwork.CwAPI3D\Helpers\IFacet.cs
+    startLine: 37
+  assemblies:
+  - Cadwork.CwAPI3D
+  namespace: Cadwork.CwAPI3D.Helpers
+  summary: ''
+  example: []
+  syntax:
+    content: double DistanceToOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Property DistanceToOrigin As Double
+  overload: Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin*
+references:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_IsReferenceFace
+  name: IsReferenceFace
+  nameWithType: IFacet.IsReferenceFace
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.IsReferenceFace
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.Vertices*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_Vertices
+  name: Vertices
+  nameWithType: IFacet.Vertices
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.Vertices
+- uid: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  commentId: T:System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Structs.Vec3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<Vec3>
+  nameWithType: ICollection<Vec3>
+  fullName: System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Structs.Vec3>
+  nameWithType.vb: ICollection(Of Vec3)
+  fullName.vb: System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Structs.Vec3)
+  name.vb: ICollection(Of Vec3)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cadwork.CwAPI3D.Structs.Vec3
+    name: Vec3
+    href: Cadwork.CwAPI3D.Structs.Vec3.html
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_ExternalPolygon
+  name: ExternalPolygon
+  nameWithType: IFacet.ExternalPolygon
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.ExternalPolygon
+- uid: Cadwork.CwAPI3D.Helpers.IPolygon
+  commentId: T:Cadwork.CwAPI3D.Helpers.IPolygon
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IPolygon.html
+  name: IPolygon
+  nameWithType: IPolygon
+  fullName: Cadwork.CwAPI3D.Helpers.IPolygon
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_InternalPolygons
+  name: InternalPolygons
+  nameWithType: IFacet.InternalPolygons
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.InternalPolygons
+- uid: System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Helpers.IPolygon}
+  commentId: T:System.Collections.Generic.ICollection{Cadwork.CwAPI3D.Helpers.IPolygon}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<IPolygon>
+  nameWithType: ICollection<IPolygon>
+  fullName: System.Collections.Generic.ICollection<Cadwork.CwAPI3D.Helpers.IPolygon>
+  nameWithType.vb: ICollection(Of IPolygon)
+  fullName.vb: System.Collections.Generic.ICollection(Of Cadwork.CwAPI3D.Helpers.IPolygon)
+  name.vb: ICollection(Of IPolygon)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: Cadwork.CwAPI3D.Helpers.IPolygon
+    name: IPolygon
+    href: Cadwork.CwAPI3D.Helpers.IPolygon.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cadwork.CwAPI3D.Helpers.IPolygon
+    name: IPolygon
+    href: Cadwork.CwAPI3D.Helpers.IPolygon.html
+  - name: )
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.NormalVector*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_NormalVector
+  name: NormalVector
+  nameWithType: IFacet.NormalVector
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.NormalVector
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+- uid: Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin*
+  commentId: Overload:Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html#Cadwork_CwAPI3D_Helpers_IFacet_DistanceToOrigin
+  name: DistanceToOrigin
+  nameWithType: IFacet.DistanceToOrigin
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet.DistanceToOrigin
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

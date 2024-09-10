@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  id: Cadwork.CwAPI3D.Helpers
+  children:
+  - Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  - Cadwork.CwAPI3D.Helpers.ICameraData
+  - Cadwork.CwAPI3D.Helpers.IEdge
+  - Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  - Cadwork.CwAPI3D.Helpers.IError
+  - Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  - Cadwork.CwAPI3D.Helpers.IFacet
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  - Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  - Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  - Cadwork.CwAPI3D.Helpers.ILayerSettings
+  - Cadwork.CwAPI3D.Helpers.IMenu
+  - Cadwork.CwAPI3D.Helpers.IPolygon
+  - Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  - Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  langs:
+  - csharp
+  - vb
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  type: Namespace
+  assemblies:
+  - Cadwork.CwAPI3D
+references:
+- uid: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings.html
+  name: IAttributeDisplaySettings
+  nameWithType: IAttributeDisplaySettings
+  fullName: Cadwork.CwAPI3D.Helpers.IAttributeDisplaySettings
+- uid: Cadwork.CwAPI3D.Helpers.ICameraData
+  commentId: T:Cadwork.CwAPI3D.Helpers.ICameraData
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ICameraData.html
+  name: ICameraData
+  nameWithType: ICameraData
+  fullName: Cadwork.CwAPI3D.Helpers.ICameraData
+- uid: Cadwork.CwAPI3D.Helpers.IEdge
+  commentId: T:Cadwork.CwAPI3D.Helpers.IEdge
+  href: Cadwork.CwAPI3D.Helpers.IEdge.html
+  name: IEdge
+  nameWithType: IEdge
+  fullName: Cadwork.CwAPI3D.Helpers.IEdge
+- uid: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  commentId: T:Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IElementModuleProperties.html
+  name: IElementModuleProperties
+  nameWithType: IElementModuleProperties
+  fullName: Cadwork.CwAPI3D.Helpers.IElementModuleProperties
+- uid: Cadwork.CwAPI3D.Helpers.IError
+  commentId: T:Cadwork.CwAPI3D.Helpers.IError
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IError.html
+  name: IError
+  nameWithType: IError
+  fullName: Cadwork.CwAPI3D.Helpers.IError
+- uid: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.IExtendedSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IExtendedSettings.html
+  name: IExtendedSettings
+  nameWithType: IExtendedSettings
+  fullName: Cadwork.CwAPI3D.Helpers.IExtendedSettings
+- uid: Cadwork.CwAPI3D.Helpers.IFacet
+  commentId: T:Cadwork.CwAPI3D.Helpers.IFacet
+  href: Cadwork.CwAPI3D.Helpers.IFacet.html
+  name: IFacet
+  nameWithType: IFacet
+  fullName: Cadwork.CwAPI3D.Helpers.IFacet
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions
+  nameWithType: IIfcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsProjectData
+  nameWithType: IIfcOptions.IIfcOptionsProjectData
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+    name: IIfcOptionsProjectData
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData
+    name: IIfcOptionsProjectData
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProjectData.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsProperties
+  nameWithType: IIfcOptions.IIfcOptionsProperties
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+    name: IIfcOptionsProperties
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties
+    name: IIfcOptionsProperties
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsProperties.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsLevelOfDetail
+  nameWithType: IIfcOptions.IIfcOptionsLevelOfDetail
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+    name: IIfcOptionsLevelOfDetail
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail
+    name: IIfcOptionsLevelOfDetail
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsLevelOfDetail.html
+- uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  commentId: T:Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  name: IIfcOptions.IIfcOptionsAggregation
+  nameWithType: IIfcOptions.IIfcOptionsAggregation
+  fullName: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+  spec.csharp:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+    name: IIfcOptionsAggregation
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html
+  spec.vb:
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions
+    name: IIfcOptions
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation
+    name: IIfcOptionsAggregation
+    href: Cadwork.CwAPI3D.Helpers.IIfcOptions.IIfcOptionsAggregation.html
+- uid: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IImport3dcOptions.html
+  name: IImport3dcOptions
+  nameWithType: IImport3dcOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IImport3dcOptions
+- uid: Cadwork.CwAPI3D.Helpers.ILayerSettings
+  commentId: T:Cadwork.CwAPI3D.Helpers.ILayerSettings
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ILayerSettings.html
+  name: ILayerSettings
+  nameWithType: ILayerSettings
+  fullName: Cadwork.CwAPI3D.Helpers.ILayerSettings
+- uid: Cadwork.CwAPI3D.Helpers.IMenu
+  commentId: T:Cadwork.CwAPI3D.Helpers.IMenu
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IMenu.html
+  name: IMenu
+  nameWithType: IMenu
+  fullName: Cadwork.CwAPI3D.Helpers.IMenu
+- uid: Cadwork.CwAPI3D.Helpers.IPolygon
+  commentId: T:Cadwork.CwAPI3D.Helpers.IPolygon
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IPolygon.html
+  name: IPolygon
+  nameWithType: IPolygon
+  fullName: Cadwork.CwAPI3D.Helpers.IPolygon
+- uid: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.IRhinoOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.IRhinoOptions.html
+  name: IRhinoOptions
+  nameWithType: IRhinoOptions
+  fullName: Cadwork.CwAPI3D.Helpers.IRhinoOptions
+- uid: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  commentId: T:Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+  parent: Cadwork.CwAPI3D.Helpers
+  href: Cadwork.CwAPI3D.Helpers.ITextObjectOptions.html
+  name: ITextObjectOptions
+  nameWithType: ITextObjectOptions
+  fullName: Cadwork.CwAPI3D.Helpers.ITextObjectOptions
+- uid: Cadwork.CwAPI3D.Helpers
+  commentId: N:Cadwork.CwAPI3D.Helpers
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Helpers
+  nameWithType: Cadwork.CwAPI3D.Helpers
+  fullName: Cadwork.CwAPI3D.Helpers
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Helpers
+    name: Helpers
+    href: Cadwork.CwAPI3D.Helpers.html

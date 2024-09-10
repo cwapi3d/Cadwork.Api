@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  id: Cadwork.CwAPI3D.Structs
+  children:
+  - Cadwork.CwAPI3D.Structs.ColorRgb
+  - Cadwork.CwAPI3D.Structs.CoordinateSystemData
+  - Cadwork.CwAPI3D.Structs.Vec3
+  - Cadwork.CwAPI3D.Structs.WindowGeometry
+  langs:
+  - csharp
+  - vb
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  type: Namespace
+  assemblies:
+  - Cadwork.CwAPI3D
+references:
+- uid: Cadwork.CwAPI3D.Structs.ColorRgb
+  commentId: T:Cadwork.CwAPI3D.Structs.ColorRgb
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.ColorRgb.html
+  name: ColorRgb
+  nameWithType: ColorRgb
+  fullName: Cadwork.CwAPI3D.Structs.ColorRgb
+- uid: Cadwork.CwAPI3D.Structs.CoordinateSystemData
+  commentId: T:Cadwork.CwAPI3D.Structs.CoordinateSystemData
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.CoordinateSystemData.html
+  name: CoordinateSystemData
+  nameWithType: CoordinateSystemData
+  fullName: Cadwork.CwAPI3D.Structs.CoordinateSystemData
+- uid: Cadwork.CwAPI3D.Structs.Vec3
+  commentId: T:Cadwork.CwAPI3D.Structs.Vec3
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.Vec3.html
+  name: Vec3
+  nameWithType: Vec3
+  fullName: Cadwork.CwAPI3D.Structs.Vec3
+- uid: Cadwork.CwAPI3D.Structs.WindowGeometry
+  commentId: T:Cadwork.CwAPI3D.Structs.WindowGeometry
+  parent: Cadwork.CwAPI3D.Structs
+  href: Cadwork.CwAPI3D.Structs.WindowGeometry.html
+  name: WindowGeometry
+  nameWithType: WindowGeometry
+  fullName: Cadwork.CwAPI3D.Structs.WindowGeometry
+- uid: Cadwork.CwAPI3D.Structs
+  commentId: N:Cadwork.CwAPI3D.Structs
+  href: Cadwork.html
+  name: Cadwork.CwAPI3D.Structs
+  nameWithType: Cadwork.CwAPI3D.Structs
+  fullName: Cadwork.CwAPI3D.Structs
+  spec.csharp:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
+  spec.vb:
+  - uid: Cadwork
+    name: Cadwork
+    href: Cadwork.html
+  - name: .
+  - uid: Cadwork.CwAPI3D
+    name: CwAPI3D
+    href: Cadwork.CwAPI3D.html
+  - name: .
+  - uid: Cadwork.CwAPI3D.Structs
+    name: Structs
+    href: Cadwork.CwAPI3D.Structs.html
